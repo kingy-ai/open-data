@@ -1,5 +1,7 @@
 # Kingy Open AI Data
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23962530.svg)](https://doi.org/10.5281/zenodo.23962530)
+
 Open datasets from [Kingy AI](https://kingy.ai/) about the AI industry: prices, launches, shutdowns and deadlines.
 Everything here is already published on kingy.ai; this repository packages it for reuse under **CC BY 4.0**.
 
@@ -21,7 +23,7 @@ Each dataset folder has CSV and JSON copies of the same rows, a `README.md` card
 
 Data: [Creative Commons Attribution 4.0](LICENSE). You may copy, reuse and build on it, including commercially, if you credit the source.
 
-Please cite as: **Kingy AI, Kingy Open AI Data, https://kingy.ai/data/** and link the canonical tracker for any single figure. A machine-readable citation is in [CITATION.cff](CITATION.cff). Each GitHub release is archived on Zenodo, which issues a DOI; the DOI badge appears here once the first release is archived.
+Please cite as: **Kingy AI, Kingy Open AI Data, https://kingy.ai/data/** and link the canonical tracker for any single figure. A machine-readable citation is in [CITATION.cff](CITATION.cff). Each GitHub release is archived on Zenodo with its own DOI; the badge above is the all-versions DOI https://doi.org/10.5281/zenodo.23962530, which always resolves to the latest release.
 
 ## Mirrors
 
