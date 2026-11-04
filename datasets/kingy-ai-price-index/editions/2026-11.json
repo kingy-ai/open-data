@@ -1,0 +1,1479 @@
+{
+    "name": "Kingy AI Price Index",
+    "licence": "CC BY 4.0",
+    "citation": "Kingy AI Price Index, November 2026 edition. Kingy AI. https://kingy.ai/ai-price-index/2026-11/",
+    "url": "https://kingy.ai/ai-price-index/2026-11/",
+    "method": {
+        "version": "1.0",
+        "url": "https://kingy.ai/ai-price-index/#method"
+    },
+    "edition": {
+        "edition": "2026-11",
+        "label": "November 2026",
+        "reconstructed": false,
+        "referenceDate": "2026-11-01",
+        "capturedAt": "2026-11-01T13:18:07+00:00",
+        "method": "1.0",
+        "previous": "2026-10",
+        "previousReferenceDate": "2026-10-19",
+        "intervalDays": 13,
+        "headline": "In November 2026, a million AI tokens cost a median $4.00 from frontier models (no change), $4.00 from mid-range models (no change) and $0.26 from small models (no change). A typical AI subscription cost $20.00 a month (no change), and top plans cost $200.00 (no change). Changes compare with October.",
+        "story": {
+            "title": "AI prices held steady in November",
+            "text": "No tier of the index moved by 1% or more from October.",
+            "tier": null
+        },
+        "changes": {
+            "likeForLike": [],
+            "unchanged": 23,
+            "basket": [
+                {
+                    "provider": "Anthropic",
+                    "tier": "top",
+                    "from": {
+                        "model": "Claude Max 20x",
+                        "value": "200.00"
+                    },
+                    "to": {
+                        "model": "Claude Ultra",
+                        "value": "200.00"
+                    }
+                },
+                {
+                    "provider": "Mistral AI",
+                    "tier": "frontier",
+                    "from": {
+                        "model": "Mistral Medium 3.5",
+                        "value": "3.0000"
+                    },
+                    "to": null
+                },
+                {
+                    "provider": "Moonshot AI",
+                    "tier": "frontier",
+                    "from": {
+                        "model": "Kimi K3",
+                        "value": "6.0000"
+                    },
+                    "to": {
+                        "model": "Kimi K3.1 Pro",
+                        "value": "4.0000"
+                    }
+                }
+            ]
+        },
+        "scheduled": [
+            {
+                "id": "google-gemini-4-argon",
+                "provider": "Google",
+                "model": "Gemini 4 Argon",
+                "field": "input",
+                "from": "2026-12-01",
+                "until": "2026-11-30",
+                "current": "2.00",
+                "next": "4.00"
+            },
+            {
+                "id": "google-gemini-4-argon",
+                "provider": "Google",
+                "model": "Gemini 4 Argon",
+                "field": "output",
+                "from": "2026-12-01",
+                "until": "2026-11-30",
+                "current": "10.00",
+                "next": "20.00"
+            },
+            {
+                "id": "google-gemini-3-8-flash",
+                "provider": "Google",
+                "model": "Gemini 3.8 Flash",
+                "field": "input",
+                "from": "2027-01-01",
+                "until": "2026-12-31",
+                "current": "0.75",
+                "next": "1.50"
+            },
+            {
+                "id": "google-gemini-3-8-flash",
+                "provider": "Google",
+                "model": "Gemini 3.8 Flash",
+                "field": "output",
+                "from": "2027-01-01",
+                "until": "2026-12-31",
+                "current": "3.75",
+                "next": "7.50"
+            }
+        ],
+        "outlook": [
+            {
+                "date": "2026-12-01",
+                "changes": [
+                    {
+                        "model": "Gemini 4 Argon",
+                        "field": "input",
+                        "next": "4.00"
+                    },
+                    {
+                        "model": "Gemini 4 Argon",
+                        "field": "output",
+                        "next": "20.00"
+                    }
+                ],
+                "tiers": [
+                    {
+                        "tier": "frontier",
+                        "label": "Frontier",
+                        "value": "6.0000",
+                        "from": "4.0000",
+                        "changePct": 50
+                    }
+                ]
+            },
+            {
+                "date": "2027-01-01",
+                "changes": [
+                    {
+                        "model": "Gemini 3.8 Flash",
+                        "field": "input",
+                        "next": "1.50"
+                    },
+                    {
+                        "model": "Gemini 3.8 Flash",
+                        "field": "output",
+                        "next": "7.50"
+                    }
+                ],
+                "tiers": []
+            }
+        ],
+        "withheld": [
+            {
+                "id": "mistral-medium-3-5",
+                "status": "withheld",
+                "reason": "Frontier assignment withheld: Medium 3.5 is not the current provider flagship; its captured price is retained. No Large 4 tariff is substituted for the original capture."
+            }
+        ],
+        "corrections": [
+            {
+                "date": "2026-11-01",
+                "text": "This edition first said frontier-model prices fell 12.5%, to $3.50. No list price had fallen: Moonshot AI and Anthropic changed their lineups, the old rows could no longer be verified, and they were left out. The same saved pages now give Moonshot's current flagship, Kimi K3.1 Pro ($4.00 blended), and Anthropic's highest plan, Claude Ultra ($200 a month). Frontier is $4.00 with no change. Top plan stays $200.",
+                "original": {
+                    "publishedAt": "2026-11-01T13:18:49Z",
+                    "builtAt": "2026-11-01T13:18:31+00:00",
+                    "headline": "In November 2026, a million AI tokens cost a median $3.50 from frontier models (down 12.5%), $4.00 from mid-range models (no change) and $0.26 from small models (no change). A typical AI subscription cost $20.00 a month (no change), and top plans cost $200.00 (no change). Changes compare with October.",
+                    "story": {
+                        "title": "Frontier-model prices fell 12.5% in November",
+                        "text": "The median frontier model cost $3.50 per million tokens, down from $4.00 in October. Moonshot AI is not counted this month.",
+                        "tier": "frontier"
+                    },
+                    "tiers": [
+                        {
+                            "id": "frontier",
+                            "label": "Frontier",
+                            "kind": "api",
+                            "summary": "Each lab's most capable model",
+                            "unit": "USD per 1M tokens, 3:1 input:output blend",
+                            "value": "3.5000",
+                            "previousValue": "4.0000",
+                            "changePct": -12.5,
+                            "n": 6,
+                            "min": "1.9800",
+                            "max": "20.0000",
+                            "constituents": [
+                                "deepseek-v4-pro",
+                                "xai-grok-4-7",
+                                "mistral-medium-3-5",
+                                "google-gemini-4-argon",
+                                "openai-gpt-6-astra",
+                                "anthropic-claude-fable-5-1"
+                            ],
+                            "published": true
+                        },
+                        {
+                            "id": "mid",
+                            "label": "Mid-range",
+                            "kind": "api",
+                            "summary": "Each lab's balanced workhorse model",
+                            "unit": "USD per 1M tokens, 3:1 input:output blend",
+                            "value": "4.0000",
+                            "previousValue": "4.0000",
+                            "changePct": 0,
+                            "n": 3,
+                            "min": "1.5000",
+                            "max": "4.0000",
+                            "constituents": [
+                                "google-gemini-3-8-flash",
+                                "openai-gpt-6-1-sol",
+                                "anthropic-claude-sonnet-5-5"
+                            ],
+                            "published": true
+                        },
+                        {
+                            "id": "small",
+                            "label": "Small",
+                            "kind": "api",
+                            "summary": "Each lab's low-cost, high-volume model",
+                            "unit": "USD per 1M tokens, 3:1 input:output blend",
+                            "value": "0.2625",
+                            "previousValue": "0.2625",
+                            "changePct": 0,
+                            "n": 5,
+                            "min": "0.2000",
+                            "max": "0.8500",
+                            "constituents": [
+                                "openai-gpt-6-luna",
+                                "anthropic-claude-haiku-5-5",
+                                "mistral-small-4",
+                                "deepseek-flash",
+                                "google-gemini-3-5-flash-lite"
+                            ],
+                            "published": true
+                        },
+                        {
+                            "id": "standard",
+                            "label": "Standard plan",
+                            "kind": "subscription",
+                            "summary": "Each provider's main paid individual plan",
+                            "unit": "USD per month",
+                            "value": "20.0000",
+                            "previousValue": "20.0000",
+                            "changePct": 0,
+                            "n": 6,
+                            "min": "14.99",
+                            "max": "30.00",
+                            "constituents": [
+                                "mistral-pro",
+                                "google-ai-pro",
+                                "openai-chatgpt-plus",
+                                "anthropic-claude-pro",
+                                "perplexity-pro",
+                                "xai-premium"
+                            ],
+                            "published": true
+                        },
+                        {
+                            "id": "top",
+                            "label": "Top plan",
+                            "kind": "subscription",
+                            "summary": "Each provider's highest-priced individual plan",
+                            "unit": "USD per month",
+                            "value": "200.0000",
+                            "previousValue": "200.0000",
+                            "changePct": 0,
+                            "n": 4,
+                            "min": "199.99",
+                            "max": "500.00",
+                            "constituents": [
+                                "google-ai-ultra",
+                                "xai-ultra",
+                                "perplexity-max",
+                                "openai-chatgpt-pro"
+                            ],
+                            "published": true
+                        }
+                    ],
+                    "changes": {
+                        "likeForLike": [],
+                        "unchanged": 24,
+                        "basket": [
+                            {
+                                "provider": "Anthropic",
+                                "tier": "top",
+                                "from": {
+                                    "model": "Claude Max 20x",
+                                    "value": "200.00"
+                                },
+                                "to": null
+                            },
+                            {
+                                "provider": "Moonshot AI",
+                                "tier": "frontier",
+                                "from": {
+                                    "model": "Kimi K3",
+                                    "value": "6.0000"
+                                },
+                                "to": null
+                            }
+                        ]
+                    },
+                    "outlook": [
+                        {
+                            "date": "2026-12-01",
+                            "changes": [
+                                {
+                                    "model": "Gemini 4 Argon",
+                                    "field": "input",
+                                    "next": "4.00"
+                                },
+                                {
+                                    "model": "Gemini 4 Argon",
+                                    "field": "output",
+                                    "next": "20.00"
+                                }
+                            ],
+                            "tiers": [
+                                {
+                                    "tier": "frontier",
+                                    "label": "Frontier",
+                                    "value": "5.5000",
+                                    "from": "3.5000",
+                                    "changePct": 57.1
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2027-01-01",
+                            "changes": [
+                                {
+                                    "model": "Gemini 3.8 Flash",
+                                    "field": "input",
+                                    "next": "1.50"
+                                },
+                                {
+                                    "model": "Gemini 3.8 Flash",
+                                    "field": "output",
+                                    "next": "7.50"
+                                }
+                            ],
+                            "tiers": []
+                        }
+                    ],
+                    "withheld": [
+                        {
+                            "id": "moonshot-kimi-k3",
+                            "status": "withheld",
+                            "reason": "positioning quote not found on kimi-models"
+                        },
+                        {
+                            "id": "anthropic-claude-max",
+                            "status": "withheld",
+                            "reason": "extraction: price pattern not found: 'Max 20x : \\\\$(\\\\d+(?:\\\\.\\\\d+)?) per month'"
+                        }
+                    ]
+                }
+            },
+            {
+                "date": "2026-11-01",
+                "text": "The original Mistral note described Large 4 as a preview at $0.68/$2.09 and described Medium 3.5 as recommended for most tasks. In a later November 1 check, Mistral dates Medium 3.5 deprecation to October 31, recommends Large 4 for new integrations, and lists Large 4 Standard at $0.70 input and $2.10 output per million tokens. The Large 4 price at the edition capture time has not been independently established. Medium 3.5 tier eligibility is under review; the originally published basket and index values remain unchanged pending that review.",
+                "original": {
+                    "observationId": "mistral-medium-3-5",
+                    "basketNote": "Mistral calls Medium 3.5 'frontier-class' and recommends it for most tasks. Its newer Mistral Large 4 is a public preview on sale at $0.68 / $2.09 and is not presented as more capable, so it holds no tier.",
+                    "input": "1.5",
+                    "output": "7.5",
+                    "blended": "3.0000"
+                },
+                "sources": [
+                    "https://docs.mistral.ai/models/mistral-medium-3-5-26-04",
+                    "https://docs.mistral.ai/inference/pricing"
+                ]
+            },
+            {
+                "date": "2026-11-01",
+                "kind": "archival_evidence_addendum",
+                "text": "An archived copy of Mistral's official Large 4 model page, timestamped November 1, 2026 at 13:01:46 UTC, displays US$0.70 input, US$0.07 cached input and US$2.10 output per million tokens. This is a separate earlier observation, retrieved through the Internet Archive. The original 13:18:19 UTC capture retained model identity but not the Large 4 tariff; the archive does not establish whether a tariff changed between 13:01 and 13:18. The original basket, index values and unresolved tier-assignment review remain unchanged.",
+                "sources": [
+                    "https://web.archive.org/web/20261101130146id_/https://docs.mistral.ai/models/mistral-large-4-0",
+                    "https://docs.mistral.ai/models/mistral-large-4-0"
+                ],
+                "evidence": {
+                    "originalURL": "https://docs.mistral.ai/models/mistral-large-4-0",
+                    "archiveSnapshotAt": "2026-11-01T13:01:46Z",
+                    "retrievedAt": "2026-11-02T04:31:12.319970+00:00",
+                    "servedReplaySHA256": "57ded6f86cd9f4236e2f7e1c8c4e66f67ec47206388413cac5cc37df1edaa458",
+                    "reviewedAt": "2026-11-02T04:43:33.888978+00:00",
+                    "originalIdentityCaptureAt": "2026-11-01T13:18:19+00:00",
+                    "originByteExactOrCDXMatchCertified": false,
+                    "originalCaptureTariffEstablished": false
+                }
+            },
+            {
+                "date": "2026-11-01",
+                "kind": "frontier_assignment_correction",
+                "text": "Follow-up correction: Medium 3.5 is withheld from November's frontier basket because it is not Mistral's current flagship. The original November 1 model captures name Large 4 as its successor, and Mistral's retained October 6 announcement positions Large 4 as its most capable model. Deprecation alone is not the exclusion rule. No Large 4 price has been inserted: its exact tariff at the original capture remains unproved. The frontier basket has six constituents, with its $4.00 median unchanged. This is a basket omission, not a like-for-like price cut. Under the edition's captured Gemini price schedule, the conditional December outlook becomes $6.00 (+50%), not an observed price increase. Medium's recorded $1.50 input/$7.50 output and all earlier values remain in this correction's original data.",
+                "sources": [
+                    "https://docs.mistral.ai/models.md",
+                    "https://docs.mistral.ai/models/mistral-medium-3-5-26-04",
+                    "https://mistral.ai/news/mistral-large-4/"
+                ],
+                "original": {
+                    "observation": {
+                        "id": "mistral-medium-3-5",
+                        "provider": "Mistral AI",
+                        "model": "Mistral Medium 3.5",
+                        "modelId": "mistral-medium-3-5",
+                        "tier": "frontier",
+                        "status": "verified",
+                        "input": "1.5",
+                        "output": "7.5",
+                        "cachedInput": null,
+                        "blended": "3.0000",
+                        "source": {
+                            "id": "mistral-medium",
+                            "url": "https://docs.mistral.ai/models/mistral-medium-3-5-26-04.md",
+                            "page": "https://docs.mistral.ai/models/mistral-medium-3-5-26-04",
+                            "fetchedAt": "2026-11-01T13:18:22+00:00",
+                            "sha256": "1699f8c712e4982f74c32ef0e1e3901fec8b5ab2f4c4efe87d3ecab9de8fc00c",
+                            "snapshotUrl": null,
+                            "snapshotAt": null,
+                            "excerpt": "- Pricing: Input $1.5 /M Tokens; Output $7.5 /M Tokens"
+                        },
+                        "positioning": {
+                            "source": "mistral-models",
+                            "url": "https://docs.mistral.ai/models.md",
+                            "snapshotUrl": null,
+                            "sha256": "6a3498f4ef9127abf53dffcb942e719985626b46c97b2d88fc9ea03e00089574",
+                            "quote": "Our frontier-class multimodal model optimized for agentic and coding use cases.",
+                            "rule": null
+                        },
+                        "priceStatus": "Deprecated",
+                        "basketNote": "Mistral deprecated Medium 3.5 on October 31 and directs new integrations to Large 4. The captured Medium 3.5 price and edition basket remain as originally published; its tier eligibility is under review. On November 1, Mistral listed Large 4 Standard at $0.70 input and $2.10 output per million tokens; this later source check does not establish its price at edition capture."
+                    },
+                    "frontierTier": {
+                        "id": "frontier",
+                        "label": "Frontier",
+                        "kind": "api",
+                        "summary": "Each lab's most capable model",
+                        "unit": "USD per 1M tokens, 3:1 input:output blend",
+                        "value": "4.0000",
+                        "previousValue": "4.0000",
+                        "changePct": 0,
+                        "n": 7,
+                        "min": "1.9800",
+                        "max": "20.0000",
+                        "constituents": [
+                            "deepseek-v4-pro",
+                            "xai-grok-4-7",
+                            "mistral-medium-3-5",
+                            "google-gemini-4-argon",
+                            "moonshot-kimi-k3-1-pro",
+                            "openai-gpt-6-astra",
+                            "anthropic-claude-fable-5-1"
+                        ],
+                        "published": true
+                    },
+                    "changes": {
+                        "likeForLike": [],
+                        "unchanged": 24,
+                        "basket": [
+                            {
+                                "provider": "Anthropic",
+                                "tier": "top",
+                                "from": {
+                                    "model": "Claude Max 20x",
+                                    "value": "200.00"
+                                },
+                                "to": {
+                                    "model": "Claude Ultra",
+                                    "value": "200.00"
+                                }
+                            },
+                            {
+                                "provider": "Moonshot AI",
+                                "tier": "frontier",
+                                "from": {
+                                    "model": "Kimi K3",
+                                    "value": "6.0000"
+                                },
+                                "to": {
+                                    "model": "Kimi K3.1 Pro",
+                                    "value": "4.0000"
+                                }
+                            }
+                        ]
+                    },
+                    "outlook": [
+                        {
+                            "date": "2026-12-01",
+                            "changes": [
+                                {
+                                    "model": "Gemini 4 Argon",
+                                    "field": "input",
+                                    "next": "4.00"
+                                },
+                                {
+                                    "model": "Gemini 4 Argon",
+                                    "field": "output",
+                                    "next": "20.00"
+                                }
+                            ],
+                            "tiers": []
+                        },
+                        {
+                            "date": "2027-01-01",
+                            "changes": [
+                                {
+                                    "model": "Gemini 3.8 Flash",
+                                    "field": "input",
+                                    "next": "1.50"
+                                },
+                                {
+                                    "model": "Gemini 3.8 Flash",
+                                    "field": "output",
+                                    "next": "7.50"
+                                }
+                            ],
+                            "tiers": []
+                        }
+                    ],
+                    "withheld": []
+                },
+                "evidence": {
+                    "reviewedAt": "2026-11-02T05:50:04.779874+00:00",
+                    "originalModelsCapturedAt": "2026-11-01T13:18:19+00:00",
+                    "originalModelsSHA256": "6a3498f4ef9127abf53dffcb942e719985626b46c97b2d88fc9ea03e00089574",
+                    "originalMediumCapturedAt": "2026-11-01T13:18:22+00:00",
+                    "originalMediumSHA256": "1699f8c712e4982f74c32ef0e1e3901fec8b5ab2f4c4efe87d3ecab9de8fc00c",
+                    "preCaptureLaunchAt": "2026-10-06T13:50:36.185032+00:00",
+                    "preCaptureLaunchSHA256": "cc2847820aab73b9480a4e663f5ff244937de86e813d2a615cb3ee97396e5a8b",
+                    "large4TariffAtOriginalCaptureEstablished": false
+                }
+            }
+        ],
+        "tiers": [
+            {
+                "id": "frontier",
+                "label": "Frontier",
+                "kind": "api",
+                "summary": "Each lab's most capable model",
+                "unit": "USD per 1M tokens, 3:1 input:output blend",
+                "value": "4.0000",
+                "previousValue": "4.0000",
+                "changePct": 0,
+                "n": 6,
+                "min": "1.9800",
+                "max": "20.0000",
+                "constituents": [
+                    "deepseek-v4-pro",
+                    "xai-grok-4-7",
+                    "google-gemini-4-argon",
+                    "moonshot-kimi-k3-1-pro",
+                    "openai-gpt-6-astra",
+                    "anthropic-claude-fable-5-1"
+                ],
+                "published": true,
+                "indexLevel": "88.89"
+            },
+            {
+                "id": "mid",
+                "label": "Mid-range",
+                "kind": "api",
+                "summary": "Each lab's balanced workhorse model",
+                "unit": "USD per 1M tokens, 3:1 input:output blend",
+                "value": "4.0000",
+                "previousValue": "4.0000",
+                "changePct": 0,
+                "n": 3,
+                "min": "1.5000",
+                "max": "4.0000",
+                "constituents": [
+                    "google-gemini-3-8-flash",
+                    "openai-gpt-6-1-sol",
+                    "anthropic-claude-sonnet-5-5"
+                ],
+                "published": true,
+                "indexLevel": "100.00"
+            },
+            {
+                "id": "small",
+                "label": "Small",
+                "kind": "api",
+                "summary": "Each lab's low-cost, high-volume model",
+                "unit": "USD per 1M tokens, 3:1 input:output blend",
+                "value": "0.2625",
+                "previousValue": "0.2625",
+                "changePct": 0,
+                "n": 5,
+                "min": "0.2000",
+                "max": "0.8500",
+                "constituents": [
+                    "openai-gpt-6-luna",
+                    "anthropic-claude-haiku-5-5",
+                    "mistral-small-4",
+                    "deepseek-flash",
+                    "google-gemini-3-5-flash-lite"
+                ],
+                "published": true,
+                "indexLevel": "50.00"
+            },
+            {
+                "id": "standard",
+                "label": "Standard plan",
+                "kind": "subscription",
+                "summary": "Each provider's main paid individual plan",
+                "unit": "USD per month",
+                "value": "20.0000",
+                "previousValue": "20.0000",
+                "changePct": 0,
+                "n": 6,
+                "min": "14.99",
+                "max": "30.00",
+                "constituents": [
+                    "mistral-pro",
+                    "google-ai-pro",
+                    "openai-chatgpt-plus",
+                    "anthropic-claude-pro",
+                    "perplexity-pro",
+                    "xai-premium"
+                ],
+                "published": true,
+                "indexLevel": "100.00"
+            },
+            {
+                "id": "top",
+                "label": "Top plan",
+                "kind": "subscription",
+                "summary": "Each provider's highest-priced individual plan",
+                "unit": "USD per month",
+                "value": "200.0000",
+                "previousValue": "200.0000",
+                "changePct": 0,
+                "n": 5,
+                "min": "199.99",
+                "max": "500.00",
+                "constituents": [
+                    "google-ai-ultra",
+                    "anthropic-claude-ultra",
+                    "xai-ultra",
+                    "perplexity-max",
+                    "openai-chatgpt-pro"
+                ],
+                "published": true,
+                "indexLevel": "100.00"
+            }
+        ],
+        "observations": [
+            {
+                "id": "openai-gpt-6-astra",
+                "provider": "OpenAI",
+                "model": "GPT-6 Astra",
+                "modelId": "gpt-6-astra",
+                "tier": "frontier",
+                "status": "verified",
+                "input": "10.00",
+                "output": "50.00",
+                "cachedInput": "1.00",
+                "blended": "20.0000",
+                "source": {
+                    "url": "https://developers.openai.com/api/docs/pricing.md",
+                    "page": "https://developers.openai.com/api/docs/pricing",
+                    "fetchedAt": "2026-11-01T13:18:07+00:00",
+                    "snapshotUrl": null,
+                    "snapshotAt": null,
+                    "sha256": "56e3da9bb29246cad60003e01f3fdc6b536149a09f5effe5e79af020a4922cfc",
+                    "excerpt": "| gpt-6-astra | $10.00 | $50.00 | $1.00 | $12.50 | $25.00 | $20.00 | $75.00 | $2.00 | $25.00 | $50.00 |"
+                },
+                "positioning": {
+                    "url": "https://developers.openai.com/api/docs/models.md",
+                    "snapshotUrl": null,
+                    "quote": "use [GPT-6 Astra](/api/docs/models/gpt-6-astra), our flagship model for complex reasoning and coding",
+                    "rule": null
+                }
+            },
+            {
+                "id": "openai-gpt-6-1-sol",
+                "provider": "OpenAI",
+                "model": "GPT-6.1 Sol",
+                "modelId": "gpt-6.1-sol",
+                "tier": "mid",
+                "status": "verified",
+                "input": "2.00",
+                "output": "10.00",
+                "cachedInput": "0.10",
+                "blended": "4.0000",
+                "source": {
+                    "url": "https://developers.openai.com/api/docs/pricing.md",
+                    "page": "https://developers.openai.com/api/docs/pricing",
+                    "fetchedAt": "2026-11-01T13:18:07+00:00",
+                    "snapshotUrl": null,
+                    "snapshotAt": null,
+                    "sha256": "56e3da9bb29246cad60003e01f3fdc6b536149a09f5effe5e79af020a4922cfc",
+                    "excerpt": "| gpt-6.1-sol | $2.00 | $10.00 | $0.10 | $2.50 | $5.00 | $4.00 | $15.00 | $0.20 | $5.00 | $10.00 |"
+                },
+                "positioning": {
+                    "url": "https://developers.openai.com/api/docs/models.md",
+                    "snapshotUrl": null,
+                    "quote": "Choose [GPT-6.1 Sol](/api/docs/models/gpt-6.1-sol) to balance intelligence and cost",
+                    "rule": null
+                }
+            },
+            {
+                "id": "openai-gpt-6-luna",
+                "provider": "OpenAI",
+                "model": "GPT-6 Luna",
+                "modelId": "gpt-6-luna",
+                "tier": "small",
+                "status": "verified",
+                "input": "0.10",
+                "output": "0.50",
+                "cachedInput": "0.01",
+                "blended": "0.2000",
+                "source": {
+                    "url": "https://developers.openai.com/api/docs/pricing.md",
+                    "page": "https://developers.openai.com/api/docs/pricing",
+                    "fetchedAt": "2026-11-01T13:18:07+00:00",
+                    "snapshotUrl": null,
+                    "snapshotAt": null,
+                    "sha256": "56e3da9bb29246cad60003e01f3fdc6b536149a09f5effe5e79af020a4922cfc",
+                    "excerpt": "| gpt-6-luna | $0.10 | $0.50 | $0.01 | $0.125 | $0.25 | $0.20 | $0.75 | $0.02 | $0.25 | $0.50 |"
+                },
+                "positioning": {
+                    "url": "https://developers.openai.com/api/docs/models.md",
+                    "snapshotUrl": null,
+                    "quote": "[GPT-6 Luna](/api/docs/models/gpt-6-luna) for cost-sensitive, high-volume workloads",
+                    "rule": null
+                }
+            },
+            {
+                "id": "anthropic-claude-fable-5-1",
+                "provider": "Anthropic",
+                "model": "Claude Fable 5.1",
+                "modelId": "claude-fable-5-1",
+                "tier": "frontier",
+                "status": "verified",
+                "input": "10",
+                "output": "50",
+                "cachedInput": "0.25",
+                "blended": "20.0000",
+                "source": {
+                    "url": "https://platform.claude.com/docs/en/about-claude/pricing.md",
+                    "page": "https://platform.claude.com/docs/en/about-claude/pricing",
+                    "fetchedAt": "2026-11-01T13:18:11+00:00",
+                    "snapshotUrl": null,
+                    "snapshotAt": null,
+                    "sha256": "79f8d09b6562f37f5edba5108b871cdd13dba26603efbd748e77a40f18c5ff53",
+                    "excerpt": "| Claude Fable 5.1 | $10 / MTok | $12.50 / MTok | $20 / MTok | $0.25 / MTok 1 | $50 / MTok |"
+                },
+                "positioning": {
+                    "url": "https://platform.claude.com/docs/en/about-claude/models/overview.md",
+                    "snapshotUrl": null,
+                    "quote": "for demanding reasoning and long-horizon agentic work, or when your evals on Claude Opus 5.5 at higher effort still fall short",
+                    "rule": null
+                }
+            },
+            {
+                "id": "anthropic-claude-sonnet-5-5",
+                "provider": "Anthropic",
+                "model": "Claude Sonnet 5.5",
+                "modelId": "claude-sonnet-5-5",
+                "tier": "mid",
+                "status": "verified",
+                "input": "2",
+                "output": "10",
+                "cachedInput": "0.10",
+                "blended": "4.0000",
+                "basketNote": "Anthropic also sells Claude Opus 5.5 ($4 / $20), which sits between its frontier and mid-range models. The basket takes one model per tier, and Sonnet is the one Anthropic describes as balancing speed and intelligence.",
+                "source": {
+                    "url": "https://platform.claude.com/docs/en/about-claude/pricing.md",
+                    "page": "https://platform.claude.com/docs/en/about-claude/pricing",
+                    "fetchedAt": "2026-11-01T13:18:11+00:00",
+                    "snapshotUrl": null,
+                    "snapshotAt": null,
+                    "sha256": "79f8d09b6562f37f5edba5108b871cdd13dba26603efbd748e77a40f18c5ff53",
+                    "excerpt": "| Claude Sonnet 5.5 | $2 / MTok | $2.50 / MTok | $4 / MTok | $0.10 / MTok 2 | $10 / MTok |"
+                },
+                "positioning": {
+                    "url": "https://platform.claude.com/docs/en/about-claude/models/overview.md",
+                    "snapshotUrl": null,
+                    "quote": "The best combination of speed and intelligence",
+                    "rule": null
+                }
+            },
+            {
+                "id": "anthropic-claude-haiku-5-5",
+                "provider": "Anthropic",
+                "model": "Claude Haiku 5.5",
+                "modelId": "claude-haiku-5-5",
+                "tier": "small",
+                "status": "verified",
+                "input": "0.10",
+                "output": "0.50",
+                "cachedInput": "0.01",
+                "blended": "0.2000",
+                "conditions": "Prompts up to 100,000 tokens; longer prompts cost $0.50 / $2.50.",
+                "source": {
+                    "url": "https://platform.claude.com/docs/en/about-claude/pricing.md",
+                    "page": "https://platform.claude.com/docs/en/about-claude/pricing",
+                    "fetchedAt": "2026-11-01T13:18:11+00:00",
+                    "snapshotUrl": null,
+                    "snapshotAt": null,
+                    "sha256": "79f8d09b6562f37f5edba5108b871cdd13dba26603efbd748e77a40f18c5ff53",
+                    "excerpt": "| Claude Haiku 5.5 (for prompts up to 100,000 tokens) | $0.10 / MTok | $0.125 / MTok | $0.20 / MTok | $0.01 / MTok | $0.50 / MTok |"
+                },
+                "positioning": {
+                    "url": "https://platform.claude.com/docs/en/about-claude/models/overview.md",
+                    "snapshotUrl": null,
+                    "quote": "For high-volume, latency-sensitive tasks",
+                    "rule": null
+                }
+            },
+            {
+                "id": "google-gemini-4-argon",
+                "provider": "Google",
+                "model": "Gemini 4 Argon",
+                "modelId": "gemini-4-argon",
+                "tier": "frontier",
+                "status": "verified",
+                "input": "2.00",
+                "output": "10.00",
+                "blended": "4.0000",
+                "schedule": {
+                    "input": {
+                        "until": "2026-11-30",
+                        "from": "2026-12-01",
+                        "price": "4.00"
+                    },
+                    "output": {
+                        "until": "2026-11-30",
+                        "from": "2026-12-01",
+                        "price": "20.00"
+                    }
+                },
+                "source": {
+                    "url": "https://ai.google.dev/gemini-api/docs/pricing.md.txt",
+                    "page": "https://ai.google.dev/gemini-api/docs/pricing",
+                    "fetchedAt": "2026-11-01T13:18:14+00:00",
+                    "snapshotUrl": null,
+                    "snapshotAt": null,
+                    "sha256": "555f0ebb672223ec4f8388f5356ebdcaf4955faec42d0d836f3d4ff43f74588f",
+                    "excerpt": "| Input price | Not available | $2.00 through November 30, 2026. $4.00 starting December 1, 2026. | | Output price (including thinking tokens) | Not available | $10.00 through November 30, 2026. $20.00 starting December 1, 2026. |"
+                },
+                "positioning": {
+                    "url": "https://ai.google.dev/gemini-api/docs/pricing.md.txt",
+                    "snapshotUrl": null,
+                    "quote": "Our flagship reasoning model, built for complex software engineering",
+                    "rule": null
+                }
+            },
+            {
+                "id": "google-gemini-3-8-flash",
+                "provider": "Google",
+                "model": "Gemini 3.8 Flash",
+                "modelId": "gemini-3.8-flash",
+                "tier": "mid",
+                "status": "verified",
+                "input": "0.75",
+                "output": "3.75",
+                "blended": "1.5000",
+                "schedule": {
+                    "input": {
+                        "until": "2026-12-31",
+                        "from": "2027-01-01",
+                        "price": "1.50"
+                    },
+                    "output": {
+                        "until": "2026-12-31",
+                        "from": "2027-01-01",
+                        "price": "7.50"
+                    }
+                },
+                "source": {
+                    "url": "https://ai.google.dev/gemini-api/docs/pricing.md.txt",
+                    "page": "https://ai.google.dev/gemini-api/docs/pricing",
+                    "fetchedAt": "2026-11-01T13:18:14+00:00",
+                    "snapshotUrl": null,
+                    "snapshotAt": null,
+                    "sha256": "555f0ebb672223ec4f8388f5356ebdcaf4955faec42d0d836f3d4ff43f74588f",
+                    "excerpt": "| Input price | Free of charge | $0.75 through December 31, 2026. $1.50 starting January 1, 2027. | | Output price (including thinking tokens) | Free of charge | $3.75 through December 31, 2026. $7.50 starting January 1, 2027. |"
+                },
+                "positioning": {
+                    "url": "https://ai.google.dev/gemini-api/docs/pricing.md.txt",
+                    "snapshotUrl": null,
+                    "quote": "Our most intelligent Flash model, engineered for long-horizon software engineering",
+                    "rule": null
+                }
+            },
+            {
+                "id": "google-gemini-3-5-flash-lite",
+                "provider": "Google",
+                "model": "Gemini 3.5 Flash-Lite",
+                "modelId": "gemini-3.5-flash-lite",
+                "tier": "small",
+                "status": "verified",
+                "input": "0.30",
+                "output": "2.50",
+                "blended": "0.8500",
+                "source": {
+                    "url": "https://ai.google.dev/gemini-api/docs/pricing.md.txt",
+                    "page": "https://ai.google.dev/gemini-api/docs/pricing",
+                    "fetchedAt": "2026-11-01T13:18:14+00:00",
+                    "snapshotUrl": null,
+                    "snapshotAt": null,
+                    "sha256": "555f0ebb672223ec4f8388f5356ebdcaf4955faec42d0d836f3d4ff43f74588f",
+                    "excerpt": "| Input price | Free of charge | $0.30 (text / image / video / audio) | | Output price (including thinking tokens) | Free of charge | $2.50 |"
+                },
+                "positioning": {
+                    "url": "https://ai.google.dev/gemini-api/docs/pricing.md.txt",
+                    "snapshotUrl": null,
+                    "quote": "A cost-efficient model, optimized for high-volume agentic tasks",
+                    "rule": null
+                }
+            },
+            {
+                "id": "xai-grok-4-7",
+                "provider": "xAI",
+                "model": "Grok 4.7",
+                "modelId": "grok-4.7",
+                "tier": "frontier",
+                "status": "verified",
+                "input": "2.00",
+                "output": "6.00",
+                "cachedInput": "0.50",
+                "blended": "3.0000",
+                "conditions": "Prompts under 200K tokens.",
+                "source": {
+                    "url": "https://docs.x.ai/developers/models.md",
+                    "page": "https://docs.x.ai/developers/models",
+                    "fetchedAt": "2026-11-01T13:18:14+00:00",
+                    "snapshotUrl": null,
+                    "snapshotAt": null,
+                    "sha256": "1baa4d59639fbb2d620799a14aaeb619ddd2becdd95fdf718aebd57ace8599c1",
+                    "excerpt": "| grok-4.7 (< 200k prompt tokens) | 500k | $2.00 | $0.50 | $6.00 |"
+                },
+                "positioning": {
+                    "url": "https://docs.x.ai/developers/models.md",
+                    "snapshotUrl": null,
+                    "quote": "use Grok 4.7. It is the most capable model we’ve built.",
+                    "rule": null
+                }
+            },
+            {
+                "id": "deepseek-v4-pro",
+                "provider": "DeepSeek",
+                "model": "DeepSeek V4 Pro",
+                "modelId": "deepseek-v4-pro",
+                "tier": "frontier",
+                "status": "verified",
+                "input": "1.32",
+                "output": "3.96",
+                "cachedInput": "0.044",
+                "blended": "1.9800",
+                "conditions": "Peak rate; off-peak hours cost half.",
+                "offPeak": {
+                    "input": "0.66",
+                    "output": "1.98"
+                },
+                "source": {
+                    "url": "https://api-docs.deepseek.com/quick_start/pricing/",
+                    "page": "https://api-docs.deepseek.com/quick_start/pricing/",
+                    "fetchedAt": "2026-11-01T13:18:15+00:00",
+                    "snapshotUrl": null,
+                    "snapshotAt": null,
+                    "sha256": "579412351262de19f1b067420542d042dc9433f389be6d252d0f4c41b82f515b",
+                    "excerpt": "1M INPUT TOKENS (CACHE HIT) OFF-PEAK $0.003 $0.022 PEAK $0.006 $0.044 1M INPUT TOKENS (CACHE MISS) OFF-PEAK $0.15 $0.66 PEAK $0.3 $1.32 1M OUTPUT TOKENS OFF-PEAK $0.6 $1.98 PEAK $1.2 $3.96"
+                },
+                "positioning": {
+                    "url": "https://api-docs.deepseek.com/quick_start/pricing/",
+                    "snapshotUrl": null,
+                    "quote": "MODEL deepseek-flash (1) deepseek-v4-pro",
+                    "rule": "DeepSeek sells exactly two general-purpose models; under the method, the higher-priced is its frontier model and the lower-priced its small model."
+                }
+            },
+            {
+                "id": "deepseek-flash",
+                "provider": "DeepSeek",
+                "model": "DeepSeek V4.1 Flash",
+                "modelId": "deepseek-flash",
+                "tier": "small",
+                "status": "verified",
+                "input": "0.3",
+                "output": "1.2",
+                "cachedInput": "0.006",
+                "blended": "0.5250",
+                "conditions": "Peak rate; off-peak hours cost half.",
+                "offPeak": {
+                    "input": "0.15",
+                    "output": "0.6"
+                },
+                "source": {
+                    "url": "https://api-docs.deepseek.com/quick_start/pricing/",
+                    "page": "https://api-docs.deepseek.com/quick_start/pricing/",
+                    "fetchedAt": "2026-11-01T13:18:15+00:00",
+                    "snapshotUrl": null,
+                    "snapshotAt": null,
+                    "sha256": "579412351262de19f1b067420542d042dc9433f389be6d252d0f4c41b82f515b",
+                    "excerpt": "1M INPUT TOKENS (CACHE HIT) OFF-PEAK $0.003 $0.022 PEAK $0.006 $0.044 1M INPUT TOKENS (CACHE MISS) OFF-PEAK $0.15 $0.66 PEAK $0.3 $1.32 1M OUTPUT TOKENS OFF-PEAK $0.6 $1.98 PEAK $1.2 $3.96"
+                },
+                "positioning": {
+                    "url": "https://api-docs.deepseek.com/quick_start/pricing/",
+                    "snapshotUrl": null,
+                    "quote": "MODEL deepseek-flash (1) deepseek-v4-pro",
+                    "rule": "DeepSeek sells exactly two general-purpose models; under the method, the higher-priced is its frontier model and the lower-priced its small model."
+                }
+            },
+            {
+                "id": "moonshot-kimi-k3-1-pro",
+                "provider": "Moonshot AI",
+                "model": "Kimi K3.1 Pro",
+                "modelId": "kimi-k3.1-pro",
+                "tier": "frontier",
+                "status": "verified",
+                "input": "2.00",
+                "output": "10.00",
+                "cachedInput": "0.20",
+                "blended": "4.0000",
+                "source": {
+                    "url": "https://platform.kimi.ai/docs/pricing/chat",
+                    "page": "https://platform.kimi.ai/docs/pricing/chat",
+                    "fetchedAt": "2026-11-01T13:18:16+00:00",
+                    "snapshotUrl": null,
+                    "snapshotAt": null,
+                    "sha256": "0f646b1b4e5248ca7a1bd46dba6649511bb8ab6e73ecac15e4e8872177dd9252",
+                    "excerpt": "[_jsx(_components.a,{href:`/guide/kimi-k3-1-pro-quickstart`,children:`kimi-k3.1-pro`}),`$2.00 / MTok`,`$10.00 / MTok`,`$0.20 / MTok`,`$2.00 / MTok`,`$4.00 / MTok`]"
+                },
+                "positioning": {
+                    "url": "https://platform.kimi.ai/docs/models.md",
+                    "snapshotUrl": null,
+                    "quote": "Kimi's most capable flagship to date",
+                    "rule": null
+                }
+            },
+            {
+                "id": "mistral-medium-3-5",
+                "provider": "Mistral AI",
+                "model": "Mistral Medium 3.5",
+                "modelId": "mistral-medium-3-5",
+                "tier": "frontier",
+                "status": "withheld",
+                "reason": "Frontier assignment withheld: Medium 3.5 is not the current provider flagship; its captured price is retained. No Large 4 tariff is substituted for the original capture.",
+                "input": "1.5",
+                "output": "7.5",
+                "blended": "3.0000",
+                "conditions": "Frontier assignment withheld: Medium 3.5 is not the current provider flagship; its captured price is retained. No Large 4 tariff is substituted for the original capture.",
+                "basketNote": "The original November 1 model sources identify Large 4 as the successor, and the retained October 6 announcement identifies Large 4 as the provider's most capable model. Medium's recorded $1.50/$7.50 price is preserved as evidence but excluded from the current-frontier basket. The exact Large 4 tariff at the original capture remains unproved.",
+                "priceStatus": "Deprecated",
+                "source": {
+                    "url": "https://docs.mistral.ai/models/mistral-medium-3-5-26-04.md",
+                    "page": "https://docs.mistral.ai/models/mistral-medium-3-5-26-04",
+                    "fetchedAt": "2026-11-01T13:18:22+00:00",
+                    "snapshotUrl": null,
+                    "snapshotAt": null,
+                    "sha256": "1699f8c712e4982f74c32ef0e1e3901fec8b5ab2f4c4efe87d3ecab9de8fc00c",
+                    "excerpt": "- Pricing: Input $1.5 /M Tokens; Output $7.5 /M Tokens"
+                },
+                "positioning": {
+                    "url": "https://docs.mistral.ai/models.md",
+                    "snapshotUrl": null,
+                    "quote": "Our frontier-class multimodal model optimized for agentic and coding use cases.",
+                    "rule": null
+                }
+            },
+            {
+                "id": "mistral-small-4",
+                "provider": "Mistral AI",
+                "model": "Mistral Small 4",
+                "modelId": "mistral-small-2603",
+                "tier": "small",
+                "status": "verified",
+                "input": "0.15",
+                "output": "0.6",
+                "blended": "0.2625",
+                "priceStatus": "GA",
+                "source": {
+                    "url": "https://docs.mistral.ai/models/mistral-small-4-0-26-03.md",
+                    "page": "https://docs.mistral.ai/models/mistral-small-4-0-26-03",
+                    "fetchedAt": "2026-11-01T13:18:25+00:00",
+                    "snapshotUrl": null,
+                    "snapshotAt": null,
+                    "sha256": "50a7c2c6d5a74da1994d46e55f02da57320d87cb619bc6503529c0950fefb489",
+                    "excerpt": "- Pricing: Input $0.15 /M Tokens; Output $0.6 /M Tokens"
+                },
+                "positioning": {
+                    "url": "https://docs.mistral.ai/models.md",
+                    "snapshotUrl": null,
+                    "quote": "Hybrid model unifying instruct, reasoning, and coding in a single efficient model.",
+                    "rule": null
+                }
+            },
+            {
+                "id": "openai-chatgpt-plus",
+                "provider": "OpenAI",
+                "product": "ChatGPT",
+                "model": "ChatGPT Plus",
+                "modelId": "openai-chatgpt-plus",
+                "tier": "standard",
+                "status": "verified",
+                "monthly": "20.00",
+                "source": {
+                    "url": "https://learn.chatgpt.com/codex/pricing",
+                    "page": "https://learn.chatgpt.com/codex/pricing",
+                    "fetchedAt": "2026-11-01T13:18:25+00:00",
+                    "snapshotUrl": null,
+                    "snapshotAt": null,
+                    "sha256": "6e661c058cc2203d589b7088d453391fd656a452e0627631d72a317b360a6073",
+                    "excerpt": "Plus Power a few focused coding sessions each week. $20 /month Get Plus"
+                }
+            },
+            {
+                "id": "openai-chatgpt-pro",
+                "provider": "OpenAI",
+                "product": "ChatGPT",
+                "model": "ChatGPT Pro ($500 tier)",
+                "modelId": "openai-chatgpt-pro@500.00",
+                "tier": "top",
+                "status": "verified",
+                "monthly": "500.00",
+                "basketNote": "ChatGPT Pro is sold at $100, $200 and $500 a month; the top plan is the $500 tier.",
+                "source": {
+                    "url": "https://learn.chatgpt.com/codex/pricing",
+                    "page": "https://learn.chatgpt.com/codex/pricing",
+                    "fetchedAt": "2026-11-01T13:18:25+00:00",
+                    "snapshotUrl": null,
+                    "snapshotAt": null,
+                    "sha256": "6e661c058cc2203d589b7088d453391fd656a452e0627631d72a317b360a6073",
+                    "excerpt": "Plans at $100, $200, or $500 USD per month"
+                }
+            },
+            {
+                "id": "anthropic-claude-pro",
+                "provider": "Anthropic",
+                "product": "Claude",
+                "model": "Claude Pro",
+                "modelId": "anthropic-claude-pro",
+                "tier": "standard",
+                "status": "verified",
+                "monthly": "20.00",
+                "source": {
+                    "url": "https://claude.com/pricing",
+                    "page": "https://claude.com/pricing",
+                    "fetchedAt": "2026-11-01T13:18:26+00:00",
+                    "snapshotUrl": null,
+                    "snapshotAt": null,
+                    "sha256": "aa5db783fe5efde901bc91a88e6cf767fed2e3b9127fac9601b8f919aefe49a4",
+                    "excerpt": "$20 if billed monthly"
+                }
+            },
+            {
+                "id": "anthropic-claude-ultra",
+                "provider": "Anthropic",
+                "product": "Claude",
+                "model": "Claude Ultra",
+                "modelId": "anthropic-claude-ultra",
+                "tier": "top",
+                "status": "verified",
+                "monthly": "200.00",
+                "source": {
+                    "url": "https://claude.com/pricing",
+                    "page": "https://claude.com/pricing",
+                    "fetchedAt": "2026-11-01T13:18:26+00:00",
+                    "snapshotUrl": null,
+                    "snapshotAt": null,
+                    "sha256": "aa5db783fe5efde901bc91a88e6cf767fed2e3b9127fac9601b8f919aefe49a4",
+                    "excerpt": "$200 Per month"
+                }
+            },
+            {
+                "id": "google-ai-pro",
+                "provider": "Google",
+                "product": "Google AI",
+                "model": "Google AI Pro",
+                "modelId": "google-ai-pro",
+                "tier": "standard",
+                "status": "verified",
+                "monthly": "19.99",
+                "source": {
+                    "url": "https://one.google.com/intl/ALL_us/about/feeds/pricing_2026_07_28.json",
+                    "page": "https://one.google.com/about/plans",
+                    "fetchedAt": "2026-11-01T13:18:27+00:00",
+                    "snapshotUrl": null,
+                    "snapshotAt": null,
+                    "sha256": "4546b561f5ca33b270fd22d61b3011d0fdbc9942b30bfa6b0740e83cc805052d",
+                    "excerpt": "\"COUNTRY_CODE\": \"US\", \"CURRENCY_CODE\": \"USD\", \"PRICE_30_MONTHLY\": null, \"PRICE_100_MONTHLY\": 1.99, \"PRICE_200_MONTHLY\": 2.99, \"PRICE_2048_MONTHLY\": 9.99, \"PRICE_5120_MONTHLY\": 24.99, \"PRICE_GEN_AI_PRO_MONTHLY\": 19.99"
+                }
+            },
+            {
+                "id": "google-ai-ultra",
+                "provider": "Google",
+                "product": "Google AI",
+                "model": "Google AI Ultra",
+                "modelId": "google-ai-ultra@199.99",
+                "tier": "top",
+                "status": "verified",
+                "monthly": "199.99",
+                "basketNote": "Google sells Ultra at two usage levels ($99.99 and $199.99); the top plan is the higher one.",
+                "source": {
+                    "url": "https://one.google.com/intl/ALL_us/about/feeds/pricing_2026_07_28.json",
+                    "page": "https://one.google.com/about/plans",
+                    "fetchedAt": "2026-11-01T13:18:27+00:00",
+                    "snapshotUrl": null,
+                    "snapshotAt": null,
+                    "sha256": "4546b561f5ca33b270fd22d61b3011d0fdbc9942b30bfa6b0740e83cc805052d",
+                    "excerpt": "\"COUNTRY_CODE\": \"US\", \"CURRENCY_CODE\": \"USD\", \"PRICE_30_MONTHLY\": null, \"PRICE_100_MONTHLY\": 1.99, \"PRICE_200_MONTHLY\": 2.99, \"PRICE_2048_MONTHLY\": 9.99, \"PRICE_5120_MONTHLY\": 24.99, \"PRICE_GEN_AI_PRO_MONTHLY\": 19.99, \"PRICE_GEN_AI_ULTRA_200_MONTHLY\": 199.99"
+                }
+            },
+            {
+                "id": "xai-premium",
+                "provider": "xAI",
+                "product": "The X Subscription",
+                "model": "X Subscription Premium",
+                "modelId": "xai-premium",
+                "tier": "standard",
+                "status": "verified",
+                "monthly": "30.00",
+                "basketNote": "xAI replaced SuperGrok for new customers with The X Subscription (Plus $8, Premium $30, Super $100, Ultra $200). Premium is the core Grok plan at SuperGrok's $30 price; Plus excludes Grok Bot.",
+                "source": {
+                    "url": "https://docs.x.ai/x-subscription/pricing.md",
+                    "page": "https://docs.x.ai/x-subscription/pricing",
+                    "fetchedAt": "2026-11-01T13:18:27+00:00",
+                    "snapshotUrl": null,
+                    "snapshotAt": null,
+                    "sha256": "1c317f26e6820635b393c4ff3bf4da97d066d441dfaeb26c2ad2f4a0f00763d5",
+                    "excerpt": "| Premium | $30/mo |"
+                }
+            },
+            {
+                "id": "xai-ultra",
+                "provider": "xAI",
+                "product": "The X Subscription",
+                "model": "X Subscription Ultra",
+                "modelId": "xai-ultra@200.00",
+                "tier": "top",
+                "status": "verified",
+                "monthly": "200.00",
+                "source": {
+                    "url": "https://docs.x.ai/x-subscription/pricing.md",
+                    "page": "https://docs.x.ai/x-subscription/pricing",
+                    "fetchedAt": "2026-11-01T13:18:27+00:00",
+                    "snapshotUrl": null,
+                    "snapshotAt": null,
+                    "sha256": "1c317f26e6820635b393c4ff3bf4da97d066d441dfaeb26c2ad2f4a0f00763d5",
+                    "excerpt": "| Ultra | $200/mo |"
+                }
+            },
+            {
+                "id": "perplexity-pro",
+                "provider": "Perplexity",
+                "product": "Perplexity",
+                "model": "Perplexity Pro",
+                "modelId": "perplexity-pro",
+                "tier": "standard",
+                "status": "verified",
+                "monthly": "20.00",
+                "source": {
+                    "url": "https://www.perplexity.ai/help-center/en/articles/12167980-using-the-connector-for-slack",
+                    "page": "https://www.perplexity.ai/help-center/en/articles/12167980-using-the-connector-for-slack",
+                    "fetchedAt": "2026-11-01T13:18:27+00:00",
+                    "snapshotUrl": null,
+                    "snapshotAt": null,
+                    "sha256": "5115e546579b2ad49977308968fc5b15d5bc0206fe4a3d16168280bdf4e33e1e",
+                    "excerpt": "Perplexity Pro : $20/month"
+                }
+            },
+            {
+                "id": "perplexity-max",
+                "provider": "Perplexity",
+                "product": "Perplexity",
+                "model": "Perplexity Max",
+                "modelId": "perplexity-max",
+                "tier": "top",
+                "status": "verified",
+                "monthly": "200.00",
+                "source": {
+                    "url": "https://www.perplexity.ai/help-center/en/articles/11680686-perplexity-max",
+                    "page": "https://www.perplexity.ai/help-center/en/articles/11680686-perplexity-max",
+                    "fetchedAt": "2026-11-01T13:18:30+00:00",
+                    "snapshotUrl": null,
+                    "snapshotAt": null,
+                    "sha256": "df1ce4a3ab7d104b561d063e0f0427ba809b389ca57ad369b734340f9393b565",
+                    "excerpt": "Perplexity Max costs $200/monthly"
+                }
+            },
+            {
+                "id": "mistral-pro",
+                "provider": "Mistral AI",
+                "product": "Vibe (formerly Le Chat)",
+                "model": "Mistral Pro",
+                "modelId": "mistral-pro",
+                "tier": "standard",
+                "status": "verified",
+                "monthly": "14.99",
+                "basketNote": "Mistral sells one paid individual plan, so it appears only under Standard.",
+                "source": {
+                    "url": "https://mistral.ai/pricing",
+                    "page": "https://mistral.ai/pricing",
+                    "fetchedAt": "2026-11-01T13:18:30+00:00",
+                    "snapshotUrl": null,
+                    "snapshotAt": null,
+                    "sha256": "af9b1a60efbd003bae58f285ec2b68be4b371475525779ced504348a3ae31485",
+                    "excerpt": "Verified students can get Mistral Pro for $5.99 / month (normally $14.99)"
+                }
+            }
+        ]
+    },
+    "editions": [
+        {
+            "edition": "2024-01",
+            "label": "January 2024",
+            "url": "https://kingy.ai/ai-price-index/data/2024-01.json"
+        },
+        {
+            "edition": "2024-02",
+            "label": "February 2024",
+            "url": "https://kingy.ai/ai-price-index/data/2024-02.json"
+        },
+        {
+            "edition": "2024-03",
+            "label": "March 2024",
+            "url": "https://kingy.ai/ai-price-index/data/2024-03.json"
+        },
+        {
+            "edition": "2024-04",
+            "label": "April 2024",
+            "url": "https://kingy.ai/ai-price-index/data/2024-04.json"
+        },
+        {
+            "edition": "2024-05",
+            "label": "May 2024",
+            "url": "https://kingy.ai/ai-price-index/data/2024-05.json"
+        },
+        {
+            "edition": "2024-06",
+            "label": "June 2024",
+            "url": "https://kingy.ai/ai-price-index/data/2024-06.json"
+        },
+        {
+            "edition": "2024-07",
+            "label": "July 2024",
+            "url": "https://kingy.ai/ai-price-index/data/2024-07.json"
+        },
+        {
+            "edition": "2024-08",
+            "label": "August 2024",
+            "url": "https://kingy.ai/ai-price-index/data/2024-08.json"
+        },
+        {
+            "edition": "2024-09",
+            "label": "September 2024",
+            "url": "https://kingy.ai/ai-price-index/data/2024-09.json"
+        },
+        {
+            "edition": "2024-10",
+            "label": "October 2024",
+            "url": "https://kingy.ai/ai-price-index/data/2024-10.json"
+        },
+        {
+            "edition": "2024-11",
+            "label": "November 2024",
+            "url": "https://kingy.ai/ai-price-index/data/2024-11.json"
+        },
+        {
+            "edition": "2024-12",
+            "label": "December 2024",
+            "url": "https://kingy.ai/ai-price-index/data/2024-12.json"
+        },
+        {
+            "edition": "2025-01",
+            "label": "January 2025",
+            "url": "https://kingy.ai/ai-price-index/data/2025-01.json"
+        },
+        {
+            "edition": "2025-02",
+            "label": "February 2025",
+            "url": "https://kingy.ai/ai-price-index/data/2025-02.json"
+        },
+        {
+            "edition": "2025-03",
+            "label": "March 2025",
+            "url": "https://kingy.ai/ai-price-index/data/2025-03.json"
+        },
+        {
+            "edition": "2025-04",
+            "label": "April 2025",
+            "url": "https://kingy.ai/ai-price-index/data/2025-04.json"
+        },
+        {
+            "edition": "2025-05",
+            "label": "May 2025",
+            "url": "https://kingy.ai/ai-price-index/data/2025-05.json"
+        },
+        {
+            "edition": "2025-06",
+            "label": "June 2025",
+            "url": "https://kingy.ai/ai-price-index/data/2025-06.json"
+        },
+        {
+            "edition": "2025-07",
+            "label": "July 2025",
+            "url": "https://kingy.ai/ai-price-index/data/2025-07.json"
+        },
+        {
+            "edition": "2025-08",
+            "label": "August 2025",
+            "url": "https://kingy.ai/ai-price-index/data/2025-08.json"
+        },
+        {
+            "edition": "2025-09",
+            "label": "September 2025",
+            "url": "https://kingy.ai/ai-price-index/data/2025-09.json"
+        },
+        {
+            "edition": "2025-10",
+            "label": "October 2025",
+            "url": "https://kingy.ai/ai-price-index/data/2025-10.json"
+        },
+        {
+            "edition": "2025-11",
+            "label": "November 2025",
+            "url": "https://kingy.ai/ai-price-index/data/2025-11.json"
+        },
+        {
+            "edition": "2025-12",
+            "label": "December 2025",
+            "url": "https://kingy.ai/ai-price-index/data/2025-12.json"
+        },
+        {
+            "edition": "2026-01",
+            "label": "January 2026",
+            "url": "https://kingy.ai/ai-price-index/data/2026-01.json"
+        },
+        {
+            "edition": "2026-02",
+            "label": "February 2026",
+            "url": "https://kingy.ai/ai-price-index/data/2026-02.json"
+        },
+        {
+            "edition": "2026-03",
+            "label": "March 2026",
+            "url": "https://kingy.ai/ai-price-index/data/2026-03.json"
+        },
+        {
+            "edition": "2026-04",
+            "label": "April 2026",
+            "url": "https://kingy.ai/ai-price-index/data/2026-04.json"
+        },
+        {
+            "edition": "2026-05",
+            "label": "May 2026",
+            "url": "https://kingy.ai/ai-price-index/data/2026-05.json"
+        },
+        {
+            "edition": "2026-06",
+            "label": "June 2026",
+            "url": "https://kingy.ai/ai-price-index/data/2026-06.json"
+        },
+        {
+            "edition": "2026-07",
+            "label": "July 2026",
+            "url": "https://kingy.ai/ai-price-index/data/2026-07.json"
+        },
+        {
+            "edition": "2026-08",
+            "label": "August 2026",
+            "url": "https://kingy.ai/ai-price-index/data/2026-08.json"
+        },
+        {
+            "edition": "2026-09",
+            "label": "September 2026",
+            "url": "https://kingy.ai/ai-price-index/data/2026-09.json"
+        },
+        {
+            "edition": "2026-10",
+            "label": "October 2026",
+            "url": "https://kingy.ai/ai-price-index/data/2026-10.json"
+        },
+        {
+            "edition": "2026-11",
+            "label": "November 2026",
+            "url": "https://kingy.ai/ai-price-index/data/2026-11.json"
+        }
+    ]
+}

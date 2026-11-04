@@ -1,0 +1,11 @@
+{
+ "title": "Kingy AI Shutdowns and Deadlines",
+ "licence": "CC BY 4.0",
+ "cite": "Kingy AI, https://kingy.ai/tools/ai-deadlines/",
+ "tracker": "https://kingy.ai/tools/ai-deadlines/",
+ "as_of": "2026-11-04",
+ "fields": {
+  "shutdowns.*": "event, event_date, group, id, name, status, alternatives, citations, date_precision, history_reviewed_on, kingy_page, latest_source_recheck, sources, summary",
+  "deadlines.*": "id, name, provider, date, precision, certainty, scope, action, replacement, source, recordUrl, reviewedAt, checkedAt, revision, status, confirmedRetired, sourceCurrent, needsReview, reviewReason, history"
+ }
+}

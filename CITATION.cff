@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite it as below and link the canonical tracker on kingy.ai."
+title: "Kingy Open AI Data"
+type: dataset
+version: "2026-11"
+date-released: "2026-11-04"
+license: CC-BY-4.0
+url: "https://kingy.ai/data/"
+repository-code: "https://github.com/kingy-ai/open-data"
+authors:
+  - name: "Kingy AI"
+    website: "https://kingy.ai/"
+keywords:
+  - artificial intelligence
+  - pricing
+  - AI models
+  - product launches
+  - deprecations
+  - open data

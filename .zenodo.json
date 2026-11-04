@@ -1,0 +1,42 @@
+{
+  "title": "Kingy Open AI Data",
+  "upload_type": "dataset",
+  "description": "Open datasets from Kingy AI about the AI industry: the Kingy AI Price Index (monthly list prices of frontier, mid-range and small models and consumer plans since January 2024), the Kingy AI Launch Tracker (dated launches with sources and evidence labels) and Kingy AI Shutdowns and Deadlines. Refreshed monthly. Canonical page: https://kingy.ai/data/",
+  "creators": [
+    {
+      "name": "Kingy AI"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "keywords": [
+    "artificial intelligence",
+    "pricing",
+    "AI models",
+    "product launches",
+    "deprecations",
+    "open data"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://kingy.ai/data/",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://kingy.ai/ai-price-index/",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://kingy.ai/ai-launch-tracker/",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://kingy.ai/tools/ai-deadlines/",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    }
+  ]
+}

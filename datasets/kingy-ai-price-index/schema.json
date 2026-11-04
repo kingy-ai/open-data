@@ -1,0 +1,13 @@
+{
+ "title": "Kingy AI Price Index",
+ "licence": "CC BY 4.0",
+ "cite": "Kingy AI, https://kingy.ai/ai-price-index/",
+ "tracker": "https://kingy.ai/ai-price-index/",
+ "as_of": "2026-11-04",
+ "fields": {
+  "index-series.csv": "one row per edition \u00d7 tier: median_usd, index_level (Sept 2026 = 100), change vs previous, range, constituents",
+  "prices.csv": "every model and plan price per edition with source_url, price_seen_at, archive_snapshot_url, sha256 of the archived bytes",
+  "latest.json": "the current edition with evidence, as kingy.ai serves it",
+  "editions/YYYY-MM.json": "each frozen edition"
+ }
+}

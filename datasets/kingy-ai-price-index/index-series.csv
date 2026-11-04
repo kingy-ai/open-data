@@ -1,0 +1,176 @@
+edition,label,reference_date,reconstructed,tier,tier_label,kind,unit,median_usd,index_level,change_pct_vs_previous,constituents,min_usd,max_usd,method_version,edition_url
+2024-01,"January 2024",2024-01-01,yes,frontier,"Frontier models",api,"USD per 1M tokens, 3:1 input:output blend",,,,1,15.0000,15.0000,1.0,https://kingy.ai/ai-price-index/2024-01/
+2024-01,"January 2024",2024-01-01,yes,mid,"Mid-range models",api,"USD per 1M tokens, 3:1 input:output blend",,,,0,,,1.0,https://kingy.ai/ai-price-index/2024-01/
+2024-01,"January 2024",2024-01-01,yes,small,"Small models",api,"USD per 1M tokens, 3:1 input:output blend",,,,1,1.2500,1.2500,1.0,https://kingy.ai/ai-price-index/2024-01/
+2024-01,"January 2024",2024-01-01,yes,standard,"Standard plan",subscription,"USD per month",20.0000,100.00,,3,16.00,20.00,1.0,https://kingy.ai/ai-price-index/2024-01/
+2024-01,"January 2024",2024-01-01,yes,top,"Top plan",subscription,"USD per month",,,,0,,,1.0,https://kingy.ai/ai-price-index/2024-01/
+2024-02,"February 2024",2024-02-01,yes,frontier,"Frontier models",api,"USD per 1M tokens, 3:1 input:output blend",,,,1,15.0000,15.0000,1.0,https://kingy.ai/ai-price-index/2024-02/
+2024-02,"February 2024",2024-02-01,yes,mid,"Mid-range models",api,"USD per 1M tokens, 3:1 input:output blend",,,,0,,,1.0,https://kingy.ai/ai-price-index/2024-02/
+2024-02,"February 2024",2024-02-01,yes,small,"Small models",api,"USD per 1M tokens, 3:1 input:output blend",,,,1,1.2500,1.2500,1.0,https://kingy.ai/ai-price-index/2024-02/
+2024-02,"February 2024",2024-02-01,yes,standard,"Standard plan",subscription,"USD per month",20.0000,100.00,0,4,16.00,20.00,1.0,https://kingy.ai/ai-price-index/2024-02/
+2024-02,"February 2024",2024-02-01,yes,top,"Top plan",subscription,"USD per month",,,,0,,,1.0,https://kingy.ai/ai-price-index/2024-02/
+2024-03,"March 2024",2024-03-01,yes,frontier,"Frontier models",api,"USD per 1M tokens, 3:1 input:output blend",,,,2,12.0000,15.0000,1.0,https://kingy.ai/ai-price-index/2024-03/
+2024-03,"March 2024",2024-03-01,yes,mid,"Mid-range models",api,"USD per 1M tokens, 3:1 input:output blend",,,,0,,,1.0,https://kingy.ai/ai-price-index/2024-03/
+2024-03,"March 2024",2024-03-01,yes,small,"Small models",api,"USD per 1M tokens, 3:1 input:output blend",,,,2,0.7500,3.0000,1.0,https://kingy.ai/ai-price-index/2024-03/
+2024-03,"March 2024",2024-03-01,yes,standard,"Standard plan",subscription,"USD per month",20.0000,100.00,0,5,16.00,20.00,1.0,https://kingy.ai/ai-price-index/2024-03/
+2024-03,"March 2024",2024-03-01,yes,top,"Top plan",subscription,"USD per month",,,,0,,,1.0,https://kingy.ai/ai-price-index/2024-03/
+2024-04,"April 2024",2024-04-01,yes,frontier,"Frontier models",api,"USD per 1M tokens, 3:1 input:output blend",15.0000,333.33,,3,12.0000,30.0000,1.0,https://kingy.ai/ai-price-index/2024-04/
+2024-04,"April 2024",2024-04-01,yes,mid,"Mid-range models",api,"USD per 1M tokens, 3:1 input:output blend",,,,1,6.0000,6.0000,1.0,https://kingy.ai/ai-price-index/2024-04/
+2024-04,"April 2024",2024-04-01,yes,small,"Small models",api,"USD per 1M tokens, 3:1 input:output blend",0.7500,142.86,,3,0.5000,3.0000,1.0,https://kingy.ai/ai-price-index/2024-04/
+2024-04,"April 2024",2024-04-01,yes,standard,"Standard plan",subscription,"USD per month",20.0000,100.00,0,5,16.00,20.00,1.0,https://kingy.ai/ai-price-index/2024-04/
+2024-04,"April 2024",2024-04-01,yes,top,"Top plan",subscription,"USD per month",,,,0,,,1.0,https://kingy.ai/ai-price-index/2024-04/
+2024-05,"May 2024",2024-05-01,yes,frontier,"Frontier models",api,"USD per 1M tokens, 3:1 input:output blend",15.0000,333.33,0,3,12.0000,30.0000,1.0,https://kingy.ai/ai-price-index/2024-05/
+2024-05,"May 2024",2024-05-01,yes,mid,"Mid-range models",api,"USD per 1M tokens, 3:1 input:output blend",,,,1,6.0000,6.0000,1.0,https://kingy.ai/ai-price-index/2024-05/
+2024-05,"May 2024",2024-05-01,yes,small,"Small models",api,"USD per 1M tokens, 3:1 input:output blend",0.7500,142.86,0,3,0.5000,3.0000,1.0,https://kingy.ai/ai-price-index/2024-05/
+2024-05,"May 2024",2024-05-01,yes,standard,"Standard plan",subscription,"USD per month",20.0000,100.00,0,4,16.00,20.00,1.0,https://kingy.ai/ai-price-index/2024-05/
+2024-05,"May 2024",2024-05-01,yes,top,"Top plan",subscription,"USD per month",,,,0,,,1.0,https://kingy.ai/ai-price-index/2024-05/
+2024-06,"June 2024",2024-06-01,yes,frontier,"Frontier models",api,"USD per 1M tokens, 3:1 input:output blend",6.0000,133.33,-60,5,0.1750,30.0000,1.0,https://kingy.ai/ai-price-index/2024-06/
+2024-06,"June 2024",2024-06-01,yes,mid,"Mid-range models",api,"USD per 1M tokens, 3:1 input:output blend",,,,1,6.0000,6.0000,1.0,https://kingy.ai/ai-price-index/2024-06/
+2024-06,"June 2024",2024-06-01,yes,small,"Small models",api,"USD per 1M tokens, 3:1 input:output blend",0.6375,121.43,-15,4,0.5000,1.5000,1.0,https://kingy.ai/ai-price-index/2024-06/
+2024-06,"June 2024",2024-06-01,yes,standard,"Standard plan",subscription,"USD per month",20.0000,100.00,0,5,16.00,20.00,1.0,https://kingy.ai/ai-price-index/2024-06/
+2024-06,"June 2024",2024-06-01,yes,top,"Top plan",subscription,"USD per month",,,,0,,,1.0,https://kingy.ai/ai-price-index/2024-06/
+2024-07,"July 2024",2024-07-01,yes,frontier,"Frontier models",api,"USD per 1M tokens, 3:1 input:output blend",6.0000,133.33,0,5,0.1750,7.5000,1.0,https://kingy.ai/ai-price-index/2024-07/
+2024-07,"July 2024",2024-07-01,yes,mid,"Mid-range models",api,"USD per 1M tokens, 3:1 input:output blend",,,,0,,,1.0,https://kingy.ai/ai-price-index/2024-07/
+2024-07,"July 2024",2024-07-01,yes,small,"Small models",api,"USD per 1M tokens, 3:1 input:output blend",0.6375,121.43,0,4,0.5000,1.5000,1.0,https://kingy.ai/ai-price-index/2024-07/
+2024-07,"July 2024",2024-07-01,yes,standard,"Standard plan",subscription,"USD per month",20.0000,100.00,0,5,16.00,20.00,1.0,https://kingy.ai/ai-price-index/2024-07/
+2024-07,"July 2024",2024-07-01,yes,top,"Top plan",subscription,"USD per month",,,,0,,,1.0,https://kingy.ai/ai-price-index/2024-07/
+2024-08,"August 2024",2024-08-01,yes,frontier,"Frontier models",api,"USD per 1M tokens, 3:1 input:output blend",5.2500,116.67,-12.5,5,0.1750,7.5000,1.0,https://kingy.ai/ai-price-index/2024-08/
+2024-08,"August 2024",2024-08-01,yes,mid,"Mid-range models",api,"USD per 1M tokens, 3:1 input:output blend",,,,0,,,1.0,https://kingy.ai/ai-price-index/2024-08/
+2024-08,"August 2024",2024-08-01,yes,small,"Small models",api,"USD per 1M tokens, 3:1 input:output blend",0.5125,97.62,-19.6,4,0.2625,1.5000,1.0,https://kingy.ai/ai-price-index/2024-08/
+2024-08,"August 2024",2024-08-01,yes,standard,"Standard plan",subscription,"USD per month",20.0000,100.00,0,5,16.00,20.00,1.0,https://kingy.ai/ai-price-index/2024-08/
+2024-08,"August 2024",2024-08-01,yes,top,"Top plan",subscription,"USD per month",,,,0,,,1.0,https://kingy.ai/ai-price-index/2024-08/
+2024-09,"September 2024",2024-09-01,yes,frontier,"Frontier models",api,"USD per 1M tokens, 3:1 input:output blend",5.2500,116.67,0,5,0.1750,7.5000,1.0,https://kingy.ai/ai-price-index/2024-09/
+2024-09,"September 2024",2024-09-01,yes,mid,"Mid-range models",api,"USD per 1M tokens, 3:1 input:output blend",,,,0,,,1.0,https://kingy.ai/ai-price-index/2024-09/
+2024-09,"September 2024",2024-09-01,yes,small,"Small models",api,"USD per 1M tokens, 3:1 input:output blend",0.3813,72.63,-25.6,4,0.1313,1.5000,1.0,https://kingy.ai/ai-price-index/2024-09/
+2024-09,"September 2024",2024-09-01,yes,standard,"Standard plan",subscription,"USD per month",20.0000,100.00,0,5,16.00,20.00,1.0,https://kingy.ai/ai-price-index/2024-09/
+2024-09,"September 2024",2024-09-01,yes,top,"Top plan",subscription,"USD per month",,,,0,,,1.0,https://kingy.ai/ai-price-index/2024-09/
+2024-10,"October 2024",2024-10-01,yes,frontier,"Frontier models",api,"USD per 1M tokens, 3:1 input:output blend",3.0000,66.67,-42.9,5,0.1750,7.5000,1.0,https://kingy.ai/ai-price-index/2024-10/
+2024-10,"October 2024",2024-10-01,yes,mid,"Mid-range models",api,"USD per 1M tokens, 3:1 input:output blend",,,,0,,,1.0,https://kingy.ai/ai-price-index/2024-10/
+2024-10,"October 2024",2024-10-01,yes,small,"Small models",api,"USD per 1M tokens, 3:1 input:output blend",0.2813,53.58,-26.2,4,0.1313,0.5000,1.0,https://kingy.ai/ai-price-index/2024-10/
+2024-10,"October 2024",2024-10-01,yes,standard,"Standard plan",subscription,"USD per month",20.0000,100.00,0,5,16.00,20.00,1.0,https://kingy.ai/ai-price-index/2024-10/
+2024-10,"October 2024",2024-10-01,yes,top,"Top plan",subscription,"USD per month",,,,0,,,1.0,https://kingy.ai/ai-price-index/2024-10/
+2024-11,"November 2024",2024-11-01,yes,frontier,"Frontier models",api,"USD per 1M tokens, 3:1 input:output blend",3.6875,81.94,22.9,4,2.1875,6.0000,1.0,https://kingy.ai/ai-price-index/2024-11/
+2024-11,"November 2024",2024-11-01,yes,mid,"Mid-range models",api,"USD per 1M tokens, 3:1 input:output blend",,,,0,,,1.0,https://kingy.ai/ai-price-index/2024-11/
+2024-11,"November 2024",2024-11-01,yes,small,"Small models",api,"USD per 1M tokens, 3:1 input:output blend",0.2813,53.58,-0,4,0.1313,0.5000,1.0,https://kingy.ai/ai-price-index/2024-11/
+2024-11,"November 2024",2024-11-01,yes,standard,"Standard plan",subscription,"USD per month",20.0000,100.00,0,5,16.00,20.00,1.0,https://kingy.ai/ai-price-index/2024-11/
+2024-11,"November 2024",2024-11-01,yes,top,"Top plan",subscription,"USD per month",,,,0,,,1.0,https://kingy.ai/ai-price-index/2024-11/
+2024-12,"December 2024",2024-12-01,yes,frontier,"Frontier models",api,"USD per 1M tokens, 3:1 input:output blend",3.0000,66.67,-18.6,5,0.1750,6.0000,1.0,https://kingy.ai/ai-price-index/2024-12/
+2024-12,"December 2024",2024-12-01,yes,mid,"Mid-range models",api,"USD per 1M tokens, 3:1 input:output blend",,,,1,0.1313,0.1313,1.0,https://kingy.ai/ai-price-index/2024-12/
+2024-12,"December 2024",2024-12-01,yes,small,"Small models",api,"USD per 1M tokens, 3:1 input:output blend",0.2813,53.58,-0,4,0.0656,2.0000,1.0,https://kingy.ai/ai-price-index/2024-12/
+2024-12,"December 2024",2024-12-01,yes,standard,"Standard plan",subscription,"USD per month",20.0000,100.00,0,5,16.00,20.00,1.0,https://kingy.ai/ai-price-index/2024-12/
+2024-12,"December 2024",2024-12-01,yes,top,"Top plan",subscription,"USD per month",,,,0,,,1.0,https://kingy.ai/ai-price-index/2024-12/
+2025-01,"January 2025",2025-01-01,yes,frontier,"Frontier models",api,"USD per 1M tokens, 3:1 input:output blend",3.0000,66.67,0,5,0.1750,6.0000,1.0,https://kingy.ai/ai-price-index/2025-01/
+2025-01,"January 2025",2025-01-01,yes,mid,"Mid-range models",api,"USD per 1M tokens, 3:1 input:output blend",,,,1,0.1313,0.1313,1.0,https://kingy.ai/ai-price-index/2025-01/
+2025-01,"January 2025",2025-01-01,yes,small,"Small models",api,"USD per 1M tokens, 3:1 input:output blend",0.2813,53.58,-0,4,0.0656,1.6000,1.0,https://kingy.ai/ai-price-index/2025-01/
+2025-01,"January 2025",2025-01-01,yes,standard,"Standard plan",subscription,"USD per month",20.0000,100.00,0,5,19.99,22.00,1.0,https://kingy.ai/ai-price-index/2025-01/
+2025-01,"January 2025",2025-01-01,yes,top,"Top plan",subscription,"USD per month",,,,1,200.00,200.00,1.0,https://kingy.ai/ai-price-index/2025-01/
+2025-02,"February 2025",2025-02-01,yes,frontier,"Frontier models",api,"USD per 1M tokens, 3:1 input:output blend",3.0000,66.67,0,5,0.9600,6.0000,1.0,https://kingy.ai/ai-price-index/2025-02/
+2025-02,"February 2025",2025-02-01,yes,mid,"Mid-range models",api,"USD per 1M tokens, 3:1 input:output blend",,,,1,0.1313,0.1313,1.0,https://kingy.ai/ai-price-index/2025-02/
+2025-02,"February 2025",2025-02-01,yes,small,"Small models",api,"USD per 1M tokens, 3:1 input:output blend",0.2625,50.00,-6.7,5,0.0656,1.6000,1.0,https://kingy.ai/ai-price-index/2025-02/
+2025-02,"February 2025",2025-02-01,yes,standard,"Standard plan",subscription,"USD per month",20.0000,100.00,0,3,20.00,22.00,1.0,https://kingy.ai/ai-price-index/2025-02/
+2025-02,"February 2025",2025-02-01,yes,top,"Top plan",subscription,"USD per month",,,,1,200.00,200.00,1.0,https://kingy.ai/ai-price-index/2025-02/
+2025-03,"March 2025",2025-03-01,yes,frontier,"Frontier models",api,"USD per 1M tokens, 3:1 input:output blend",2.6675,59.28,-11.1,4,0.1750,6.0000,1.0,https://kingy.ai/ai-price-index/2025-03/
+2025-03,"March 2025",2025-03-01,yes,mid,"Mid-range models",api,"USD per 1M tokens, 3:1 input:output blend",,,,0,,,1.0,https://kingy.ai/ai-price-index/2025-03/
+2025-03,"March 2025",2025-03-01,yes,small,"Small models",api,"USD per 1M tokens, 3:1 input:output blend",0.3700,70.48,41,4,0.1313,1.6000,1.0,https://kingy.ai/ai-price-index/2025-03/
+2025-03,"March 2025",2025-03-01,yes,standard,"Standard plan",subscription,"USD per month",19.9950,99.98,-0,4,14.99,20.00,1.0,https://kingy.ai/ai-price-index/2025-03/
+2025-03,"March 2025",2025-03-01,yes,top,"Top plan",subscription,"USD per month",,,,1,200.00,200.00,1.0,https://kingy.ai/ai-price-index/2025-03/
+2025-04,"April 2025",2025-04-01,yes,frontier,"Frontier models",api,"USD per 1M tokens, 3:1 input:output blend",4.0000,88.89,50,5,0.1750,6.0000,1.0,https://kingy.ai/ai-price-index/2025-04/
+2025-04,"April 2025",2025-04-01,yes,mid,"Mid-range models",api,"USD per 1M tokens, 3:1 input:output blend",,,,0,,,1.0,https://kingy.ai/ai-price-index/2025-04/
+2025-04,"April 2025",2025-04-01,yes,small,"Small models",api,"USD per 1M tokens, 3:1 input:output blend",0.3700,70.48,0,4,0.1313,1.6000,1.0,https://kingy.ai/ai-price-index/2025-04/
+2025-04,"April 2025",2025-04-01,yes,standard,"Standard plan",subscription,"USD per month",19.9950,99.98,0,4,14.99,20.00,1.0,https://kingy.ai/ai-price-index/2025-04/
+2025-04,"April 2025",2025-04-01,yes,top,"Top plan",subscription,"USD per month",,,,1,200.00,200.00,1.0,https://kingy.ai/ai-price-index/2025-04/
+2025-05,"May 2025",2025-05-01,yes,frontier,"Frontier models",api,"USD per 1M tokens, 3:1 input:output blend",3.5000,77.78,-12.5,5,0.9600,6.0000,1.0,https://kingy.ai/ai-price-index/2025-05/
+2025-05,"May 2025",2025-05-01,yes,mid,"Mid-range models",api,"USD per 1M tokens, 3:1 input:output blend",,,,2,0.1750,0.7000,1.0,https://kingy.ai/ai-price-index/2025-05/
+2025-05,"May 2025",2025-05-01,yes,small,"Small models",api,"USD per 1M tokens, 3:1 input:output blend",0.3500,66.67,-5.4,5,0.1313,1.6000,1.0,https://kingy.ai/ai-price-index/2025-05/
+2025-05,"May 2025",2025-05-01,yes,standard,"Standard plan",subscription,"USD per month",20.0000,100.00,0,5,14.99,20.00,1.0,https://kingy.ai/ai-price-index/2025-05/
+2025-05,"May 2025",2025-05-01,yes,top,"Top plan",subscription,"USD per month",,,,2,200.00,200.00,1.0,https://kingy.ai/ai-price-index/2025-05/
+2025-06,"June 2025",2025-06-01,yes,frontier,"Frontier models",api,"USD per 1M tokens, 3:1 input:output blend",3.4688,77.08,-0.9,6,0.9600,30.0000,1.0,https://kingy.ai/ai-price-index/2025-06/
+2025-06,"June 2025",2025-06-01,yes,mid,"Mid-range models",api,"USD per 1M tokens, 3:1 input:output blend",0.7500,18.75,,4,0.1750,6.0000,1.0,https://kingy.ai/ai-price-index/2025-06/
+2025-06,"June 2025",2025-06-01,yes,small,"Small models",api,"USD per 1M tokens, 3:1 input:output blend",0.2625,50.00,-25,6,0.1313,1.6000,1.0,https://kingy.ai/ai-price-index/2025-06/
+2025-06,"June 2025",2025-06-01,yes,standard,"Standard plan",subscription,"USD per month",20.0000,100.00,0,5,14.99,20.00,1.0,https://kingy.ai/ai-price-index/2025-06/
+2025-06,"June 2025",2025-06-01,yes,top,"Top plan",subscription,"USD per month",200.0000,100.00,,3,200.00,249.99,1.0,https://kingy.ai/ai-price-index/2025-06/
+2025-07,"July 2025",2025-07-01,yes,frontier,"Frontier models",api,"USD per 1M tokens, 3:1 input:output blend",3.4688,77.08,-0,6,0.9600,30.0000,1.0,https://kingy.ai/ai-price-index/2025-07/
+2025-07,"July 2025",2025-07-01,yes,mid,"Mid-range models",api,"USD per 1M tokens, 3:1 input:output blend",0.8250,20.63,10,4,0.7000,6.0000,1.0,https://kingy.ai/ai-price-index/2025-07/
+2025-07,"July 2025",2025-07-01,yes,small,"Small models",api,"USD per 1M tokens, 3:1 input:output blend",0.2625,50.00,0,6,0.1500,1.6000,1.0,https://kingy.ai/ai-price-index/2025-07/
+2025-07,"July 2025",2025-07-01,yes,standard,"Standard plan",subscription,"USD per month",20.0000,100.00,0,5,14.99,20.00,1.0,https://kingy.ai/ai-price-index/2025-07/
+2025-07,"July 2025",2025-07-01,yes,top,"Top plan",subscription,"USD per month",200.0000,100.00,0,3,200.00,249.99,1.0,https://kingy.ai/ai-price-index/2025-07/
+2025-08,"August 2025",2025-08-01,yes,frontier,"Frontier models",api,"USD per 1M tokens, 3:1 input:output blend",3.4688,77.08,-0,6,0.8000,30.0000,1.0,https://kingy.ai/ai-price-index/2025-08/
+2025-08,"August 2025",2025-08-01,yes,mid,"Mid-range models",api,"USD per 1M tokens, 3:1 input:output blend",0.8500,21.25,3,3,0.7000,6.0000,1.0,https://kingy.ai/ai-price-index/2025-08/
+2025-08,"August 2025",2025-08-01,yes,small,"Small models",api,"USD per 1M tokens, 3:1 input:output blend",0.2625,50.00,0,6,0.1500,1.6000,1.0,https://kingy.ai/ai-price-index/2025-08/
+2025-08,"August 2025",2025-08-01,yes,standard,"Standard plan",subscription,"USD per month",20.0000,100.00,0,5,14.99,20.00,1.0,https://kingy.ai/ai-price-index/2025-08/
+2025-08,"August 2025",2025-08-01,yes,top,"Top plan",subscription,"USD per month",200.0000,100.00,0,4,200.00,249.99,1.0,https://kingy.ai/ai-price-index/2025-08/
+2025-09,"September 2025",2025-09-01,yes,frontier,"Frontier models",api,"USD per 1M tokens, 3:1 input:output blend",3.4375,76.39,-0.9,6,0.9600,30.0000,1.0,https://kingy.ai/ai-price-index/2025-09/
+2025-09,"September 2025",2025-09-01,yes,mid,"Mid-range models",api,"USD per 1M tokens, 3:1 input:output blend",0.8250,20.63,-2.9,4,0.6875,6.0000,1.0,https://kingy.ai/ai-price-index/2025-09/
+2025-09,"September 2025",2025-09-01,yes,small,"Small models",api,"USD per 1M tokens, 3:1 input:output blend",0.2625,50.00,0,6,0.1375,1.6000,1.0,https://kingy.ai/ai-price-index/2025-09/
+2025-09,"September 2025",2025-09-01,yes,standard,"Standard plan",subscription,"USD per month",20.0000,100.00,0,5,14.99,20.00,1.0,https://kingy.ai/ai-price-index/2025-09/
+2025-09,"September 2025",2025-09-01,yes,top,"Top plan",subscription,"USD per month",200.0000,100.00,0,4,200.00,249.99,1.0,https://kingy.ai/ai-price-index/2025-09/
+2025-10,"October 2025",2025-10-01,yes,frontier,"Frontier models",api,"USD per 1M tokens, 3:1 input:output blend",3.4375,76.39,0,6,0.3150,6.0000,1.0,https://kingy.ai/ai-price-index/2025-10/
+2025-10,"October 2025",2025-10-01,yes,mid,"Mid-range models",api,"USD per 1M tokens, 3:1 input:output blend",0.8000,20.00,-3,3,0.6875,0.8500,1.0,https://kingy.ai/ai-price-index/2025-10/
+2025-10,"October 2025",2025-10-01,yes,small,"Small models",api,"USD per 1M tokens, 3:1 input:output blend",0.1750,33.33,-33.3,5,0.1375,1.6000,1.0,https://kingy.ai/ai-price-index/2025-10/
+2025-10,"October 2025",2025-10-01,yes,standard,"Standard plan",subscription,"USD per month",20.0000,100.00,0,5,14.99,20.00,1.0,https://kingy.ai/ai-price-index/2025-10/
+2025-10,"October 2025",2025-10-01,yes,top,"Top plan",subscription,"USD per month",200.0000,100.00,0,4,200.00,249.99,1.0,https://kingy.ai/ai-price-index/2025-10/
+2025-11,"November 2025",2025-11-01,yes,frontier,"Frontier models",api,"USD per 1M tokens, 3:1 input:output blend",3.4375,76.39,0,6,0.3150,6.0000,1.0,https://kingy.ai/ai-price-index/2025-11/
+2025-11,"November 2025",2025-11-01,yes,mid,"Mid-range models",api,"USD per 1M tokens, 3:1 input:output blend",0.8000,20.00,0,3,0.6875,0.8500,1.0,https://kingy.ai/ai-price-index/2025-11/
+2025-11,"November 2025",2025-11-01,yes,small,"Small models",api,"USD per 1M tokens, 3:1 input:output blend",0.1750,33.33,0,5,0.1375,2.0000,1.0,https://kingy.ai/ai-price-index/2025-11/
+2025-11,"November 2025",2025-11-01,yes,standard,"Standard plan",subscription,"USD per month",20.0000,100.00,0,5,14.99,20.00,1.0,https://kingy.ai/ai-price-index/2025-11/
+2025-11,"November 2025",2025-11-01,yes,top,"Top plan",subscription,"USD per month",200.0000,100.00,0,4,200.00,249.99,1.0,https://kingy.ai/ai-price-index/2025-11/
+2025-12,"December 2025",2025-12-01,yes,frontier,"Frontier models",api,"USD per 1M tokens, 3:1 input:output blend",3.9688,88.20,15.5,6,0.3150,10.0000,1.0,https://kingy.ai/ai-price-index/2025-12/
+2025-12,"December 2025",2025-12-01,yes,mid,"Mid-range models",api,"USD per 1M tokens, 3:1 input:output blend",0.8250,20.63,3.1,4,0.6875,6.0000,1.0,https://kingy.ai/ai-price-index/2025-12/
+2025-12,"December 2025",2025-12-01,yes,small,"Small models",api,"USD per 1M tokens, 3:1 input:output blend",0.1750,33.33,0,5,0.1375,2.0000,1.0,https://kingy.ai/ai-price-index/2025-12/
+2025-12,"December 2025",2025-12-01,yes,standard,"Standard plan",subscription,"USD per month",20.0000,100.00,0,5,14.99,20.00,1.0,https://kingy.ai/ai-price-index/2025-12/
+2025-12,"December 2025",2025-12-01,yes,top,"Top plan",subscription,"USD per month",,,,2,200.00,200.00,1.0,https://kingy.ai/ai-price-index/2025-12/
+2026-01,"January 2026",2026-01-01,yes,frontier,"Frontier models",api,"USD per 1M tokens, 3:1 input:output blend",4.6563,103.47,17.3,6,0.3150,10.0000,1.0,https://kingy.ai/ai-price-index/2026-01/
+2026-01,"January 2026",2026-01-01,yes,mid,"Mid-range models",api,"USD per 1M tokens, 3:1 input:output blend",0.9625,24.06,16.7,4,0.6875,6.0000,1.0,https://kingy.ai/ai-price-index/2026-01/
+2026-01,"January 2026",2026-01-01,yes,small,"Small models",api,"USD per 1M tokens, 3:1 input:output blend",0.2250,42.86,28.6,4,0.1500,2.0000,1.0,https://kingy.ai/ai-price-index/2026-01/
+2026-01,"January 2026",2026-01-01,yes,standard,"Standard plan",subscription,"USD per month",20.0000,100.00,0,5,14.99,20.00,1.0,https://kingy.ai/ai-price-index/2026-01/
+2026-01,"January 2026",2026-01-01,yes,top,"Top plan",subscription,"USD per month",200.0000,100.00,,4,200.00,249.99,1.0,https://kingy.ai/ai-price-index/2026-01/
+2026-02,"February 2026",2026-02-01,yes,frontier,"Frontier models",api,"USD per 1M tokens, 3:1 input:output blend",4.6563,103.47,-0,6,0.3150,10.0000,1.0,https://kingy.ai/ai-price-index/2026-02/
+2026-02,"February 2026",2026-02-01,yes,mid,"Mid-range models",api,"USD per 1M tokens, 3:1 input:output blend",0.9625,24.06,0,4,0.6875,6.0000,1.0,https://kingy.ai/ai-price-index/2026-02/
+2026-02,"February 2026",2026-02-01,yes,small,"Small models",api,"USD per 1M tokens, 3:1 input:output blend",0.2250,42.86,0,4,0.1500,2.0000,1.0,https://kingy.ai/ai-price-index/2026-02/
+2026-02,"February 2026",2026-02-01,yes,standard,"Standard plan",subscription,"USD per month",20.0000,100.00,0,5,14.99,20.00,1.0,https://kingy.ai/ai-price-index/2026-02/
+2026-02,"February 2026",2026-02-01,yes,top,"Top plan",subscription,"USD per month",200.0000,100.00,0,4,200.00,249.99,1.0,https://kingy.ai/ai-price-index/2026-02/
+2026-03,"March 2026",2026-03-01,yes,frontier,"Frontier models",api,"USD per 1M tokens, 3:1 input:output blend",4.6563,103.47,-0,6,0.3150,10.0000,1.0,https://kingy.ai/ai-price-index/2026-03/
+2026-03,"March 2026",2026-03-01,yes,mid,"Mid-range models",api,"USD per 1M tokens, 3:1 input:output blend",0.9625,24.06,0,4,0.6875,6.0000,1.0,https://kingy.ai/ai-price-index/2026-03/
+2026-03,"March 2026",2026-03-01,yes,small,"Small models",api,"USD per 1M tokens, 3:1 input:output blend",0.2250,42.86,0,4,0.1500,2.0000,1.0,https://kingy.ai/ai-price-index/2026-03/
+2026-03,"March 2026",2026-03-01,yes,standard,"Standard plan",subscription,"USD per month",20.0000,100.00,0,4,14.99,20.00,1.0,https://kingy.ai/ai-price-index/2026-03/
+2026-03,"March 2026",2026-03-01,yes,top,"Top plan",subscription,"USD per month",200.0000,100.00,0,3,200.00,200.00,1.0,https://kingy.ai/ai-price-index/2026-03/
+2026-04,"April 2026",2026-04-01,yes,frontier,"Frontier models",api,"USD per 1M tokens, 3:1 input:output blend",3.7500,83.33,-19.5,6,0.3150,10.0000,1.0,https://kingy.ai/ai-price-index/2026-04/
+2026-04,"April 2026",2026-04-01,yes,mid,"Mid-range models",api,"USD per 1M tokens, 3:1 input:output blend",1.4063,35.16,46.1,4,0.8000,6.0000,1.0,https://kingy.ai/ai-price-index/2026-04/
+2026-04,"April 2026",2026-04-01,yes,small,"Small models",api,"USD per 1M tokens, 3:1 input:output blend",0.4625,88.10,105.6,5,0.2625,2.0000,1.0,https://kingy.ai/ai-price-index/2026-04/
+2026-04,"April 2026",2026-04-01,yes,standard,"Standard plan",subscription,"USD per month",19.9950,99.98,-0,4,14.99,20.00,1.0,https://kingy.ai/ai-price-index/2026-04/
+2026-04,"April 2026",2026-04-01,yes,top,"Top plan",subscription,"USD per month",200.0000,100.00,0,4,200.00,249.99,1.0,https://kingy.ai/ai-price-index/2026-04/
+2026-05,"May 2026",2026-05-01,yes,frontier,"Frontier models",api,"USD per 1M tokens, 3:1 input:output blend",3.7500,83.33,0,6,0.5438,11.2500,1.0,https://kingy.ai/ai-price-index/2026-05/
+2026-05,"May 2026",2026-05-01,yes,mid,"Mid-range models",api,"USD per 1M tokens, 3:1 input:output blend",1.4063,35.16,-0,4,0.8000,6.0000,1.0,https://kingy.ai/ai-price-index/2026-05/
+2026-05,"May 2026",2026-05-01,yes,small,"Small models",api,"USD per 1M tokens, 3:1 input:output blend",0.3688,70.25,-20.3,6,0.1750,2.0000,1.0,https://kingy.ai/ai-price-index/2026-05/
+2026-05,"May 2026",2026-05-01,yes,standard,"Standard plan",subscription,"USD per month",20.0000,100.00,0,5,14.99,20.00,1.0,https://kingy.ai/ai-price-index/2026-05/
+2026-05,"May 2026",2026-05-01,yes,top,"Top plan",subscription,"USD per month",200.0000,100.00,0,4,200.00,249.99,1.0,https://kingy.ai/ai-price-index/2026-05/
+2026-06,"June 2026",2026-06-01,yes,frontier,"Frontier models",api,"USD per 1M tokens, 3:1 input:output blend",4.5000,100.00,20,5,0.7500,11.2500,1.0,https://kingy.ai/ai-price-index/2026-06/
+2026-06,"June 2026",2026-06-01,yes,mid,"Mid-range models",api,"USD per 1M tokens, 3:1 input:output blend",3.3750,84.38,140,3,1.6875,6.0000,1.0,https://kingy.ai/ai-price-index/2026-06/
+2026-06,"June 2026",2026-06-01,yes,small,"Small models",api,"USD per 1M tokens, 3:1 input:output blend",0.4625,88.10,25.4,5,0.1500,2.0000,1.0,https://kingy.ai/ai-price-index/2026-06/
+2026-06,"June 2026",2026-06-01,yes,standard,"Standard plan",subscription,"USD per month",20.0000,100.00,0,5,14.99,30.00,1.0,https://kingy.ai/ai-price-index/2026-06/
+2026-06,"June 2026",2026-06-01,yes,top,"Top plan",subscription,"USD per month",200.0000,100.00,0,3,199.99,200.00,1.0,https://kingy.ai/ai-price-index/2026-06/
+2026-07,"July 2026",2026-07-01,yes,frontier,"Frontier models",api,"USD per 1M tokens, 3:1 input:output blend",3.0313,67.36,-32.6,6,0.5438,20.0000,1.0,https://kingy.ai/ai-price-index/2026-07/
+2026-07,"July 2026",2026-07-01,yes,mid,"Mid-range models",api,"USD per 1M tokens, 3:1 input:output blend",3.1875,79.69,-5.6,4,1.6875,6.0000,1.0,https://kingy.ai/ai-price-index/2026-07/
+2026-07,"July 2026",2026-07-01,yes,small,"Small models",api,"USD per 1M tokens, 3:1 input:output blend",0.4625,88.10,0,5,0.1750,2.0000,1.0,https://kingy.ai/ai-price-index/2026-07/
+2026-07,"July 2026",2026-07-01,yes,standard,"Standard plan",subscription,"USD per month",20.0000,100.00,0,4,14.99,30.00,1.0,https://kingy.ai/ai-price-index/2026-07/
+2026-07,"July 2026",2026-07-01,yes,top,"Top plan",subscription,"USD per month",,,,2,200.00,200.00,1.0,https://kingy.ai/ai-price-index/2026-07/
+2026-08,"August 2026",2026-08-01,yes,frontier,"Frontier models",api,"USD per 1M tokens, 3:1 input:output blend",4.5000,100.00,48.5,5,0.5438,20.0000,1.0,https://kingy.ai/ai-price-index/2026-08/
+2026-08,"August 2026",2026-08-01,yes,mid,"Mid-range models",api,"USD per 1M tokens, 3:1 input:output blend",4.0000,100.00,25.5,3,3.0000,4.5000,1.0,https://kingy.ai/ai-price-index/2026-08/
+2026-08,"August 2026",2026-08-01,yes,small,"Small models",api,"USD per 1M tokens, 3:1 input:output blend",0.6500,123.81,40.5,4,0.1750,2.0000,1.0,https://kingy.ai/ai-price-index/2026-08/
+2026-08,"August 2026",2026-08-01,yes,standard,"Standard plan",subscription,"USD per month",20.0000,100.00,0,5,14.99,30.00,1.0,https://kingy.ai/ai-price-index/2026-08/
+2026-08,"August 2026",2026-08-01,yes,top,"Top plan",subscription,"USD per month",200.0000,100.00,,4,199.99,200.00,1.0,https://kingy.ai/ai-price-index/2026-08/
+2026-09,"September 2026",2026-09-20,yes,frontier,"Frontier models",api,"USD per 1M tokens, 3:1 input:output blend",4.5000,100.00,,7,1.9800,20.0000,1.0,https://kingy.ai/ai-price-index/2026-09/
+2026-09,"September 2026",2026-09-20,yes,mid,"Mid-range models",api,"USD per 1M tokens, 3:1 input:output blend",4.0000,100.00,,3,1.5000,4.5000,1.0,https://kingy.ai/ai-price-index/2026-09/
+2026-09,"September 2026",2026-09-20,yes,small,"Small models",api,"USD per 1M tokens, 3:1 input:output blend",0.5250,100.00,,5,0.2625,2.0000,1.0,https://kingy.ai/ai-price-index/2026-09/
+2026-09,"September 2026",2026-09-20,yes,standard,"Standard plan",subscription,"USD per month",20.0000,100.00,,5,14.99,20.00,1.0,https://kingy.ai/ai-price-index/2026-09/
+2026-09,"September 2026",2026-09-20,yes,top,"Top plan",subscription,"USD per month",200.0000,100.00,,4,199.99,200.00,1.0,https://kingy.ai/ai-price-index/2026-09/
+2026-10,"October 2026",2026-10-19,no,frontier,"Frontier models",api,"USD per 1M tokens, 3:1 input:output blend",4.0000,88.89,-11.1,7,1.9800,20.0000,1.0,https://kingy.ai/ai-price-index/2026-10/
+2026-10,"October 2026",2026-10-19,no,mid,"Mid-range models",api,"USD per 1M tokens, 3:1 input:output blend",4.0000,100.00,0,3,1.5000,4.0000,1.0,https://kingy.ai/ai-price-index/2026-10/
+2026-10,"October 2026",2026-10-19,no,small,"Small models",api,"USD per 1M tokens, 3:1 input:output blend",0.2625,50.00,-50,5,0.2000,0.8500,1.0,https://kingy.ai/ai-price-index/2026-10/
+2026-10,"October 2026",2026-10-19,no,standard,"Standard plan",subscription,"USD per month",20.0000,100.00,0,6,14.99,30.00,1.0,https://kingy.ai/ai-price-index/2026-10/
+2026-10,"October 2026",2026-10-19,no,top,"Top plan",subscription,"USD per month",200.0000,100.00,0,5,199.99,500.00,1.0,https://kingy.ai/ai-price-index/2026-10/
+2026-11,"November 2026",2026-11-01,no,frontier,"Frontier models",api,"USD per 1M tokens, 3:1 input:output blend",4.0000,88.89,0,6,1.9800,20.0000,1.0,https://kingy.ai/ai-price-index/2026-11/
+2026-11,"November 2026",2026-11-01,no,mid,"Mid-range models",api,"USD per 1M tokens, 3:1 input:output blend",4.0000,100.00,0,3,1.5000,4.0000,1.0,https://kingy.ai/ai-price-index/2026-11/
+2026-11,"November 2026",2026-11-01,no,small,"Small models",api,"USD per 1M tokens, 3:1 input:output blend",0.2625,50.00,0,5,0.2000,0.8500,1.0,https://kingy.ai/ai-price-index/2026-11/
+2026-11,"November 2026",2026-11-01,no,standard,"Standard plan",subscription,"USD per month",20.0000,100.00,0,6,14.99,30.00,1.0,https://kingy.ai/ai-price-index/2026-11/
+2026-11,"November 2026",2026-11-01,no,top,"Top plan",subscription,"USD per month",200.0000,100.00,0,5,199.99,500.00,1.0,https://kingy.ai/ai-price-index/2026-11/

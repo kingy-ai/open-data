@@ -1,0 +1,739 @@
+{
+ "as_of": "2026-11-04",
+ "licence": "CC BY 4.0",
+ "cite": "Kingy AI, https://kingy.ai/ai-graveyard/",
+ "notes": [
+  "Scope: 25 selected historical events; not a complete census.",
+  "History stays dated even when a later source recheck fails; latest_source_recheck says whether Kingy could re-confirm it."
+ ],
+ "count": 25,
+ "records": [
+  {
+   "id": "gpt-4o-chatgpt",
+   "name": "GPT-4o in ChatGPT",
+   "group": "models",
+   "status": "retired",
+   "event": "App retirement 2026-02-13; Custom GPT exception ended 2026-04-03",
+   "event_date": "2026-04-03",
+   "date_precision": "day",
+   "summary": "GPT-4o left ChatGPT’s text-model selection, with a later cutoff for a Custom GPT exception. The announcement treated API, Voice and Images availability separately.",
+   "alternatives": [
+    "ChatGPT model release notes <https://help.openai.com/en/articles/9624314-model-release-notes>"
+   ],
+   "citations": [
+    {
+     "label": "OpenAI notice",
+     "url": "https://help.openai.com/en/articles/20001051-retiring-gpt-4o-and-other-chatgpt-models"
+    }
+   ],
+   "history_reviewed_on": "2026-10-01",
+   "latest_source_recheck": {
+    "confirmed": false,
+    "checked_at": null,
+    "note": "Source could not be rechecked. Historical evidence retained; review required."
+   },
+   "kingy_page": "https://kingy.ai/ai-graveyard/#gpt-4o-chatgpt",
+   "sources": []
+  },
+  {
+   "id": "claude-opus-3",
+   "name": "Claude Opus 3",
+   "group": "models",
+   "status": "retired",
+   "event": "Claude API retirement 2026-01-05",
+   "event_date": "2026-01-05",
+   "date_precision": "day",
+   "summary": "Anthropic retired claude-3-opus-20240229 on its API. This scoped record does not establish partner hosting availability.",
+   "alternatives": [
+    "Claude model directory <https://platform.claude.com/docs/en/about-claude/models/overview>"
+   ],
+   "citations": [
+    {
+     "label": "history",
+     "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-06-30-claude-opus-3-model"
+    }
+   ],
+   "history_reviewed_on": "2026-10-01",
+   "latest_source_recheck": {
+    "confirmed": true,
+    "checked_at": "2026-11-04T07:25:02.913922+00:00",
+    "note": "Relevant entity, date precision and lifecycle wording checked"
+   },
+   "kingy_page": "https://kingy.ai/ai-graveyard/#claude-opus-3",
+   "sources": []
+  },
+  {
+   "id": "rewind",
+   "name": "Rewind",
+   "group": "tools",
+   "status": "shutdown",
+   "event": "Capture disabled 2025-12-19",
+   "event_date": "2025-12-19",
+   "date_precision": "day",
+   "summary": "The Rewind update disabled screen and audio capture. The vendor separately described continued access to earlier Limitless meeting recordings and Pendant support; those are separate scopes.",
+   "alternatives": [],
+   "citations": [
+    {
+     "label": "Limitless FAQ",
+     "url": "https://www.limitless.ai/"
+    }
+   ],
+   "history_reviewed_on": "2026-10-01",
+   "latest_source_recheck": {
+    "confirmed": false,
+    "checked_at": null,
+    "note": "Source could not be rechecked. Historical evidence retained; review required."
+   },
+   "kingy_page": "https://kingy.ai/ai-graveyard/#rewind",
+   "sources": []
+  },
+  {
+   "id": "claude-sonnet-3-5",
+   "name": "Claude Sonnet 3.5",
+   "group": "models",
+   "status": "retired",
+   "event": "Claude API retirement 2025-10-28",
+   "event_date": "2025-10-28",
+   "date_precision": "day",
+   "summary": "Anthropic retired both listed Claude Sonnet 3.5 API snapshots in one event. Partner-operated deployments have separate lifecycle policies.",
+   "alternatives": [
+    "Claude model directory <https://platform.claude.com/docs/en/about-claude/models/overview>"
+   ],
+   "citations": [
+    {
+     "label": "history",
+     "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-08-13-claude-sonnet-35-models"
+    }
+   ],
+   "history_reviewed_on": "2026-10-01",
+   "latest_source_recheck": {
+    "confirmed": true,
+    "checked_at": "2026-11-04T07:25:02.913922+00:00",
+    "note": "Relevant entity, date precision and lifecycle wording checked"
+   },
+   "kingy_page": "https://kingy.ai/ai-graveyard/#claude-sonnet-3-5",
+   "sources": []
+  },
+  {
+   "id": "claude-2-1",
+   "name": "Claude 2.1",
+   "group": "models",
+   "status": "retired",
+   "event": "Claude API retirement 2025-07-21",
+   "event_date": "2025-07-21",
+   "date_precision": "day",
+   "summary": "Anthropic retired claude-2.1 on its own API. Amazon Bedrock and Google Cloud operate their own schedules; this date is not a universal hosted-model cutoff.",
+   "alternatives": [
+    "Claude model directory <https://platform.claude.com/docs/en/about-claude/models/overview>"
+   ],
+   "citations": [
+    {
+     "label": "history",
+     "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-01-21-claude-2-claude-21-and-claude-sonnet-3-models"
+    }
+   ],
+   "history_reviewed_on": "2026-10-01",
+   "latest_source_recheck": {
+    "confirmed": true,
+    "checked_at": "2026-11-04T07:25:02.913922+00:00",
+    "note": "Relevant entity, date precision and lifecycle wording checked"
+   },
+   "kingy_page": "https://kingy.ai/ai-graveyard/#claude-2-1",
+   "sources": []
+  },
+  {
+   "id": "gpt-4-5-preview",
+   "name": "GPT-4.5 Preview",
+   "group": "models",
+   "status": "retired",
+   "event": "OpenAI API retirement 2025-07-14",
+   "event_date": "2025-07-14",
+   "date_precision": "day",
+   "summary": "OpenAI retired GPT-4.5 Preview from its API. The alias and dated snapshot belong to one retirement event; a model’s legacy documentation page does not prove it is callable.",
+   "alternatives": [
+    "OpenAI supported models <https://developers.openai.com/api/docs/models>"
+   ],
+   "citations": [
+    {
+     "label": "history",
+     "url": "https://developers.openai.com/api/docs/deprecations#2025-04-14-gpt-45-preview"
+    }
+   ],
+   "history_reviewed_on": "2026-10-01",
+   "latest_source_recheck": {
+    "confirmed": true,
+    "checked_at": "2026-11-04T07:25:02.913922+00:00",
+    "note": "Relevant entity, date precision and lifecycle wording checked"
+   },
+   "kingy_page": "https://kingy.ai/ai-graveyard/#gpt-4-5-preview",
+   "sources": []
+  },
+  {
+   "id": "gpt-4-32k",
+   "name": "GPT-4-32K",
+   "group": "models",
+   "status": "retired",
+   "event": "OpenAI API retirement 2025-06-06",
+   "event_date": "2025-06-06",
+   "date_precision": "day",
+   "summary": "OpenAI retired the GPT-4-32K API alias and its older snapshots. An original successor recommendation is a historical fact and needs a new availability check before use.",
+   "alternatives": [
+    "OpenAI supported models <https://developers.openai.com/api/docs/models>"
+   ],
+   "citations": [
+    {
+     "label": "history",
+     "url": "https://developers.openai.com/api/docs/deprecations#2024-06-06-gpt-4-32k-and-vision-preview-models"
+    }
+   ],
+   "history_reviewed_on": "2026-10-01",
+   "latest_source_recheck": {
+    "confirmed": true,
+    "checked_at": "2026-11-04T07:25:02.913922+00:00",
+    "note": "Relevant entity, date precision and lifecycle wording checked"
+   },
+   "kingy_page": "https://kingy.ai/ai-graveyard/#gpt-4-32k",
+   "sources": []
+  },
+  {
+   "id": "tome-slides",
+   "name": "Tome Slides",
+   "group": "tools",
+   "status": "shutdown",
+   "event": "Hosted product sunset 2025-04-30",
+   "event_date": "2025-04-30",
+   "date_precision": "day",
+   "summary": "Tome announced its Slides sunset for April 30, 2025, with sign-in/content access ending after that date. It instructed users to migrate work beforehand, offered PDF export or support help, and said user data would be deleted after April 30. This archive cannot recover presentations.",
+   "alternatives": [
+    "Gamma <https://gamma.app/>"
+   ],
+   "citations": [
+    {
+     "label": "Vendor notice",
+     "url": "https://tome.app/help/en/articles/10744234-tome-slides-is-sunsetting-on-april-30th-2025"
+    },
+    {
+     "label": "Archived first-party notice (2025-04-10)",
+     "url": "https://web.archive.org/web/20250410120512id_/https://tome.app/help/en/articles/10744234-tome-slides-is-sunsetting-on-april-30th-2025"
+    }
+   ],
+   "history_reviewed_on": "2026-10-01",
+   "latest_source_recheck": {
+    "confirmed": false,
+    "checked_at": null,
+    "note": "Source could not be rechecked. Historical evidence retained; review required."
+   },
+   "kingy_page": "https://kingy.ai/ai-graveyard/#tome-slides",
+   "sources": []
+  },
+  {
+   "id": "gemini-1-0-pro",
+   "name": "Gemini 1.0 Pro",
+   "group": "models",
+   "status": "retired",
+   "event": "Google Cloud/Vertex retirement 2025-04-21",
+   "event_date": "2025-04-21",
+   "date_precision": "day",
+   "summary": "Google Cloud retired the listed Gemini 1.0 Pro managed-service versions. This source does not establish a consumer Gemini app or Developer API retirement date.",
+   "alternatives": [
+    "Google model lifecycle <https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions>"
+   ],
+   "citations": [
+    {
+     "label": "lifecycle table",
+     "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions#retired_models"
+    }
+   ],
+   "history_reviewed_on": "2026-10-01",
+   "latest_source_recheck": {
+    "confirmed": true,
+    "checked_at": "2026-11-04T07:25:02.913922+00:00",
+    "note": "Relevant entity, date precision and lifecycle wording checked"
+   },
+   "kingy_page": "https://kingy.ai/ai-graveyard/#gemini-1-0-pro",
+   "sources": []
+  },
+  {
+   "id": "text-bison",
+   "name": "PaLM text-bison",
+   "group": "models",
+   "status": "retired",
+   "event": "Google Cloud/Vertex retirement 2025-04-21",
+   "event_date": "2025-04-21",
+   "date_precision": "day",
+   "summary": "Google Cloud retired its text-bison managed-service family. The lifecycle table lists the family identifier; individual snapshot dates are not inferred.",
+   "alternatives": [
+    "Google model lifecycle <https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions>"
+   ],
+   "citations": [
+    {
+     "label": "lifecycle table",
+     "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions#retired_models"
+    }
+   ],
+   "history_reviewed_on": "2026-10-01",
+   "latest_source_recheck": {
+    "confirmed": true,
+    "checked_at": "2026-11-04T07:25:02.913922+00:00",
+    "note": "Relevant entity, date precision and lifecycle wording checked"
+   },
+   "kingy_page": "https://kingy.ai/ai-graveyard/#text-bison",
+   "sources": []
+  },
+  {
+   "id": "mistral-7b-v0-2",
+   "name": "Mistral 7B v0.2",
+   "group": "models",
+   "status": "retired",
+   "event": "Mistral hosted retirement 2025-03-30",
+   "event_date": "2025-03-30",
+   "date_precision": "day",
+   "summary": "Mistral marks the v0.2 hosted model retired while still linking Apache-2.0 downloadable weights. Provider-hosted retirement does not eliminate local use of the released weights.",
+   "alternatives": [
+    "Mistral model directory <https://docs.mistral.ai/models>"
+   ],
+   "citations": [
+    {
+     "label": "Model card",
+     "url": "https://docs.mistral.ai/models/mistral-7b-0-2"
+    },
+    {
+     "label": "hosted policy",
+     "url": "https://docs.mistral.ai/inference/model-lifecycle"
+    }
+   ],
+   "history_reviewed_on": "2026-10-01",
+   "latest_source_recheck": {
+    "confirmed": true,
+    "checked_at": "2026-11-04T07:25:02.913922+00:00",
+    "note": "Relevant entity, date precision and lifecycle wording checked"
+   },
+   "kingy_page": "https://kingy.ai/ai-graveyard/#mistral-7b-v0-2",
+   "sources": []
+  },
+  {
+   "id": "humane-ai-pin",
+   "name": "Humane Ai Pin",
+   "group": "tools",
+   "status": "shutdown",
+   "event": "Consumer service ended 2025-02-28, noon PST",
+   "event_date": "2025-02-28",
+   "date_precision": "day",
+   "summary": "Humane announced the end of consumer Ai Pin server connectivity and .Center access at noon PST on February 28, 2025. Its notice identified calling, messaging, AI queries/responses and cloud features, asked users to export pictures/videos/notes before the deadline, and said remaining consumer data would be permanently deleted at that time. The announced export deadline has passed.",
+   "alternatives": [],
+   "citations": [
+    {
+     "label": "Vendor notice",
+     "url": "https://support.humane.com/hc/en-us/articles/34374173951373-Important-Update-for-Consumer-Ai-Pin-Customers"
+    },
+    {
+     "label": "Archived first-party notice (2025-02-19)",
+     "url": "https://web.archive.org/web/20250219110309id_/https://support.humane.com/hc/en-us/articles/34374173951373-Important-Update-for-Consumer-Ai-Pin-Customers"
+    }
+   ],
+   "history_reviewed_on": "2026-10-01",
+   "latest_source_recheck": {
+    "confirmed": false,
+    "checked_at": null,
+    "note": "Source could not be rechecked. Historical evidence retained; review required."
+   },
+   "kingy_page": "https://kingy.ai/ai-graveyard/#humane-ai-pin",
+   "sources": []
+  },
+  {
+   "id": "character-ai",
+   "name": "Character.AI",
+   "group": "transitions",
+   "status": "transition",
+   "event": "Google license / staff transfer 2024-08; announced 2024-08-02",
+   "event_date": "2024-08",
+   "date_precision": "month",
+   "summary": "Google obtained a non-exclusive technology license and hired some Character.AI employees. Character.AI continued its own consumer product. A licensing and staff transfer is not a product death.",
+   "alternatives": [],
+   "citations": [
+    {
+     "label": "Alphabet SEC filing",
+     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000118/goog-20240930.htm"
+    },
+    {
+     "label": "announcement report",
+     "url": "https://www.inc.com/reuters/characterai-signs-licensing-deal-with-google.html"
+    },
+    {
+     "label": "current product post",
+     "url": "https://blog.character.ai/new-styles-new-plan/"
+    }
+   ],
+   "history_reviewed_on": "2026-10-01",
+   "latest_source_recheck": {
+    "confirmed": true,
+    "checked_at": "2026-11-04T07:25:02.913922+00:00",
+    "note": "Relevant entity, date precision and lifecycle wording checked"
+   },
+   "kingy_page": "https://kingy.ai/ai-graveyard/#character-ai",
+   "sources": []
+  },
+  {
+   "id": "adept",
+   "name": "Adept",
+   "group": "transitions",
+   "status": "transition",
+   "event": "Pivot / staff and licensing transfer announced 2024-06-28",
+   "event_date": "2024-06-28",
+   "date_precision": "day",
+   "summary": "Adept announced an enterprise agent strategy, an Amazon technology license and departure of founders and some staff. This does not establish that Amazon acquired or shut down Adept.",
+   "alternatives": [],
+   "citations": [
+    {
+     "label": "Adept announcement",
+     "url": "https://adept.ai/blog/adept-update/"
+    }
+   ],
+   "history_reviewed_on": "2026-10-01",
+   "latest_source_recheck": {
+    "confirmed": false,
+    "checked_at": null,
+    "note": "Source could not be rechecked. Historical evidence retained; review required."
+   },
+   "kingy_page": "https://kingy.ai/ai-graveyard/#adept",
+   "sources": []
+  },
+  {
+   "id": "uizard",
+   "name": "Uizard",
+   "group": "transitions",
+   "status": "transition",
+   "event": "Miro acquisition announcements 2024-05-27 / 2024-06-12",
+   "event_date": "2024-05-27",
+   "date_precision": "day",
+   "summary": "Uizard joined Miro while retaining a standalone public product offer. Two official announcement dates are retained; a distinct closing date is unknown.",
+   "alternatives": [],
+   "citations": [
+    {
+     "label": "Uizard",
+     "url": "https://uizard.io/blog/uizard-joins-miro/"
+    },
+    {
+     "label": "Miro",
+     "url": "https://miro.com/blog/uizard-joins-miro/"
+    },
+    {
+     "label": "standalone offer",
+     "url": "https://uizard.io/pricing/"
+    }
+   ],
+   "history_reviewed_on": "2026-10-01",
+   "latest_source_recheck": {
+    "confirmed": true,
+    "checked_at": "2026-11-04T07:25:02.913922+00:00",
+    "note": "Relevant entity, date precision and lifecycle wording checked"
+   },
+   "kingy_page": "https://kingy.ai/ai-graveyard/#uizard",
+   "sources": []
+  },
+  {
+   "id": "google-keen",
+   "name": "Google Keen",
+   "group": "tools",
+   "status": "shutdown",
+   "event": "Shutdown 2024-03-24",
+   "event_date": "2024-03-24",
+   "date_precision": "day",
+   "summary": "Keen, Google’s machine-learning-assisted interest discovery experiment, closed. Its collections and associated content had a deletion deadline; the original sunset notice is no longer readable.",
+   "alternatives": [
+    "Feedly News Reader <https://feedly.com/news-reader>"
+   ],
+   "citations": [
+    {
+     "label": "Google introduction",
+     "url": "https://blog.google/innovation-and-ai/technology/area-120/keen/"
+    },
+    {
+     "label": "shutdown report",
+     "url": "https://9to5google.com/2024/03/14/google-area-120-keen-shut-down/"
+    }
+   ],
+   "history_reviewed_on": "2026-10-01",
+   "latest_source_recheck": {
+    "confirmed": true,
+    "checked_at": "2026-11-04T07:25:02.913922+00:00",
+    "note": "Relevant entity, date precision and lifecycle wording checked"
+   },
+   "kingy_page": "https://kingy.ai/ai-graveyard/#google-keen",
+   "sources": []
+  },
+  {
+   "id": "inflection-pi",
+   "name": "Inflection AI / Pi",
+   "group": "transitions",
+   "status": "transition",
+   "event": "Microsoft staff transfer / enterprise pivot announced 2024-03-19",
+   "event_date": "2024-03-19",
+   "date_precision": "day",
+   "summary": "Inflection changed leadership and business direction when founders and staff joined Microsoft. Pi continued as a consumer product; it belongs in the transitions view.",
+   "alternatives": [],
+   "citations": [
+    {
+     "label": "Microsoft",
+     "url": "https://blogs.microsoft.com/blog/2024/03/19/mustafa-suleyman-deepmind-and-inflection-co-founder-joins-microsoft-to-lead-copilot/"
+    },
+    {
+     "label": "Inflection update",
+     "url": "https://inflection.ai/blog/inflection-ai-is-shaping-the-future-of-personal-intelligence"
+    }
+   ],
+   "history_reviewed_on": "2026-10-01",
+   "latest_source_recheck": {
+    "confirmed": true,
+    "checked_at": "2026-11-04T07:25:02.913922+00:00",
+    "note": "Relevant entity, date precision and lifecycle wording checked"
+   },
+   "kingy_page": "https://kingy.ai/ai-graveyard/#inflection-pi",
+   "sources": []
+  },
+  {
+   "id": "text-davinci-003",
+   "name": "InstructGPT text-davinci-003",
+   "group": "models",
+   "status": "retired",
+   "event": "Completions API retirement 2024-01-04",
+   "event_date": "2024-01-04",
+   "date_precision": "day",
+   "summary": "OpenAI retired text-davinci-003 from the Completions API. Its original gpt-3.5-turbo-instruct successor later retired too; migration guidance must follow the current supported endpoint.",
+   "alternatives": [
+    "OpenAI supported models <https://developers.openai.com/api/docs/models>"
+   ],
+   "citations": [
+    {
+     "label": "History",
+     "url": "https://developers.openai.com/api/docs/deprecations#2023-07-06-gpt-and-embeddings"
+    },
+    {
+     "label": "original migration",
+     "url": "https://openai.com/index/gpt-4-api-general-availability/"
+    }
+   ],
+   "history_reviewed_on": "2026-10-01",
+   "latest_source_recheck": {
+    "confirmed": true,
+    "checked_at": "2026-11-04T07:25:02.913922+00:00",
+    "note": "Relevant entity, date precision and lifecycle wording checked"
+   },
+   "kingy_page": "https://kingy.ai/ai-graveyard/#text-davinci-003",
+   "sources": []
+  },
+  {
+   "id": "mosaicml",
+   "name": "MosaicML",
+   "group": "transitions",
+   "status": "transition",
+   "event": "Databricks acquisition completed 2023-07-19",
+   "event_date": "2023-07-19",
+   "date_precision": "day",
+   "summary": "Databricks acquired MosaicML and later integrated its model-building capabilities. This is platform lineage, not extinction of MPT weights or every former service.",
+   "alternatives": [],
+   "citations": [
+    {
+     "label": "Closing release",
+     "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-completes-acquisition-mosaicml"
+    },
+    {
+     "label": "integration",
+     "url": "https://www.databricks.com/blog/mosaic-ai-build-and-deploy-production-quality-compound-ai-systems"
+    }
+   ],
+   "history_reviewed_on": "2026-10-01",
+   "latest_source_recheck": {
+    "confirmed": true,
+    "checked_at": "2026-11-04T07:25:02.913922+00:00",
+    "note": "Relevant entity, date precision and lifecycle wording checked"
+   },
+   "kingy_page": "https://kingy.ai/ai-graveyard/#mosaicml",
+   "sources": []
+  },
+  {
+   "id": "neeva-search",
+   "name": "Neeva consumer search",
+   "group": "tools",
+   "status": "shutdown",
+   "event": "Closure 2023-06-02",
+   "event_date": "2023-06-02",
+   "date_precision": "day",
+   "summary": "Neeva closed its consumer search engine. Its enterprise technology had a separate continuation; this record concerns consumer search.",
+   "alternatives": [
+    "Perplexity <https://www.perplexity.ai/>"
+   ],
+   "citations": [
+    {
+     "label": "DOJ brief",
+     "url": "https://www.justice.gov/d9/2023-09/416366.pdf"
+    },
+    {
+     "label": "notice report",
+     "url": "https://coywolf.com/news/seo/neeva-shuts-down-search-engine-focus-on-ai-business/"
+    }
+   ],
+   "history_reviewed_on": "2026-10-01",
+   "latest_source_recheck": {
+    "confirmed": true,
+    "checked_at": "2026-11-04T07:25:02.913922+00:00",
+    "note": "Relevant entity, date precision and lifecycle wording checked"
+   },
+   "kingy_page": "https://kingy.ai/ai-graveyard/#neeva-search",
+   "sources": []
+  },
+  {
+   "id": "cortana-windows",
+   "name": "Cortana standalone Windows app",
+   "group": "tools",
+   "status": "shutdown",
+   "event": "Retired 2023",
+   "event_date": "2023",
+   "date_precision": "year",
+   "summary": "Microsoft retired Cortana as a standalone Windows assistant. Teams, Outlook and Microsoft 365 integrations ended on separate schedules. Sources disagree on the season, so the archive retains year precision.",
+   "alternatives": [
+    "Windows voice access <https://support.microsoft.com/en-us/windows/use-voice-access-to-control-your-pc-write-text-with-your-voice-4dcd23ee-f1b9-4fd1-bacc-862ab611f55d>"
+   ],
+   "citations": [
+    {
+     "label": "Microsoft support",
+     "url": "https://support.microsoft.com/en-us/cortana/end-of-support-for-cortana"
+    },
+    {
+     "label": "deprecation table",
+     "url": "https://learn.microsoft.com/windows/deployment/planning/windows-10-deprecated-features"
+    }
+   ],
+   "history_reviewed_on": "2026-10-01",
+   "latest_source_recheck": {
+    "confirmed": true,
+    "checked_at": "2026-11-04T07:25:02.913922+00:00",
+    "note": "Relevant entity, date precision and lifecycle wording checked"
+   },
+   "kingy_page": "https://kingy.ai/ai-graveyard/#cortana-windows",
+   "sources": []
+  },
+  {
+   "id": "duplex-web",
+   "name": "Duplex on the Web",
+   "group": "tools",
+   "status": "shutdown",
+   "event": "Support ended 2022-12",
+   "event_date": "2022-12",
+   "date_precision": "month",
+   "summary": "Google’s archived Search Console notice says Duplex on the Web was deprecated and would no longer be supported as of December 2022, including its enabled automation features. This concerns the web automation product; it does not establish retirement of every Duplex technology or a separately named crawler.",
+   "alternatives": [],
+   "citations": [
+    {
+     "label": "Notice reproduction",
+     "url": "https://searchengineland.com/google-shut-down-duplex-on-the-web-389999"
+    },
+    {
+     "label": "Google changelog",
+     "url": "https://developers.google.com/search/updates"
+    },
+    {
+     "label": "Archived first-party notice (2022-12-05)",
+     "url": "https://web.archive.org/web/20221205025858id_/https://support.google.com/webmasters/answer/9353008?hl=en"
+    }
+   ],
+   "history_reviewed_on": "2026-10-01",
+   "latest_source_recheck": {
+    "confirmed": false,
+    "checked_at": null,
+    "note": "Source could not be rechecked. Historical evidence retained; review required."
+   },
+   "kingy_page": "https://kingy.ai/ai-graveyard/#duplex-web",
+   "sources": []
+  },
+  {
+   "id": "x-ai-scheduler",
+   "name": "x.ai scheduling assistant",
+   "group": "tools",
+   "status": "shutdown",
+   "event": "Acquired, then sunset 2021-10-31",
+   "event_date": "2021-10-31",
+   "date_precision": "day",
+   "summary": "Bizzabo acquired the original Amy/Andrew AI scheduling service and sunset its standalone product. The original x.ai scheduler is unrelated to the later xAI/Grok company using a similar name.",
+   "alternatives": [
+    "Calendly <https://calendly.com/>"
+   ],
+   "citations": [
+    {
+     "label": "Bizzabo acquisition",
+     "url": "https://www.bizzabo.com/press_release/bizzabo-acquires-x-ai-to-launch-ai-powered-scheduling-accelerate-personalized-event-experiences"
+    },
+    {
+     "label": "preserved sunset notice, pp. 23–26",
+     "url": "https://assets.expopulus.com/Xai%20Lawsuit/Dkt.%201-7%202025.08.21%20Exhibits%20to%20Complaint%20%2827-37%29.pdf#page=23"
+    }
+   ],
+   "history_reviewed_on": "2026-10-01",
+   "latest_source_recheck": {
+    "confirmed": true,
+    "checked_at": "2026-11-04T07:25:02.913922+00:00",
+    "note": "Preserved reviewed primary PDF unchanged"
+   },
+   "kingy_page": "https://kingy.ai/ai-graveyard/#x-ai-scheduler",
+   "sources": []
+  },
+  {
+   "id": "google-allo",
+   "name": "Google Allo",
+   "group": "tools",
+   "status": "shutdown",
+   "event": "Retired 2019-03",
+   "event_date": "2019-03",
+   "date_precision": "month",
+   "summary": "Google stopped supporting the Allo messaging app, which included Google Assistant and machine-learning features. Google directed its messaging work toward Messages.",
+   "alternatives": [
+    "Google Messages <https://messages.google.com/>"
+   ],
+   "citations": [
+    {
+     "label": "Google announcement",
+     "url": "https://blog.google/products-and-platforms/products/messages/latest-messages-allo-duo-and-hangouts/"
+    }
+   ],
+   "history_reviewed_on": "2026-10-01",
+   "latest_source_recheck": {
+    "confirmed": true,
+    "checked_at": "2026-11-04T07:25:02.913922+00:00",
+    "note": "Relevant entity, date precision and lifecycle wording checked"
+   },
+   "kingy_page": "https://kingy.ai/ai-graveyard/#google-allo",
+   "sources": []
+  },
+  {
+   "id": "artifact",
+   "name": "Artifact standalone news app",
+   "group": "tools",
+   "status": "sunset-announced",
+   "event": "Sunset announced 2024-04-02; actual cutoff unknown",
+   "event_date": null,
+   "date_precision": "unknown",
+   "summary": "Yahoo acquired Artifact and announced the end of its standalone news app. Its personalization technology continued in Yahoo News. The exact last-service date was not established.",
+   "alternatives": [
+    "Feedly News Reader <https://feedly.com/news-reader>"
+   ],
+   "citations": [
+    {
+     "label": "Yahoo announcement",
+     "url": "https://unified.www.yahooinc.com/press/yahoo-announces-the-acquisition-of-artifact-the-news-discovery-platform-created-by-instagram-cofounders-kevin-systrom-and-mike-krieger"
+    },
+    {
+     "label": "Yahoo News continuation",
+     "url": "https://www.yahooinc.com/press/yahoo-news-app-reimagined-with-next-level-personalization-from-artifact"
+    }
+   ],
+   "history_reviewed_on": "2026-10-01",
+   "latest_source_recheck": {
+    "confirmed": true,
+    "checked_at": "2026-11-04T07:25:02.913922+00:00",
+    "note": "Relevant entity, date precision and lifecycle wording checked"
+   },
+   "kingy_page": "https://kingy.ai/ai-graveyard/#artifact",
+   "sources": []
+  }
+ ]
+}

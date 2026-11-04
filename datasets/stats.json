@@ -1,0 +1,375 @@
+{
+ "generated_at": "2026-11-04T08:53:37+00:00",
+ "licence": "CC BY 4.0",
+ "cite": "Kingy AI, https://kingy.ai/ai-by-the-numbers/",
+ "sections": {
+  "prices": {
+   "title": "AI prices",
+   "tracker": "https://kingy.ai/ai-price-index/",
+   "figures": {
+    "standard_median": {
+     "value": 20.0,
+     "as_of": "2026-11-01",
+     "source_url": "https://kingy.ai/ai-price-index/2026-11/",
+     "how": "Median list price of the Standard plan basket (6 constituents) in the November 2026 edition.",
+     "unit": "USD per month"
+    },
+    "standard_index_level": {
+     "value": 100.0,
+     "as_of": "2026-11-01",
+     "source_url": "https://kingy.ai/ai-price-index/2026-11/",
+     "how": "Index level, September 2026 = 100.",
+     "unit": "index"
+    },
+    "frontier_median": {
+     "value": 4.0,
+     "as_of": "2026-11-01",
+     "source_url": "https://kingy.ai/ai-price-index/2026-11/",
+     "how": "Median list price of the Frontier models basket (6 constituents) in the November 2026 edition.",
+     "unit": "USD per 1M tokens, 3:1 input:output blend"
+    },
+    "frontier_index_level": {
+     "value": 88.89,
+     "as_of": "2026-11-01",
+     "source_url": "https://kingy.ai/ai-price-index/2026-11/",
+     "how": "Index level, September 2026 = 100.",
+     "unit": "index"
+    },
+    "small_median": {
+     "value": 0.2625,
+     "as_of": "2026-11-01",
+     "source_url": "https://kingy.ai/ai-price-index/2026-11/",
+     "how": "Median list price of the Small models basket (5 constituents) in the November 2026 edition.",
+     "unit": "USD per 1M tokens, 3:1 input:output blend"
+    },
+    "small_index_level": {
+     "value": 50.0,
+     "as_of": "2026-11-01",
+     "source_url": "https://kingy.ai/ai-price-index/2026-11/",
+     "how": "Index level, September 2026 = 100.",
+     "unit": "index"
+    },
+    "mid_median": {
+     "value": 4.0,
+     "as_of": "2026-11-01",
+     "source_url": "https://kingy.ai/ai-price-index/2026-11/",
+     "how": "Median list price of the Mid-range models basket (3 constituents) in the November 2026 edition.",
+     "unit": "USD per 1M tokens, 3:1 input:output blend"
+    },
+    "mid_index_level": {
+     "value": 100.0,
+     "as_of": "2026-11-01",
+     "source_url": "https://kingy.ai/ai-price-index/2026-11/",
+     "how": "Index level, September 2026 = 100.",
+     "unit": "index"
+    },
+    "top_median": {
+     "value": 200.0,
+     "as_of": "2026-11-01",
+     "source_url": "https://kingy.ai/ai-price-index/2026-11/",
+     "how": "Median list price of the Top plan basket (5 constituents) in the November 2026 edition.",
+     "unit": "USD per month"
+    },
+    "top_index_level": {
+     "value": 100.0,
+     "as_of": "2026-11-01",
+     "source_url": "https://kingy.ai/ai-price-index/2026-11/",
+     "how": "Index level, September 2026 = 100.",
+     "unit": "index"
+    },
+    "editions": {
+     "value": 35,
+     "as_of": "2026-11-04",
+     "source_url": "https://kingy.ai/ai-price-index/",
+     "how": "Editions published or reconstructed (one per month).",
+     "unit": "editions"
+    },
+    "prices_tracked": {
+     "value": 640,
+     "as_of": "2026-11-04",
+     "source_url": "https://kingy.ai/ai-price-index/data/kingy-ai-price-index-prices.csv",
+     "how": "Rows in the all-prices file: one per model or plan per edition, each with its source and archive hash.",
+     "unit": "rows"
+    },
+    "providers": {
+     "value": 8,
+     "as_of": "2026-11-04",
+     "source_url": "https://kingy.ai/ai-price-index/",
+     "how": "Distinct providers in the all-prices file.",
+     "unit": "providers"
+    }
+   }
+  },
+  "launches": {
+   "title": "AI launches",
+   "tracker": "https://kingy.ai/ai-launch-tracker/",
+   "figures": {
+    "records": {
+     "value": 373,
+     "as_of": "2026-11-04",
+     "source_url": "https://kingy.ai/ai-launch-tracker/",
+     "how": "Launch records on the tracker.",
+     "unit": "records"
+    },
+    "last_12_months": {
+     "value": [
+      {
+       "month": "2025-12",
+       "launches": 3
+      },
+      {
+       "month": "2026-01",
+       "launches": 1
+      },
+      {
+       "month": "2026-02",
+       "launches": 11
+      },
+      {
+       "month": "2026-03",
+       "launches": 3
+      },
+      {
+       "month": "2026-04",
+       "launches": 8
+      },
+      {
+       "month": "2026-05",
+       "launches": 11
+      },
+      {
+       "month": "2026-06",
+       "launches": 87
+      },
+      {
+       "month": "2026-07",
+       "launches": 51
+      },
+      {
+       "month": "2026-08",
+       "launches": 9
+      },
+      {
+       "month": "2026-09",
+       "launches": 50
+      },
+      {
+       "month": "2026-10",
+       "launches": 20
+      },
+      {
+       "month": "2026-11",
+       "launches": 0
+      }
+     ],
+     "as_of": "2026-11-04",
+     "source_url": "https://kingy.ai/ai-launch-tracker/",
+     "how": "Records per month by launch_date (falling back to the record's publish date).",
+     "unit": "records per month"
+    },
+    "last_30_days": {
+     "value": 9,
+     "as_of": "2026-11-04",
+     "source_url": "https://kingy.ai/ai-launch-tracker/",
+     "how": "Records with a launch_date in the last 30 days.",
+     "unit": "records"
+    },
+    "by_type": {
+     "value": {
+      "Major Update": 116,
+      "New Product": 90,
+      "Model Release": 71,
+      "Open-Source Release": 31,
+      "Funding": 9
+     },
+     "as_of": "2026-11-04",
+     "source_url": "https://kingy.ai/ai-launch-tracker/",
+     "how": "Records per launch type (a record can carry several).",
+     "unit": "records"
+    },
+    "top_companies": {
+     "value": {
+      "OpenAI": 66,
+      "GitHub": 31,
+      "Anthropic": 30,
+      "Google": 28,
+      "Microsoft": 12,
+      "Mistral AI": 11,
+      "Amazon Web Services": 8,
+      "Meta": 8,
+      "Replit": 6,
+      "Google DeepMind": 6
+     },
+     "as_of": "2026-11-04",
+     "source_url": "https://kingy.ai/ai-launch-tracker/",
+     "how": "Companies with the most tracked records.",
+     "unit": "records"
+    },
+    "open_weight_share": {
+     "value": 16.6,
+     "as_of": "2026-11-04",
+     "source_url": "https://kingy.ai/ai-launch-tracker/",
+     "how": "Share of records whose open_source_or_open_weight field says yes.",
+     "unit": "%"
+    },
+    "days_since_last_launch": {
+     "value": 6,
+     "as_of": "2026-11-04",
+     "source_url": "https://kingy.ai/ai-launch-tracker/",
+     "how": "Days since the most recent launch_date (2026-10-29).",
+     "unit": "days"
+    }
+   }
+  },
+  "shutdowns_deadlines": {
+   "title": "Retirements, shutdowns and deadlines",
+   "tracker": "https://kingy.ai/tools/ai-deadlines/",
+   "figures": {
+    "shutdown_records": {
+     "value": 25,
+     "as_of": "2026-11-04",
+     "source_url": "https://kingy.ai/wp-json/kingy-facts/v1/shutdowns",
+     "how": "Retired or shut-down records in the Kingy Facts shutdowns dataset.",
+     "unit": "records"
+    },
+    "shutdowns_by_status": {
+     "value": {
+      "retired": 10,
+      "shutdown": 9,
+      "transition": 5,
+      "sunset-announced": 1
+     },
+     "as_of": "2026-11-04",
+     "source_url": "https://kingy.ai/wp-json/kingy-facts/v1/shutdowns",
+     "how": "Records per status.",
+     "unit": "records"
+    },
+    "shutdowns_by_group": {
+     "value": {
+      "models": 10,
+      "tools": 10,
+      "transitions": 5
+     },
+     "as_of": "2026-11-04",
+     "source_url": "https://kingy.ai/wp-json/kingy-facts/v1/shutdowns",
+     "how": "Records per group (models, apps, plans…).",
+     "unit": "records"
+    },
+    "deadlines_tracked": {
+     "value": 24,
+     "as_of": "2026-11-04",
+     "source_url": "https://kingy.ai/tools/ai-deadlines/",
+     "how": "Records in the AI Deadlines catalog.",
+     "unit": "records"
+    },
+    "deadlines_upcoming": {
+     "value": 10,
+     "as_of": "2026-11-04",
+     "source_url": "https://kingy.ai/tools/ai-deadlines/",
+     "how": "Catalog records dated today or later.",
+     "unit": "records"
+    },
+    "deadlines_past": {
+     "value": 12,
+     "as_of": "2026-11-04",
+     "source_url": "https://kingy.ai/tools/ai-deadlines/",
+     "how": "Catalog records dated before today (historical, kept for the record).",
+     "unit": "records"
+    },
+    "deadlines_undated": {
+     "value": 2,
+     "as_of": "2026-11-04",
+     "source_url": "https://kingy.ai/tools/ai-deadlines/",
+     "how": "Catalog records with no firm date yet (announced, date to be set).",
+     "unit": "records"
+    },
+    "next_deadlines": {
+     "value": [
+      {
+       "date": "2026-11-17",
+       "name": "Gemini 3.1 Flash TTS Preview",
+       "provider": "Google",
+       "url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
+      {
+       "date": "2026-11-30",
+       "name": "OpenAI Agent Builder shutdown deadline: November 30, 2026",
+       "provider": "OpenAI",
+       "url": "https://kingy.ai/ai-launch-tracker/openai-agent-builder-is-scheduled-to-shut-down-november-30/"
+      },
+      {
+       "date": "2026-11-30",
+       "name": "Claude Sonnet 4.5",
+       "provider": "Anthropic",
+       "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations"
+      },
+      {
+       "date": "2026-11-30",
+       "name": "OpenAI Evals shutdown",
+       "provider": "OpenAI",
+       "url": "https://developers.openai.com/api/docs/deprecations"
+      },
+      {
+       "date": "2026-11-30",
+       "name": "OpenAI reusable prompt objects",
+       "provider": "OpenAI",
+       "url": "https://developers.openai.com/api/docs/deprecations"
+      }
+     ],
+     "as_of": "2026-11-04",
+     "source_url": "https://kingy.ai/tools/ai-deadlines/",
+     "how": "The next five dated deadlines."
+    },
+    "deadline_providers": {
+     "value": {
+      "Anthropic": 3,
+      "Google": 8,
+      "OpenAI": 13
+     },
+     "as_of": "2026-11-04",
+     "source_url": "https://kingy.ai/tools/ai-deadlines/",
+     "how": "Catalog records per provider.",
+     "unit": "records"
+    }
+   }
+  },
+  "facts": {
+   "title": "Kingy Facts (live API)",
+   "tracker": "https://kingy.ai/mcp",
+   "figures": {
+    "prices_records": {
+     "value": 12,
+     "as_of": "2026-11-04T08:53:37+00:00",
+     "source_url": "https://kingy.ai/wp-json/kingy-facts/v1/prices",
+     "how": "Records the Kingy Facts API returns for API prices; 'current' price rows are re-verified within six hours.",
+     "unit": "records"
+    },
+    "prices_by_state": {
+     "value": {
+      "current": 12,
+      "held": 0,
+      "expired": 0
+     },
+     "as_of": "2026-11-04T08:53:37+00:00",
+     "source_url": "https://kingy.ai/wp-json/kingy-facts/v1/prices",
+     "how": "Rows per verification state (current / held / …).",
+     "unit": "rows"
+    },
+    "plans_records": {
+     "value": 14,
+     "as_of": "2026-11-04T08:53:37+00:00",
+     "source_url": "https://kingy.ai/wp-json/kingy-facts/v1/plans",
+     "how": "Records the Kingy Facts API returns for subscription plans; 'current' price rows are re-verified within six hours.",
+     "unit": "records"
+    },
+    "limits_records": {
+     "value": 18,
+     "as_of": "2026-11-04T08:53:37+00:00",
+     "source_url": "https://kingy.ai/wp-json/kingy-facts/v1/limits",
+     "how": "Records the Kingy Facts API returns for usage limits; 'current' price rows are re-verified within six hours.",
+     "unit": "records"
+    }
+   }
+  }
+ }
+}
