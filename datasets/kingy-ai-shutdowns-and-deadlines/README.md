@@ -2,7 +2,7 @@
 
 Part of **Kingy Open AI Data** — datasets Kingy AI already publishes, packaged for reuse.
 Source tracker: https://kingy.ai/tools/ai-deadlines/
-As of: 2026-11-04 (export 2026-11-04T08:53:37+00:00). Licence: **CC BY 4.0**. Cite as: "Kingy AI, https://kingy.ai/tools/ai-deadlines/" with a link.
+As of: 2026-11-04 (export 2026-11-04T20:33:27+00:00). Licence: **CC BY 4.0**. Cite as: "Kingy AI, https://kingy.ai/tools/ai-deadlines/" with a link.
 
 ## What it measures
 Two tables. `shutdowns`: AI products, models and plans that were retired or shut down, with the event date, date precision, a plain summary and official alternatives (from the Kingy Facts API). `deadlines`: selected upcoming and historical retirement and operational deadlines with provider, date, precision, certainty, scope, the action Kingy suggests, the official source and a dated revision history (from the AI Deadlines catalog).

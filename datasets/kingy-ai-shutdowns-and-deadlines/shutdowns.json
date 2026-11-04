@@ -56,7 +56,7 @@
    "history_reviewed_on": "2026-10-01",
    "latest_source_recheck": {
     "confirmed": true,
-    "checked_at": "2026-11-04T07:25:02.913922+00:00",
+    "checked_at": "2026-11-04T19:25:01.517612+00:00",
     "note": "Relevant entity, date precision and lifecycle wording checked"
    },
    "kingy_page": "https://kingy.ai/ai-graveyard/#claude-opus-3",
@@ -80,9 +80,9 @@
    ],
    "history_reviewed_on": "2026-10-01",
    "latest_source_recheck": {
-    "confirmed": false,
-    "checked_at": null,
-    "note": "Source could not be rechecked. Historical evidence retained; review required."
+    "confirmed": true,
+    "checked_at": "2026-11-04T19:25:01.517612+00:00",
+    "note": "Relevant entity, date precision and lifecycle wording checked"
    },
    "kingy_page": "https://kingy.ai/ai-graveyard/#rewind",
    "sources": []
@@ -108,7 +108,7 @@
    "history_reviewed_on": "2026-10-01",
    "latest_source_recheck": {
     "confirmed": true,
-    "checked_at": "2026-11-04T07:25:02.913922+00:00",
+    "checked_at": "2026-11-04T19:25:01.517612+00:00",
     "note": "Relevant entity, date precision and lifecycle wording checked"
    },
    "kingy_page": "https://kingy.ai/ai-graveyard/#claude-sonnet-3-5",
@@ -135,7 +135,7 @@
    "history_reviewed_on": "2026-10-01",
    "latest_source_recheck": {
     "confirmed": true,
-    "checked_at": "2026-11-04T07:25:02.913922+00:00",
+    "checked_at": "2026-11-04T19:25:01.517612+00:00",
     "note": "Relevant entity, date precision and lifecycle wording checked"
    },
    "kingy_page": "https://kingy.ai/ai-graveyard/#claude-2-1",
@@ -162,7 +162,7 @@
    "history_reviewed_on": "2026-10-01",
    "latest_source_recheck": {
     "confirmed": true,
-    "checked_at": "2026-11-04T07:25:02.913922+00:00",
+    "checked_at": "2026-11-04T19:25:01.517612+00:00",
     "note": "Relevant entity, date precision and lifecycle wording checked"
    },
    "kingy_page": "https://kingy.ai/ai-graveyard/#gpt-4-5-preview",
@@ -189,7 +189,7 @@
    "history_reviewed_on": "2026-10-01",
    "latest_source_recheck": {
     "confirmed": true,
-    "checked_at": "2026-11-04T07:25:02.913922+00:00",
+    "checked_at": "2026-11-04T19:25:01.517612+00:00",
     "note": "Relevant entity, date precision and lifecycle wording checked"
    },
    "kingy_page": "https://kingy.ai/ai-graveyard/#gpt-4-32k",
@@ -247,7 +247,7 @@
    "history_reviewed_on": "2026-10-01",
    "latest_source_recheck": {
     "confirmed": true,
-    "checked_at": "2026-11-04T07:25:02.913922+00:00",
+    "checked_at": "2026-11-04T19:25:01.517612+00:00",
     "note": "Relevant entity, date precision and lifecycle wording checked"
    },
    "kingy_page": "https://kingy.ai/ai-graveyard/#gemini-1-0-pro",
@@ -274,7 +274,7 @@
    "history_reviewed_on": "2026-10-01",
    "latest_source_recheck": {
     "confirmed": true,
-    "checked_at": "2026-11-04T07:25:02.913922+00:00",
+    "checked_at": "2026-11-04T19:25:01.517612+00:00",
     "note": "Relevant entity, date precision and lifecycle wording checked"
    },
    "kingy_page": "https://kingy.ai/ai-graveyard/#text-bison",
@@ -305,7 +305,7 @@
    "history_reviewed_on": "2026-10-01",
    "latest_source_recheck": {
     "confirmed": true,
-    "checked_at": "2026-11-04T07:25:02.913922+00:00",
+    "checked_at": "2026-11-04T19:25:01.517612+00:00",
     "note": "Relevant entity, date precision and lifecycle wording checked"
    },
    "kingy_page": "https://kingy.ai/ai-graveyard/#mistral-7b-v0-2",
@@ -367,7 +367,7 @@
    "history_reviewed_on": "2026-10-01",
    "latest_source_recheck": {
     "confirmed": true,
-    "checked_at": "2026-11-04T07:25:02.913922+00:00",
+    "checked_at": "2026-11-04T19:25:01.517612+00:00",
     "note": "Relevant entity, date precision and lifecycle wording checked"
    },
    "kingy_page": "https://kingy.ai/ai-graveyard/#character-ai",
@@ -425,7 +425,7 @@
    "history_reviewed_on": "2026-10-01",
    "latest_source_recheck": {
     "confirmed": true,
-    "checked_at": "2026-11-04T07:25:02.913922+00:00",
+    "checked_at": "2026-11-04T19:25:01.517612+00:00",
     "note": "Relevant entity, date precision and lifecycle wording checked"
    },
    "kingy_page": "https://kingy.ai/ai-graveyard/#uizard",
@@ -456,7 +456,7 @@
    "history_reviewed_on": "2026-10-01",
    "latest_source_recheck": {
     "confirmed": true,
-    "checked_at": "2026-11-04T07:25:02.913922+00:00",
+    "checked_at": "2026-11-04T19:25:01.517612+00:00",
     "note": "Relevant entity, date precision and lifecycle wording checked"
    },
    "kingy_page": "https://kingy.ai/ai-graveyard/#google-keen",
@@ -485,7 +485,7 @@
    "history_reviewed_on": "2026-10-01",
    "latest_source_recheck": {
     "confirmed": true,
-    "checked_at": "2026-11-04T07:25:02.913922+00:00",
+    "checked_at": "2026-11-04T19:25:01.517612+00:00",
     "note": "Relevant entity, date precision and lifecycle wording checked"
    },
    "kingy_page": "https://kingy.ai/ai-graveyard/#inflection-pi",
@@ -516,7 +516,7 @@
    "history_reviewed_on": "2026-10-01",
    "latest_source_recheck": {
     "confirmed": true,
-    "checked_at": "2026-11-04T07:25:02.913922+00:00",
+    "checked_at": "2026-11-04T19:25:01.517612+00:00",
     "note": "Relevant entity, date precision and lifecycle wording checked"
    },
    "kingy_page": "https://kingy.ai/ai-graveyard/#text-davinci-003",
@@ -545,7 +545,7 @@
    "history_reviewed_on": "2026-10-01",
    "latest_source_recheck": {
     "confirmed": true,
-    "checked_at": "2026-11-04T07:25:02.913922+00:00",
+    "checked_at": "2026-11-04T19:25:01.517612+00:00",
     "note": "Relevant entity, date precision and lifecycle wording checked"
    },
    "kingy_page": "https://kingy.ai/ai-graveyard/#mosaicml",
@@ -576,7 +576,7 @@
    "history_reviewed_on": "2026-10-01",
    "latest_source_recheck": {
     "confirmed": true,
-    "checked_at": "2026-11-04T07:25:02.913922+00:00",
+    "checked_at": "2026-11-04T19:25:01.517612+00:00",
     "note": "Relevant entity, date precision and lifecycle wording checked"
    },
    "kingy_page": "https://kingy.ai/ai-graveyard/#neeva-search",
@@ -607,7 +607,7 @@
    "history_reviewed_on": "2026-10-01",
    "latest_source_recheck": {
     "confirmed": true,
-    "checked_at": "2026-11-04T07:25:02.913922+00:00",
+    "checked_at": "2026-11-04T19:25:01.517612+00:00",
     "note": "Relevant entity, date precision and lifecycle wording checked"
    },
    "kingy_page": "https://kingy.ai/ai-graveyard/#cortana-windows",
@@ -671,7 +671,7 @@
    "history_reviewed_on": "2026-10-01",
    "latest_source_recheck": {
     "confirmed": true,
-    "checked_at": "2026-11-04T07:25:02.913922+00:00",
+    "checked_at": "2026-11-04T19:25:01.517612+00:00",
     "note": "Preserved reviewed primary PDF unchanged"
    },
    "kingy_page": "https://kingy.ai/ai-graveyard/#x-ai-scheduler",
@@ -698,7 +698,7 @@
    "history_reviewed_on": "2026-10-01",
    "latest_source_recheck": {
     "confirmed": true,
-    "checked_at": "2026-11-04T07:25:02.913922+00:00",
+    "checked_at": "2026-11-04T19:25:01.517612+00:00",
     "note": "Relevant entity, date precision and lifecycle wording checked"
    },
    "kingy_page": "https://kingy.ai/ai-graveyard/#google-allo",
@@ -729,7 +729,7 @@
    "history_reviewed_on": "2026-10-01",
    "latest_source_recheck": {
     "confirmed": true,
-    "checked_at": "2026-11-04T07:25:02.913922+00:00",
+    "checked_at": "2026-11-04T19:25:01.517612+00:00",
     "note": "Relevant entity, date precision and lifecycle wording checked"
    },
    "kingy_page": "https://kingy.ai/ai-graveyard/#artifact",

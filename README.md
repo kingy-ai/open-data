@@ -10,7 +10,7 @@ Current release: **2026-11** (data as of 2026-11-04). Datasets refresh monthly, 
 | Dataset | What it holds | Canonical tracker |
 |---|---|---|
 | [Kingy AI Price Index](datasets/kingy-ai-price-index/README.md) | 35 monthly editions (Jan 2024 to 2026-11), 640 price rows, index series per tier; every price carries its source URL, archive snapshot and SHA-256. | [https://kingy.ai/ai-price-index/](https://kingy.ai/ai-price-index/) |
-| [Kingy AI Launch Tracker](datasets/kingy-ai-launch-tracker/README.md) | 373 dated AI launches, updates and funding rounds with company, official URL, sources and Kingy's evidence label. | [https://kingy.ai/ai-launch-tracker/](https://kingy.ai/ai-launch-tracker/) |
+| [Kingy AI Launch Tracker](datasets/kingy-ai-launch-tracker/README.md) | 373 dated AI launches, updates and funding rounds with company, official URL, sources and Kingy's evidence label. | [https://kingy.ai/ai-launches/](https://kingy.ai/ai-launches/) |
 | [Kingy AI Shutdowns and Deadlines](datasets/kingy-ai-shutdowns-and-deadlines/README.md) | 25 retirements and shutdowns plus 24 dated deadlines with precision, certainty, official source and revision history. | [https://kingy.ai/tools/ai-deadlines/](https://kingy.ai/tools/ai-deadlines/) |
 
 `datasets/stats.json` holds **AI by the Numbers**: 33 figures computed from these files, each with its value, as-of date, source URL and a one-line "how computed".

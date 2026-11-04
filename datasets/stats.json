@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T08:53:37+00:00",
+ "generated_at": "2026-11-04T20:33:27+00:00",
  "licence": "CC BY 4.0",
  "cite": "Kingy AI, https://kingy.ai/ai-by-the-numbers/",
  "sections": {
@@ -102,12 +102,12 @@
   },
   "launches": {
    "title": "AI launches",
-   "tracker": "https://kingy.ai/ai-launch-tracker/",
+   "tracker": "https://kingy.ai/ai-launches/",
    "figures": {
     "records": {
      "value": 373,
      "as_of": "2026-11-04",
-     "source_url": "https://kingy.ai/ai-launch-tracker/",
+     "source_url": "https://kingy.ai/ai-launches/",
      "how": "Launch records on the tracker.",
      "unit": "records"
     },
@@ -163,14 +163,14 @@
       }
      ],
      "as_of": "2026-11-04",
-     "source_url": "https://kingy.ai/ai-launch-tracker/",
+     "source_url": "https://kingy.ai/ai-launches/",
      "how": "Records per month by launch_date (falling back to the record's publish date).",
      "unit": "records per month"
     },
     "last_30_days": {
      "value": 9,
      "as_of": "2026-11-04",
-     "source_url": "https://kingy.ai/ai-launch-tracker/",
+     "source_url": "https://kingy.ai/ai-launches/",
      "how": "Records with a launch_date in the last 30 days.",
      "unit": "records"
     },
@@ -183,7 +183,7 @@
       "Funding": 9
      },
      "as_of": "2026-11-04",
-     "source_url": "https://kingy.ai/ai-launch-tracker/",
+     "source_url": "https://kingy.ai/ai-launches/",
      "how": "Records per launch type (a record can carry several).",
      "unit": "records"
     },
@@ -201,21 +201,21 @@
       "Google DeepMind": 6
      },
      "as_of": "2026-11-04",
-     "source_url": "https://kingy.ai/ai-launch-tracker/",
+     "source_url": "https://kingy.ai/ai-launches/",
      "how": "Companies with the most tracked records.",
      "unit": "records"
     },
     "open_weight_share": {
      "value": 16.6,
      "as_of": "2026-11-04",
-     "source_url": "https://kingy.ai/ai-launch-tracker/",
+     "source_url": "https://kingy.ai/ai-launches/",
      "how": "Share of records whose open_source_or_open_weight field says yes.",
      "unit": "%"
     },
     "days_since_last_launch": {
      "value": 6,
      "as_of": "2026-11-04",
-     "source_url": "https://kingy.ai/ai-launch-tracker/",
+     "source_url": "https://kingy.ai/ai-launches/",
      "how": "Days since the most recent launch_date (2026-10-29).",
      "unit": "days"
     }
@@ -339,7 +339,7 @@
    "figures": {
     "prices_records": {
      "value": 12,
-     "as_of": "2026-11-04T08:53:37+00:00",
+     "as_of": "2026-11-04T20:33:27+00:00",
      "source_url": "https://kingy.ai/wp-json/kingy-facts/v1/prices",
      "how": "Records the Kingy Facts API returns for API prices; 'current' price rows are re-verified within six hours.",
      "unit": "records"
@@ -350,21 +350,21 @@
       "held": 0,
       "expired": 0
      },
-     "as_of": "2026-11-04T08:53:37+00:00",
+     "as_of": "2026-11-04T20:33:27+00:00",
      "source_url": "https://kingy.ai/wp-json/kingy-facts/v1/prices",
      "how": "Rows per verification state (current / held / …).",
      "unit": "rows"
     },
     "plans_records": {
      "value": 14,
-     "as_of": "2026-11-04T08:53:37+00:00",
+     "as_of": "2026-11-04T20:33:27+00:00",
      "source_url": "https://kingy.ai/wp-json/kingy-facts/v1/plans",
      "how": "Records the Kingy Facts API returns for subscription plans; 'current' price rows are re-verified within six hours.",
      "unit": "records"
     },
     "limits_records": {
      "value": 18,
-     "as_of": "2026-11-04T08:53:37+00:00",
+     "as_of": "2026-11-04T20:33:27+00:00",
      "source_url": "https://kingy.ai/wp-json/kingy-facts/v1/limits",
      "how": "Records the Kingy Facts API returns for usage limits; 'current' price rows are re-verified within six hours.",
      "unit": "records"

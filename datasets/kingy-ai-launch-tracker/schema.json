@@ -1,8 +1,8 @@
 {
  "title": "Kingy AI Launch Tracker",
  "licence": "CC BY 4.0",
- "cite": "Kingy AI, https://kingy.ai/ai-launch-tracker/",
- "tracker": "https://kingy.ai/ai-launch-tracker/",
+ "cite": "Kingy AI, https://kingy.ai/ai-launches/",
+ "tracker": "https://kingy.ai/ai-launches/",
  "as_of": "2026-11-04",
  "fields": {
   "id": "WordPress record id",

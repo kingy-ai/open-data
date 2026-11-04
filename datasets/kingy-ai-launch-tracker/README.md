@@ -1,8 +1,8 @@
 # Kingy AI Launch Tracker
 
 Part of **Kingy Open AI Data** — datasets Kingy AI already publishes, packaged for reuse.
-Source tracker: https://kingy.ai/ai-launch-tracker/
-As of: 2026-11-04 (export 2026-11-04T08:53:37+00:00). Licence: **CC BY 4.0**. Cite as: "Kingy AI, https://kingy.ai/ai-launch-tracker/" with a link.
+Source tracker: https://kingy.ai/ai-launches/
+As of: 2026-11-04 (export 2026-11-04T20:33:27+00:00). Licence: **CC BY 4.0**. Cite as: "Kingy AI, https://kingy.ai/ai-launches/" with a link.
 
 ## What it measures
 Dated records of AI product, model and open-source launches, major updates and funding announcements that Kingy covered, each with the company, launch date, official announcement URL, sources and Kingy's own evidence label.
