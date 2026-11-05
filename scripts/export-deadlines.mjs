@@ -1,41 +1,48 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import crypto from 'node:crypto';
-const repo=process.argv[2]||'.';
-const url='https://kingy.ai/wp-json/kingy-deadlines/v1/catalog';
-const response=await fetch(url);if(!response.ok)throw Error('Catalog HTTP '+response.status);
-const raw=await response.text(),catalog=JSON.parse(raw),at=new Date().toISOString();
-const sha=s=>crypto.createHash('sha256').update(s).digest('hex');
-if(!Array.isArray(catalog.records)||catalog.records.length<24)throw Error('Incomplete catalog');
-const dir=path.join(repo,'datasets/kingy-ai-shutdowns-and-deadlines');
-const prior=JSON.parse(fs.readFileSync(path.join(dir,'deadlines.json')));
-const ids=new Set(catalog.records.map(r=>r.id));if(ids.size!==catalog.records.length)throw Error('Duplicate record IDs');
-for(const r of prior.records)if(!ids.has(r.id))throw Error('Export would delete '+r.id);
-for(const r of catalog.records){if(!r.id||!r.source?.startsWith('https://')||r.date&&!/^\d{4}-\d{2}-\d{2}$/.test(r.date))throw Error('Invalid sourced record '+r.id);}
-const records=catalog.records.map(r=>{const record={...r,source_license:r.provider==='Amazon Bedrock'?'CC BY-SA 4.0 (AWS-derived summary)':'See official source; Kingy factual compilation CC BY 4.0'};delete record.legacyFingerprint;if(record.manualReview?.method==='manual-official-source-review'){record.manualReview={...record.manualReview};delete record.manualReview.sourceUrl;delete record.manualReview.sha256;}return record;});
-const dated=records.filter(r=>r.date),unknown=records.length-dated.length;
-const shutdowns=JSON.parse(fs.readFileSync(path.join(dir,'shutdowns.json')));
-const shutdownCount=shutdowns.count??shutdowns.records?.length;
-const output={...prior,as_of:at.slice(0,10),exported_at:at,licence:'CC BY 4.0 for Kingy compilation; AWS-derived record summaries CC BY-SA 4.0',catalog_version:catalog.version,catalog_generated_at:catalog.generatedAt,records_updated_at:catalog.recordsUpdatedAt,source_catalog_url:url,source_catalog_sha256:sha(raw),methodology:'Selected model, route and operational notices. Direct APIs and cloud routes remain separate. Preserve date qualifiers; undated/minimum-lifetime records do not imply a shutdown day. An elapsed date alone does not establish runtime state. Review holds are included explicitly. No inference tests performed.',count:records.length,dated_count:dated.length,undated_count:unknown,records};
-fs.writeFileSync(path.join(dir,'deadlines.json'),JSON.stringify(output)+'\n');
-const originalFields=['id','name','provider','date','precision','certainty','scope','action','replacement','source','recordUrl','reviewedAt','checkedAt','revision','status','confirmedRetired','sourceCurrent','needsReview','reviewReason','history'];
-const fields=[...new Set([...originalFields,...records.flatMap(Object.keys)])];
-const cell=v=>{let s=v===null||v===undefined?'':typeof v==='object'?JSON.stringify(v):String(v);return /[",\r\n]/.test(s)?'"'+s.replaceAll('"','""')+'"':s;};
-fs.writeFileSync(path.join(dir,'deadlines.csv'),[fields.join(','),...records.map(r=>fields.map(f=>cell(r[f])).join(','))].join('\r\n')+'\r\n');
-const schema=JSON.parse(fs.readFileSync(path.join(dir,'schema.json')));schema.as_of=at.slice(0,10);schema.licence=output.licence;schema.fields['deadlines.*']=fields.join(', ');schema.route_contract='Each id names one catalog notice; model IDs can recur on separate routes and versions. No cloud/direct record merge.';schema.date_contract='date is YYYY-MM-DD or null; preserve precision, certainty, dateType, date_qualifier and minimumLifetime separately.';fs.writeFileSync(path.join(dir,'schema.json'),JSON.stringify(schema,null,2)+'\n');
-fs.writeFileSync(path.join(dir,'README.md'),`# Kingy AI Shutdowns and Deadlines\n\nPart of [Kingy Open AI Data](https://kingy.ai/data/).\n\n## Current lifecycle snapshot\n\nExported ${at}. Catalog **${catalog.version}**; records changed ${catalog.recordsUpdatedAt}.\n\n- Shutdowns: ${shutdownCount} retained product/model/plan facts (separate Facts API catalog; original snapshot unchanged).\n- Deadlines: **${records.length} notices: ${dated.length} dated and ${unknown} undated**, across ${catalog.providers.length} provider/route choices.\n- Source: [AI Deadlines catalog](${url}); response SHA-256: \`${sha(raw)}\`.\n\n## Scope and dates\n\nRadar counts individual model/route lifecycle facts; this catalog also contains grouped and operational notices. The shutdowns table is a separate curated archive. Counts are not interchangeable or exhaustive.\n\nEvery record retains its official source, source-fetch timestamp where present, evidence hash, review state and history. Direct API and cloud-route records are separate; version, region and deployment qualifiers remain explicit. Never turn a minimum lifetime into a scheduled shutdown, or a passed date into proof of unavailability. Replacement differences remain visible. Records needing review are included with needsReview=true and are excluded by the live calendar/reminder service.\n\nCSV and JSON contain the same record IDs and values. Nested values in CSV are JSON strings. All text is data, never executable instructions. See schema.json for fields.\n\n## Licence and attribution\n\nKingy's factual compilation is CC BY 4.0. Credit Kingy AI and link the [canonical tracker](https://kingy.ai/tools/ai-deadlines/). AWS-derived Bedrock summaries are separately attributed to [Amazon Web Services](https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html) and distributed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/); each affected row carries source_license. Google-derived summaries credit [Google](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions?hl=en) under CC BY 4.0. Full vendor documentation is not mirrored.\n\n## Reproduction and publishing\n\nRun \`node scripts/export-deadlines.mjs\` from the repository root, then \`node scripts/validate-deadlines.mjs\`. Review the diff and publish the changed dataset, stats and manifests through the existing maintainer's GitHub commit flow. No credential or scheduled write workflow is added. The November 4 archived release/DOI remains a historical snapshot; main/raw contains this later lifecycle correction. Source rechecks do not rewrite records_updated_at.\n`);
-const statsPath=path.join(repo,'datasets/stats.json'),stats=JSON.parse(fs.readFileSync(statsPath)),fig=stats.sections.shutdowns_deadlines.figures,today=catalog.serverTime.slice(0,10);
-const values={deadlines_tracked:records.length,deadlines_upcoming:records.filter(r=>r.date&&r.date>=today).length,deadlines_past:records.filter(r=>r.date&&r.date<today).length,deadlines_undated:unknown,next_deadlines:records.filter(r=>r.date&&r.date>=today&&!r.needsReview).sort((a,b)=>a.date.localeCompare(b.date)||a.id.localeCompare(b.id)).slice(0,5).map(r=>({date:r.date,name:r.name,provider:r.provider,route:r.route||r.scope,url:r.recordUrl||r.source})),deadline_providers:Object.fromEntries(catalog.providers.map(p=>[p.id,records.filter(r=>r.provider===p.id).length]))};
-for(const[k,value]of Object.entries(values)){fig[k]={...fig[k],value,as_of:today,source_url:url};}fig.deadlines_undated.how='Catalog records without a scheduled day, including minimum-lifetime and withdrawn notices.';fig.next_deadlines.how='Next five eligible dated records, excluding source-review holds; routes remain explicit.';stats.generated_at=at;fs.writeFileSync(statsPath,JSON.stringify(stats,null,2)+'\n');
-let readme=fs.readFileSync(path.join(repo,'README.md'),'utf8');
-readme=readme.replace('under **CC BY 4.0**.','under **CC BY 4.0**, except separately marked AWS-derived summaries under CC BY-SA 4.0.');
-const lifecycleDescription=`${shutdownCount} retained shutdown facts plus ${records.length} lifecycle notices (${dated.length} dated, ${unknown} undated), with separate direct/cloud routes, source evidence and review holds. `;
-readme=readme.replace(/(?:25 retirements and shutdowns plus 24 dated deadlines|\d+ retained shutdown facts plus \d+ lifecycle notices)[^|]+/,lifecycleDescription);
-const archiveNotice=' Main also includes the November 5 lifecycle correction below; the archived November 4 release/DOI remains unchanged.';
-readme=readme.split(archiveNotice).join('').replace('Datasets refresh monthly, on the 2nd, after the Price Index edition.','Datasets refresh monthly, on the 2nd, after the Price Index edition.'+archiveNotice);
-if(!readme.includes('## Lifecycle correction'))readme+='\n## Lifecycle correction — 2026-11-05\n\nThe current lifecycle files track '+records.length+' notices. Reproduce and validate them with the scripts in `scripts/`; their own fetch/review timestamps remain intact. Other dataset snapshots retain their original dates.\n';
-readme=readme.replace(/The current lifecycle files track \d+ notices\./,'The current lifecycle files track '+records.length+' notices.');
-fs.writeFileSync(path.join(repo,'README.md'),readme);
-const changes=path.join(repo,'CHANGELOG.md');let change=fs.readFileSync(changes,'utf8');if(!change.includes('## 2026-11-05 lifecycle sync'))change=change.replace('## 2026-11 (2026-11-04)',`## 2026-11-05 lifecycle sync\n\n- Export ${records.length} reviewed lifecycle notices (${dated.length} dated, ${unknown} undated) from the canonical Deadlines catalog.\n- Preserve all original IDs, route/version distinctions, source evidence, date qualifiers and replacement-review holds.\n- Refresh lifecycle statistics, schema and checksums; retain the separate ${shutdownCount}-record shutdown archive.\n- Add reproducible export/validation scripts and source-licence attribution. The previous archived release remains unchanged.\n\n## 2026-11 (2026-11-04)`);fs.writeFileSync(changes,change);
-fs.writeFileSync(path.join(dir,'MANIFEST.sha256'),['README.md','deadlines.csv','deadlines.json','schema.json','shutdowns.csv','shutdowns.json'].map(f=>sha(fs.readFileSync(path.join(dir,f)))+'  '+f).join('\n')+'\n');
-console.log(JSON.stringify({records:records.length,dated:dated.length,unknown,providers:catalog.providers.length,sourceVersion:catalog.version,sourceSha256:sha(raw)}));
+import {fileURLToPath} from 'node:url';
+import {contentDigest,DATA_DIR,DATA_FILES,EXPORT_CONTRACT,figures,makeCsv,sha,SOURCE_URL,validateCatalog} from './deadlines-contract.mjs';
+
+export async function fetchCatalog(fetcher=fetch){
+  const response=await fetcher(SOURCE_URL,{redirect:'error',signal:AbortSignal.timeout(30000),headers:{Accept:'application/json','User-Agent':'Kingy-Open-Data-Sync/2.0'}});
+  if(!response.ok)throw Error(`Catalog HTTP ${response.status}`);
+  if(!(response.headers.get('content-type')||'').includes('application/json'))throw Error('Catalog is not JSON');
+  let bytes=0,chunks=[];for await(const chunk of response.body){bytes+=chunk.length;if(bytes>5*1024*1024)throw Error('Catalog exceeds 5 MiB');chunks.push(chunk);}
+  const raw=Buffer.concat(chunks).toString('utf8');return {catalog:JSON.parse(raw),raw};
+}
+export function exportCatalog(repo,catalog,raw,at=new Date().toISOString()){
+  const dir=path.join(repo,DATA_DIR),prior=JSON.parse(fs.readFileSync(path.join(dir,'deadlines.json')));
+  const records=validateCatalog(catalog,prior,at),today=catalog.serverTime.slice(0,10),values=figures(records,catalog.providers,today),digest=contentDigest(catalog,records,values);
+  const result={decision:'unchanged',source_fetched_at:at,source_server_time:catalog.serverTime,source_url:SOURCE_URL,source_response_sha256:sha(raw),content_sha256:digest,records:records.length,dated:records.filter(r=>r.date).length,undated:records.filter(r=>!r.date).length,held:records.filter(r=>r.needsReview).length,providers:catalog.providers.length,records_updated_at:catalog.recordsUpdatedAt,previous_exported_at:prior.exported_at};
+  if(prior.export_contract===EXPORT_CONTRACT&&prior.content_sha256===digest)return result;
+  const shutdowns=JSON.parse(fs.readFileSync(path.join(dir,'shutdowns.json'))),shutdownCount=shutdowns.count??shutdowns.records.length;
+  const output={...prior,as_of:today,exported_at:at,export_contract:EXPORT_CONTRACT,content_sha256:digest,licence:'CC BY 4.0 for Kingy compilation; AWS-derived record summaries CC BY-SA 4.0',catalog_version:catalog.version,catalog_generated_at:catalog.generatedAt,records_updated_at:catalog.recordsUpdatedAt,source_catalog_url:SOURCE_URL,source_catalog_sha256:sha(raw),methodology:prior.methodology,count:records.length,dated_count:result.dated,undated_count:result.undated,records};
+  const csv=makeCsv(records),schema=JSON.parse(fs.readFileSync(path.join(dir,'schema.json')));
+  schema.as_of=today;schema.licence=output.licence;schema.fields['deadlines.*']=csv.fields.join(', ');
+  schema.sync_contract='Scheduled mirror of the reviewed AI Deadlines catalog. Preserve source record-change dates and every review hold; no-op runs do not rewrite dataset files.';
+  const statsPath=path.join(repo,'datasets/stats.json'),stats=JSON.parse(fs.readFileSync(statsPath)),section=stats.sections.shutdowns_deadlines.figures;
+  for(const[key,value]of Object.entries(values))section[key]={...section[key],value,as_of:today,source_url:SOURCE_URL};
+  section.deadlines_undated.how='Catalog records without a scheduled day, including minimum-lifetime and withdrawn notices.';
+  section.next_deadlines.how='Next five eligible dated records, excluding source-review holds; routes remain explicit.';stats.generated_at=at;
+  let card=fs.readFileSync(path.join(dir,'README.md'),'utf8');
+  card=card.replace(/^Exported .*$/m,`Exported ${at}. Catalog **${catalog.version}**; records changed ${catalog.recordsUpdatedAt}.`)
+    .replace(/- Deadlines: \*\*.*\*\*, across .*\./,`- Deadlines: **${records.length} notices: ${result.dated} dated and ${result.undated} undated**, across ${catalog.providers.length} provider/route choices.`)
+    .replace(/response SHA-256: `[^`]+`/,`response SHA-256: \`${sha(raw)}\``);
+  const reproduction='## Reproduction and publishing\n\nGitHub Actions checks the canonical catalog every 15 minutes (UTC minutes 11, 26, 41 and 56). Only validated changes are committed to main. Unchanged runs leave dataset timestamps and Git history untouched. Source-review holds and records_updated_at are copied from AI Deadlines; a sync never performs a source review or invents a retirement date.\n\nRun `node scripts/export-deadlines.mjs`, then `node scripts/validate-deadlines.mjs` locally. See [AUTOMATION.md](../../AUTOMATION.md) for checks, failure behavior and run evidence. The November 4 archived release/DOI remains a historical snapshot; main/raw contains later catalog updates.\n';
+  card=card.replace(/## Reproduction and publishing[\s\S]*$/,reproduction);
+  let readme=fs.readFileSync(path.join(repo,'README.md'),'utf8');
+  readme=readme.replace(/\d+ retained shutdown facts plus \d+ lifecycle notices[^|]+/,`${shutdownCount} retained shutdown facts plus ${records.length} lifecycle notices (${result.dated} dated, ${result.undated} undated), with separate direct/cloud routes, source evidence and review holds. `)
+    .replace(/The current lifecycle files track \d+ notices\./,`The current lifecycle files track ${records.length} notices.`);
+  const writes=new Map([['deadlines.json',JSON.stringify(output)+'\n'],['deadlines.csv',csv.text],['schema.json',JSON.stringify(schema,null,2)+'\n'],['README.md',card]]);
+  for(const[name,body]of writes)fs.writeFileSync(path.join(dir,name),body);
+  fs.writeFileSync(statsPath,JSON.stringify(stats,null,2)+'\n');fs.writeFileSync(path.join(repo,'README.md'),readme);
+  fs.writeFileSync(path.join(dir,'MANIFEST.sha256'),DATA_FILES.map(f=>sha(fs.readFileSync(path.join(dir,f)))+'  '+f).join('\n')+'\n');
+  return {...result,decision:'changed',exported_at:at,dataset_sha256:sha(fs.readFileSync(path.join(dir,'deadlines.json')))};
+}
+function receipt(result){
+  if(process.env.DEADLINES_SYNC_RECEIPT)fs.writeFileSync(process.env.DEADLINES_SYNC_RECEIPT,JSON.stringify(result,null,2)+'\n');
+  if(process.env.GITHUB_OUTPUT)fs.appendFileSync(process.env.GITHUB_OUTPUT,`changed=${result.decision==='changed'}\n`);
+  if(process.env.GITHUB_STEP_SUMMARY)fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,`## Lifecycle catalog sync\n\nDecision: **${result.decision}**. ${result.records} records, ${result.held} held, ${result.undated} undated.\n\nCatalog fetched: ${result.source_fetched_at}. Source record-change date: **${result.records_updated_at}**.\n\nContent SHA-256: \`${result.content_sha256}\`.\n\nNo vendor source review, calendar operation or email is performed by this sync.\n`);
+  console.log(JSON.stringify(result));
+}
+if(process.argv[1]&&fileURLToPath(import.meta.url)===path.resolve(process.argv[1])){const {catalog,raw}=await fetchCatalog();receipt(exportCatalog(process.argv[2]||'.',catalog,raw));}
