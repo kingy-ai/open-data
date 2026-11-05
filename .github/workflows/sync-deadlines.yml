@@ -2,7 +2,7 @@ name: Sync AI Deadlines
 
 on:
   schedule:
-    - cron: '11,26,41,56 * * * *'
+    - cron: '11-59/15 * * * *'
   workflow_dispatch:
   pull_request:
     paths:
