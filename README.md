@@ -5,7 +5,7 @@
 Open datasets from [Kingy AI](https://kingy.ai/) about the AI industry: prices, launches, shutdowns and deadlines.
 Everything here is already published on kingy.ai; this repository packages it for reuse under **CC BY 4.0**, except separately marked AWS-derived summaries under CC BY-SA 4.0.
 
-Current release: **2026-11** (data as of 2026-11-04). Datasets refresh monthly, on the 2nd, after the Price Index edition. Main also includes the November 5 lifecycle correction below; the archived November 4 release/DOI remains unchanged. Main also includes the November 5 lifecycle correction below; the archived November 4 release/DOI remains unchanged.
+Current release: **2026-11** (data as of 2026-11-04). Datasets refresh monthly, on the 2nd, after the Price Index edition. Main also includes the November 5 lifecycle correction below; the archived November 4 release/DOI remains unchanged.
 
 | Dataset | What it holds | Canonical tracker |
 |---|---|---|
