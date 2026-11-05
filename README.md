@@ -39,6 +39,8 @@ Corrections: open an issue here or use the correction link on the canonical trac
 
 ## Changes
 
+The lifecycle catalog is mirrored automatically from the reviewed AI Deadlines catalog every 15 minutes. Unchanged runs make no commit; source-review holds and the source's record-change timestamp are preserved. See [AUTOMATION.md](AUTOMATION.md) for the workflow, validation and failure behavior. Other datasets retain their monthly release process.
+
 See [CHANGELOG.md](CHANGELOG.md).
 
 ## Lifecycle correction — 2026-11-05
