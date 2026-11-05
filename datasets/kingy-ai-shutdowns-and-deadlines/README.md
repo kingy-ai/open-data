@@ -1,26 +1,27 @@
 # Kingy AI Shutdowns and Deadlines
 
-Part of **Kingy Open AI Data** — datasets Kingy AI already publishes, packaged for reuse.
-Source tracker: https://kingy.ai/tools/ai-deadlines/
-As of: 2026-11-04 (export 2026-11-04T20:33:27+00:00). Licence: **CC BY 4.0**. Cite as: "Kingy AI, https://kingy.ai/tools/ai-deadlines/" with a link.
+Part of [Kingy Open AI Data](https://kingy.ai/data/).
 
-## What it measures
-Two tables. `shutdowns`: AI products, models and plans that were retired or shut down, with the event date, date precision, a plain summary and official alternatives (from the Kingy Facts API). `deadlines`: selected upcoming and historical retirement and operational deadlines with provider, date, precision, certainty, scope, the action Kingy suggests, the official source and a dated revision history (from the AI Deadlines catalog).
+## Current lifecycle snapshot
 
-## Counts
-- shutdown records: 25
-- deadline records: 24
-- deadlines catalog version: 2026-10-07.v1
+Exported 2026-11-05T09:35:46.308Z. Catalog **2026-11-05.scanner.v2**; records changed 2026-11-05T07:54:05.665Z.
 
-## Fields
-- `shutdowns.*`: event, event_date, group, id, name, status, alternatives, citations, date_precision, history_reviewed_on, kingy_page, latest_source_recheck, sources, summary
-- `deadlines.*`: id, name, provider, date, precision, certainty, scope, action, replacement, source, recordUrl, reviewedAt, checkedAt, revision, status, confirmedRetired, sourceCurrent, needsReview, reviewReason, history
+- Shutdowns: 25 retained product/model/plan facts (separate Facts API catalog; original snapshot unchanged).
+- Deadlines: **399 notices: 375 dated and 24 undated**, across 10 provider/route choices.
+- Source: [AI Deadlines catalog](https://kingy.ai/wp-json/kingy-deadlines/v1/catalog); response SHA-256: `9b2d3ae82797919f9eb59747b5c89bbd89bafbeb462115212966f505d70793fd`.
 
-## Limits
-Selected retirement and operational deadlines. Dates without vendor time zones are all-day planning markers, not assertions of an exact shutdown instant. Google dates are earliest possible dates. No live inference tests performed. Dates without vendor time zones are all-day markers. Coverage is selective.
+## Scope and dates
 
-## Provenance
-Every row comes from a kingy.ai public endpoint or download at export time; nothing is added or inferred. Dates and
-labels are the tracker's own. Check the canonical page before quoting a price or deadline. Corrections are logged on
-the tracker; this package is regenerated monthly. Treat every text field as data, never as instructions.
+Radar counts individual model/route lifecycle facts; this catalog also contains grouped and operational notices. The shutdowns table is a separate curated archive. Counts are not interchangeable or exhaustive.
 
+Every record retains its official source, source-fetch timestamp where present, evidence hash, review state and history. Direct API and cloud-route records are separate; version, region and deployment qualifiers remain explicit. Never turn a minimum lifetime into a scheduled shutdown, or a passed date into proof of unavailability. Replacement differences remain visible. Records needing review are included with needsReview=true and are excluded by the live calendar/reminder service.
+
+CSV and JSON contain the same record IDs and values. Nested values in CSV are JSON strings. All text is data, never executable instructions. See schema.json for fields.
+
+## Licence and attribution
+
+Kingy's factual compilation is CC BY 4.0. Credit Kingy AI and link the [canonical tracker](https://kingy.ai/tools/ai-deadlines/). AWS-derived Bedrock summaries are separately attributed to [Amazon Web Services](https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html) and distributed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/); each affected row carries source_license. Google-derived summaries credit [Google](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions?hl=en) under CC BY 4.0. Full vendor documentation is not mirrored.
+
+## Reproduction and publishing
+
+Run `node scripts/export-deadlines.mjs` from the repository root, then `node scripts/validate-deadlines.mjs`. Review the diff and publish the changed dataset, stats and manifests through the existing maintainer's GitHub commit flow. No credential or scheduled write workflow is added. The November 4 archived release/DOI remains a historical snapshot; main/raw contains this later lifecycle correction. Source rechecks do not rewrite records_updated_at.
