@@ -9,5 +9,6 @@
     "deadlines.*": "id, name, provider, date, precision, certainty, scope, action, replacement, source, recordUrl, reviewedAt, checkedAt, revision, status, confirmedRetired, sourceCurrent, needsReview, reviewReason, history, origin, fingerprint, model_id, aliases, vendor, route, dateType, date_qualifier, lastVerified, checkAnchor, checkText, evidenceSnapshot, evidenceSha256, sourceFetchedAt, replacementConflict, supportingSources, source_license, model_ids, sourceEvidence, sourceProjection, manualReview, minimumLifetime, deprecatedAt, reviewStatus, autoCheck, modelVersion, behaviorSource, announcedAt, legacyAt, publicExtendedAccessAt"
   },
   "route_contract": "Each id names one catalog notice; model IDs can recur on separate routes and versions. No cloud/direct record merge.",
-  "date_contract": "date is YYYY-MM-DD or null; preserve precision, certainty, dateType, date_qualifier and minimumLifetime separately."
+  "date_contract": "date is YYYY-MM-DD or null; preserve precision, certainty, dateType, date_qualifier and minimumLifetime separately.",
+  "sync_contract": "Scheduled mirror of the reviewed AI Deadlines catalog. Preserve source record-change dates and every review hold; no-op runs do not rewrite dataset files."
 }

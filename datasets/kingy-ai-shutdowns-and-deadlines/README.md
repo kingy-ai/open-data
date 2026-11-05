@@ -4,11 +4,11 @@ Part of [Kingy Open AI Data](https://kingy.ai/data/).
 
 ## Current lifecycle snapshot
 
-Exported 2026-11-05T10:04:18.130Z. Catalog **2026-11-05.scanner.v2**; records changed 2026-11-05T07:54:05.665Z.
+Exported 2026-11-05T16:50:21.827Z. Catalog **2026-11-05.scanner.v2**; records changed 2026-11-05T07:54:05.665Z.
 
 - Shutdowns: 25 retained product/model/plan facts (separate Facts API catalog; original snapshot unchanged).
 - Deadlines: **399 notices: 375 dated and 24 undated**, across 10 provider/route choices.
-- Source: [AI Deadlines catalog](https://kingy.ai/wp-json/kingy-deadlines/v1/catalog); response SHA-256: `f6895b7e320a444342317b08a870106169938e5a23c93c65e977f231a5f39958`.
+- Source: [AI Deadlines catalog](https://kingy.ai/wp-json/kingy-deadlines/v1/catalog); response SHA-256: `900139e454c67bbbc9530667631ecef1ea15e937e1913ebc36f831b649eb270a`.
 
 ## Scope and dates
 
@@ -24,4 +24,6 @@ Kingy's factual compilation is CC BY 4.0. Credit Kingy AI and link the [canonica
 
 ## Reproduction and publishing
 
-Run `node scripts/export-deadlines.mjs` from the repository root, then `node scripts/validate-deadlines.mjs`. Review the diff and publish the changed dataset, stats and manifests through the existing maintainer's GitHub commit flow. No credential or scheduled write workflow is added. The November 4 archived release/DOI remains a historical snapshot; main/raw contains this later lifecycle correction. Source rechecks do not rewrite records_updated_at.
+GitHub Actions checks the canonical catalog every 15 minutes (UTC minutes 11, 26, 41 and 56). Only validated changes are committed to main. Unchanged runs leave dataset timestamps and Git history untouched. Source-review holds and records_updated_at are copied from AI Deadlines; a sync never performs a source review or invents a retirement date.
+
+Run `node scripts/export-deadlines.mjs`, then `node scripts/validate-deadlines.mjs` locally. See [AUTOMATION.md](../../AUTOMATION.md) for checks, failure behavior and run evidence. The November 4 archived release/DOI remains a historical snapshot; main/raw contains later catalog updates.
