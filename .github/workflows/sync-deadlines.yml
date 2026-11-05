@@ -38,8 +38,6 @@ jobs:
     timeout-minutes: 10
     permissions:
       contents: write
-    env:
-      DEADLINES_SYNC_RECEIPT: ${{ runner.temp }}/deadlines-sync.json
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
@@ -49,6 +47,8 @@ jobs:
         with:
           node-version: '24'
           package-manager-cache: false
+      - name: Prepare the temporary synchronization receipt
+        run: echo "DEADLINES_SYNC_RECEIPT=$RUNNER_TEMP/deadlines-sync.json" >> "$GITHUB_ENV"
       - name: Fetch and validate the canonical reviewed catalog
         id: export
         run: node scripts/export-deadlines.mjs
