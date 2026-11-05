@@ -1,11 +1,13 @@
 {
- "title": "Kingy AI Shutdowns and Deadlines",
- "licence": "CC BY 4.0",
- "cite": "Kingy AI, https://kingy.ai/tools/ai-deadlines/",
- "tracker": "https://kingy.ai/tools/ai-deadlines/",
- "as_of": "2026-11-04",
- "fields": {
-  "shutdowns.*": "event, event_date, group, id, name, status, alternatives, citations, date_precision, history_reviewed_on, kingy_page, latest_source_recheck, sources, summary",
-  "deadlines.*": "id, name, provider, date, precision, certainty, scope, action, replacement, source, recordUrl, reviewedAt, checkedAt, revision, status, confirmedRetired, sourceCurrent, needsReview, reviewReason, history"
- }
+  "title": "Kingy AI Shutdowns and Deadlines",
+  "licence": "CC BY 4.0 for Kingy compilation; AWS-derived record summaries CC BY-SA 4.0",
+  "cite": "Kingy AI, https://kingy.ai/tools/ai-deadlines/",
+  "tracker": "https://kingy.ai/tools/ai-deadlines/",
+  "as_of": "2026-11-05",
+  "fields": {
+    "shutdowns.*": "event, event_date, group, id, name, status, alternatives, citations, date_precision, history_reviewed_on, kingy_page, latest_source_recheck, sources, summary",
+    "deadlines.*": "id, name, provider, date, precision, certainty, scope, action, replacement, source, recordUrl, reviewedAt, checkedAt, revision, status, confirmedRetired, sourceCurrent, needsReview, reviewReason, history, origin, fingerprint, model_id, aliases, vendor, route, dateType, date_qualifier, lastVerified, checkAnchor, checkText, evidenceSnapshot, evidenceSha256, sourceFetchedAt, replacementConflict, supportingSources, source_license, model_ids, sourceEvidence, sourceProjection, manualReview, minimumLifetime, deprecatedAt, reviewStatus, autoCheck, modelVersion, behaviorSource, announcedAt, legacyAt, publicExtendedAccessAt"
+  },
+  "route_contract": "Each id names one catalog notice; model IDs can recur on separate routes and versions. No cloud/direct record merge.",
+  "date_contract": "date is YYYY-MM-DD or null; preserve precision, certainty, dateType, date_qualifier and minimumLifetime separately."
 }
