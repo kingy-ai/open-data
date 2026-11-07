@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T17:35:35.354Z",
+  "generated_at": "2026-11-07T08:41:26.267Z",
   "licence": "CC BY 4.0",
   "cite": "Kingy AI, https://kingy.ai/ai-by-the-numbers/",
   "sections": {
@@ -257,28 +257,28 @@
         },
         "deadlines_tracked": {
           "value": 399,
-          "as_of": "2026-11-06",
+          "as_of": "2026-11-07",
           "source_url": "https://kingy.ai/wp-json/kingy-deadlines/v1/catalog",
           "how": "Records in the AI Deadlines catalog.",
           "unit": "records"
         },
         "deadlines_upcoming": {
           "value": 200,
-          "as_of": "2026-11-06",
+          "as_of": "2026-11-07",
           "source_url": "https://kingy.ai/wp-json/kingy-deadlines/v1/catalog",
           "how": "Catalog records dated today or later.",
           "unit": "records"
         },
         "deadlines_past": {
           "value": 175,
-          "as_of": "2026-11-06",
+          "as_of": "2026-11-07",
           "source_url": "https://kingy.ai/wp-json/kingy-deadlines/v1/catalog",
           "how": "Catalog records dated before today (historical, kept for the record).",
           "unit": "records"
         },
         "deadlines_undated": {
           "value": 24,
-          "as_of": "2026-11-06",
+          "as_of": "2026-11-07",
           "source_url": "https://kingy.ai/wp-json/kingy-deadlines/v1/catalog",
           "how": "Catalog records without a scheduled day, including minimum-lifetime and withdrawn notices.",
           "unit": "records"
@@ -321,7 +321,7 @@
               "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html"
             }
           ],
-          "as_of": "2026-11-06",
+          "as_of": "2026-11-07",
           "source_url": "https://kingy.ai/wp-json/kingy-deadlines/v1/catalog",
           "how": "Next five eligible dated records, excluding source-review holds; routes remain explicit."
         },
@@ -338,7 +338,7 @@
             "Amazon Bedrock": 62,
             "Google Vertex AI": 56
           },
-          "as_of": "2026-11-06",
+          "as_of": "2026-11-07",
           "source_url": "https://kingy.ai/wp-json/kingy-deadlines/v1/catalog",
           "how": "Catalog records per provider.",
           "unit": "records"

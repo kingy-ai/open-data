@@ -3,7 +3,7 @@
   "licence": "CC BY 4.0 for Kingy compilation; AWS-derived record summaries CC BY-SA 4.0",
   "cite": "Kingy AI, https://kingy.ai/tools/ai-deadlines/",
   "tracker": "https://kingy.ai/tools/ai-deadlines/",
-  "as_of": "2026-11-06",
+  "as_of": "2026-11-07",
   "fields": {
     "shutdowns.*": "event, event_date, group, id, name, status, alternatives, citations, date_precision, history_reviewed_on, kingy_page, latest_source_recheck, sources, summary",
     "deadlines.*": "id, name, provider, date, precision, certainty, scope, action, replacement, source, recordUrl, reviewedAt, checkedAt, revision, status, confirmedRetired, sourceCurrent, needsReview, reviewReason, history, origin, fingerprint, model_id, aliases, vendor, route, dateType, date_qualifier, lastVerified, checkAnchor, checkText, evidenceSnapshot, evidenceSha256, sourceFetchedAt, replacementConflict, supportingSources, source_license, model_ids, sourceEvidence, sourceProjection, manualReview, minimumLifetime, deprecatedAt, reviewStatus, autoCheck, modelVersion, behaviorSource, announcedAt, legacyAt, publicExtendedAccessAt"
