@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T06:10:24.685Z",
+  "generated_at": "2026-11-14T18:50:59.182Z",
   "licence": "CC BY 4.0",
   "cite": "Kingy AI, https://kingy.ai/ai-by-the-numbers/",
   "sections": {
@@ -286,13 +286,6 @@
         "next_deadlines": {
           "value": [
             {
-              "date": "2026-11-17",
-              "name": "Gemini 3.1 Flash TTS Preview",
-              "provider": "Google",
-              "route": "Gemini API: gemini-3.1-flash-tts-preview",
-              "url": "https://ai.google.dev/gemini-api/docs/deprecations"
-            },
-            {
               "date": "2026-11-30",
               "name": "Claude Sonnet 4.5",
               "provider": "Anthropic",
@@ -319,6 +312,13 @@
               "provider": "OpenAI",
               "route": "v1/prompts API and reusable prompt objects",
               "url": "https://developers.openai.com/api/docs/deprecations"
+            },
+            {
+              "date": "2026-12-01",
+              "name": "Three GPT Image API models are scheduled to retire December 1, 2026",
+              "provider": "OpenAI",
+              "route": "gpt-image-1-mini, gpt-image-1.5, chatgpt-image-latest",
+              "url": "https://kingy.ai/ai-launch-tracker/older-openai-gpt-image-models-will-leave-the-api-december-1/"
             }
           ],
           "as_of": "2026-11-14",
