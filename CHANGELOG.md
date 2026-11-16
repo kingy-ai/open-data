@@ -2,6 +2,12 @@
 
 One entry per monthly release. Counts come from the export of that run.
 
+## 2026-11-16 Local AI Scoreboard
+
+- New dataset `kingy-local-ai-scoreboard`: Scoreboard v1, job set 0.2, as published at https://kingy.ai/local-ai-scoreboard/ (page updated 2026-11-16).
+- 28 model-on-machine rows, 756 marked runs, 24 Blender runs, 10 jobs. Every figure matches the live page.
+- Other datasets are unchanged.
+
 ## 2026-11-05 lifecycle sync
 
 - Export 399 reviewed lifecycle notices (375 dated, 24 undated) from the canonical Deadlines catalog.

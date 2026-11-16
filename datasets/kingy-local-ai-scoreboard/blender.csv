@@ -1,0 +1,25 @@
+model,model_id,run,checks_passed,checks_total,run_score,model_average,counted_in_score
+gpt-oss-120b,gpt-oss-120b-f16,1,1,16,6.25,35.4,no
+gpt-oss-120b,gpt-oss-120b-f16,2,15,16,93.75,35.4,no
+gpt-oss-120b,gpt-oss-120b-f16,3,1,16,6.25,35.4,no
+Qwen3.8 27B (2-bit),qwen3.8-27b-iq2s,1,0,16,0.00,0.0,no
+Qwen3.8 27B (2-bit),qwen3.8-27b-iq2s,2,0,16,0.00,0.0,no
+Qwen3.8 27B (2-bit),qwen3.8-27b-iq2s,3,0,16,0.00,0.0,no
+Qwen3.8 27B (3-bit),qwen3.8-27b-q3kxl,1,0,16,0.00,0.0,no
+Qwen3.8 27B (3-bit),qwen3.8-27b-q3kxl,2,0,16,0.00,0.0,no
+Qwen3.8 27B (3-bit),qwen3.8-27b-q3kxl,3,0,16,0.00,0.0,no
+Gemma 4 31B,gemma4-31b-q4km,1,12,16,75.00,79.2,no
+Gemma 4 31B,gemma4-31b-q4km,2,13,16,81.25,79.2,no
+Gemma 4 31B,gemma4-31b-q4km,3,13,16,81.25,79.2,no
+Qwen3.6 35B A3B,qwen3.6-35b-a3b-q4km,1,1,16,6.25,2.1,no
+Qwen3.6 35B A3B,qwen3.6-35b-a3b-q4km,2,0,16,0.00,2.1,no
+Qwen3.6 35B A3B,qwen3.6-35b-a3b-q4km,3,0,16,0.00,2.1,no
+Gemma 4 26B A4B,gemma4-26b-a4b-q4km,1,1,16,6.25,6.3,no
+Gemma 4 26B A4B,gemma4-26b-a4b-q4km,2,1,16,6.25,6.3,no
+Gemma 4 26B A4B,gemma4-26b-a4b-q4km,3,1,16,6.25,6.3,no
+Qwen3 8B,qwen3-8b-q4km,1,1,16,6.25,31.3,no
+Qwen3 8B,qwen3-8b-q4km,2,13,16,81.25,31.3,no
+Qwen3 8B,qwen3-8b-q4km,3,1,16,6.25,31.3,no
+Qwen3 4B,qwen3-4b-q4km,1,1,16,6.25,6.3,no
+Qwen3 4B,qwen3-4b-q4km,2,1,16,6.25,6.3,no
+Qwen3 4B,qwen3-4b-q4km,3,1,16,6.25,6.3,no

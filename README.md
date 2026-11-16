@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23962530.svg)](https://doi.org/10.5281/zenodo.23962530)
 
-Open datasets from [Kingy AI](https://kingy.ai/) about the AI industry: prices, launches, shutdowns and deadlines.
+Open datasets from [Kingy AI](https://kingy.ai/) about the AI industry: prices, launches, shutdowns and deadlines, and Kingy's own tests of AI models you can run at home.
 Everything here is already published on kingy.ai; this repository packages it for reuse under **CC BY 4.0**, except separately marked AWS-derived summaries under CC BY-SA 4.0.
 
 Current release: **2026-11** (data as of 2026-11-04). Datasets refresh monthly, on the 2nd, after the Price Index edition. Main also includes the November 5 lifecycle correction below; the archived November 4 release/DOI remains unchanged.
@@ -12,6 +12,7 @@ Current release: **2026-11** (data as of 2026-11-04). Datasets refresh monthly, 
 | [Kingy AI Price Index](datasets/kingy-ai-price-index/README.md) | 35 monthly editions (Jan 2024 to 2026-11), 640 price rows, index series per tier; every price carries its source URL, archive snapshot and SHA-256. | [https://kingy.ai/ai-price-index/](https://kingy.ai/ai-price-index/) |
 | [Kingy AI Launch Tracker](datasets/kingy-ai-launch-tracker/README.md) | 373 dated AI launches, updates and funding rounds with company, official URL, sources and Kingy's evidence label. | [https://kingy.ai/ai-launches/](https://kingy.ai/ai-launches/) |
 | [Kingy AI Shutdowns and Deadlines](datasets/kingy-ai-shutdowns-and-deadlines/README.md) | 25 retained shutdown facts plus 399 lifecycle notices (375 dated, 24 undated), with separate direct/cloud routes, source evidence and review holds. | [https://kingy.ai/tools/ai-deadlines/](https://kingy.ai/tools/ai-deadlines/) |
+| [Kingy Local AI Scoreboard](datasets/kingy-local-ai-scoreboard/README.md) | 8 free local AI models marked on 9 practical jobs, 3 runs each, on 5 machines: 28 model-on-machine rows, 756 marked runs, exact model files and speeds. Kingy measured. | [https://kingy.ai/local-ai-scoreboard/](https://kingy.ai/local-ai-scoreboard/) |
 
 `datasets/stats.json` holds **AI by the Numbers**: 33 figures computed from these files, each with its value, as-of date, source URL and a one-line "how computed".
 
