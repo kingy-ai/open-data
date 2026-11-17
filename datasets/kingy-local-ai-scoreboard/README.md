@@ -24,6 +24,19 @@ All figures are **Kingy measured**: first-hand runs, not maker claims. The full 
 
 The top six are tied: their scores are closer together than the tie line of 14.7 points, so Kingy does not rank them against each other. Please keep that when you quote a score.
 
+## Answers from this data
+Short answers to common questions, every figure from the tables in this dataset (Kingy measured, 2026-11-14 to 2026-11-16).
+
+- **What is the best local AI model to run at home?** No single winner: six models are tied at the top on the 128 GB Lucy AI Studio (gpt-oss-120b 98.0, Qwen3.8 27B (2-bit) 97.9, Qwen3.8 27B (3-bit) 93.1, Gemma 4 31B 91.2, Qwen3.6 35B A3B 89.7, Gemma 4 26B A4B 87.2). The quickest of them to finish was Gemma 4 26B A4B: all 27 job runs in 0.4 hours of writing time.
+- **Which local model is best on a 24 GB graphics card?** On a rented RTX 4090 (24 GB) all eight models ran every job. The six top models scored 86.1 to 96.5, still tied. The fastest of those six were Gemma 4 26B A4B (165.8 tokens a second, score 86.6) and Qwen3.6 35B A3B (137.6 tokens a second, score 96.5).
+- **Can an RTX 5090 run gpt-oss-120b?** Yes, but not on the card alone. It scored 90.0 (against 98.0 on the Lucy AI Studio, inside the tie line), at 11.2 tokens a second, because the 65.4 GB file does not fit in 32 GB of graphics memory and part of it ran from main memory.
+- **Can an 8 GB gaming laptop run Gemma 4 26B?** Yes. On an RTX 5070 Laptop (8 GB graphics memory, 32 GB RAM), Gemma 4 26B A4B scored 84.4 at 46.6 tokens a second.
+- **Does a faster machine make a model smarter?** No. The same model file scored within the tie line on every machine. Qwen3 8B scored 74.5 on the Lucy AI Studio, 76.1 on the laptop, 66.7 on an M4 Pro MacBook Pro (24 GB), 69.7 on an RTX 4090 and 76.9 on an RTX 5090. Speed changed: 36.5, 22.6, 36.1, 133.8 and 205.2 tokens a second, in that order.
+- **Is a 2-bit Qwen3.8 27B much worse than 3-bit?** Not on these jobs. The 2-bit file (UD-IQ2_S, 8.4 GB) scored 97.9 and the 3-bit file (UD-Q3_K_XL, 13.1 GB) 93.1, a tie. The 3-bit run took longer (18.2 against 9.7 hours) and more replies hit the length limit (16 of 56 against 10 of 48).
+- **Which local model writes the best Blender Python scripts?** Gemma 4 31B, the only model whose script ran to the end in all three runs (average 79.2), though two of its three pictures came out blank. No other model averaged above 35.4. Blender is shown separately and never counted in the score.
+
+Speeds marked in `speed_note` (split memory, re-run replies) need that caveat when quoted.
+
 ## Counts
 - models: 8
 - machines: 5
