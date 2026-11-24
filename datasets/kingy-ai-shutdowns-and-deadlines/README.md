@@ -4,11 +4,11 @@ Part of [Kingy Open AI Data](https://kingy.ai/data/).
 
 ## Current lifecycle snapshot
 
-Exported 2026-11-24T10:51:51.908Z. Catalog **2026-11-05.scanner.v2**; records changed 2026-11-05T07:54:05.665Z.
+Exported 2026-11-24T20:54:31.747Z. Catalog **2026-11-05.scanner.v2**; records changed 2026-11-05T07:54:05.665Z.
 
 - Shutdowns: 25 retained product/model/plan facts (separate Facts API catalog; original snapshot unchanged).
 - Deadlines: **399 notices: 375 dated and 24 undated**, across 10 provider/route choices.
-- Source: [AI Deadlines catalog](https://kingy.ai/wp-json/kingy-deadlines/v1/catalog); response SHA-256: `825ff4586df583c8c785499ffc3903ec1ae9b843ee9cc2cc893d3d2e4fa60283`.
+- Source: [AI Deadlines catalog](https://kingy.ai/wp-json/kingy-deadlines/v1/catalog); response SHA-256: `a67783415a131235de01e01806ef25913d0589dbc564c7a6b7517f9dc082edab`.
 
 ## Scope and dates
 
