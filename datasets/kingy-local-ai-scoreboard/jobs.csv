@@ -1,11 +1,10 @@
-job_id,job,group,what_the_model_does,hidden_checks,counted_in_score,tells_all_8_models_apart,tells_top_6_apart,best_to_worst_gap,normal_swing_between_runs,machines
-landing,Landing page,Build,"A one-page website for a made-up coffee club, built from the owner's notes and three supplied pictures, with a working sign-up form.",17,no,no,no,9.8,1.7,all five
-tracker,Budget tracker,Build,"A browser app: add, edit and delete expenses, categories and a filter, undo for the last delete, amounts like 1,250.00.",29,yes,yes,no,57.5,17.6,all five
-game,Bean Catch game,Build,"A small arcade game with levels, golden beans, pause and game over. A bot plays it.",28,yes,yes,no,57.1,23.7,all five
-bugfix,Bug fix,Build,"Fix a small Python project so it does exactly what its README says. One test fails at the start, and the whole file has to match the README.",16,yes,yes,yes,43.8,7.8,all five
-chart,Messy spreadsheet to chart,Create,"A Python script that cleans a messy sales file (mixed date styles, refunds, repeats), totals each month and draws a bar chart.",23,yes,yes,no,26.1,7.7,all five
-longdoc,Long report questions,Think,"15 questions about a long made-up annual report from a ferry company. Some need facts combined or simple sums. If the report does not give an answer, the model must say so.",16,yes,yes,yes,29.2,5.6,all five
-tools,Find facts in 37 files,Think,"With file tools only and at most 30 tool calls, find four facts in a bike shop's work files and name the source files.",14,yes,yes,no,35.7,10.7,all five
-videocut,Video cut,Create,"A Python script that cuts a 2-minute 4K talk down to a 30-second highlight with ffmpeg, keeping set sentences and never cutting mid-sentence.",15,yes,yes,no,75.6,22.0,all five
-motion,Animated title,Create,"A 10-second 4K title card for a show, drawn frame by frame in code.",16,no,no,no,37.5,26.9,all five
-blender,Blender scene,Create,A Python script for Blender 5.2 that builds and renders a desk lamp on a table as a 4K picture.,16,no,,,,,"script written on the Lucy AI Studio, run in Blender 5.2.1 on the MacBook Pro"
+job_set,job_id,job,group,job_version,what_the_model_does,hidden_checks,counted_in_score,best_to_worst_gap,normal_swing_between_runs,tells_the_lucy_files_apart
+0.3,landing,Landing page,Build,0.2,"A one-page website for a made-up coffee club, built from the owner’s notes and three supplied pictures, with a working sign-up form.",17,yes,43.1,13.2,yes
+0.3,tracker,Budget tracker,Build,0.3,"A browser app for expenses: add, edit and delete, categories, a filter and budgets, undo and redo over several steps, and export and import of a CSV file with awkward rows.",47,yes,70.2,15.2,yes
+0.3,game,Bean Catch game,Build,0.2,"A small arcade game with levels, golden beans, pause and game over. A bot plays it.",28,yes,84.5,25.0,yes
+0.3,bugfix,Bug fix,Build,0.2,"Fix a small Python project so it does exactly what its README says. One test fails at the start, and the whole file has to match the README.",16,yes,43.8,6.0,yes
+0.3,chart,Messy spreadsheet to chart,Create,0.3,"A Python script that cleans a messy sales file (mixed date styles, refunds, repeats, edited sales), converts other currencies to US dollars, totals and finds the median for each month and draws a bar chart.",29,yes,66.7,24.6,yes
+0.3,longdoc,Long report questions,Think,0.2,"15 questions about a long made-up annual report from a ferry company. Some need facts combined or simple sums. If the report does not give an answer, the model must say so.",16,yes,29.2,4.6,yes
+0.3,tools,Find facts in 37 files,Think,0.5,"With file tools only and at most 30 tool calls, answer questions from a bike shop’s work files (including a figure corrected by a later memo and one question the files cannot answer) and name the source files.",18,yes,55.6,8.6,yes
+0.3,motion,Animated title,Create,0.3,"A 10-second 4K title card for a show, drawn frame by frame in code, with a centred title and a countdown.",19,yes,36.8,11.8,yes
+0.3,videocut,Video cut,Create,0.2,"A Python script that cuts a 2-minute 4K talk down to a 30-second highlight with ffmpeg, keeping set sentences and never cutting mid-sentence.",15,yes,75.6,24.7,yes

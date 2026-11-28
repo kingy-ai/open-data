@@ -3,10 +3,11 @@
  "licence": "CC BY 4.0",
  "cite": "Kingy AI, Kingy Local AI Scoreboard, https://kingy.ai/local-ai-scoreboard/",
  "tracker": "https://kingy.ai/local-ai-scoreboard/",
- "as_of": "2026-11-16",
- "version": "Scoreboard v1, job set 0.2",
+ "as_of": "2026-11-24",
+ "version": "Scoreboard v2, job set 0.3",
  "fields": {
   "scores.csv": {
+   "job_set": "always 0.3 in this file (job set 0.2 is in job-set-0.2/)",
    "model": "model name as shown on the page",
    "model_id": "stable Kingy id for the model file",
    "maker": "company that made the model",
@@ -14,52 +15,42 @@
    "machine_id": "stable Kingy id for the machine",
    "chip": "processor or graphics card",
    "memory": "memory available to the model",
-   "rented": "yes when the card was rented by the hour (RunPod secure cloud)",
-   "llama_cpp_build": "llama.cpp build on that machine",
-   "model_file": "exact GGUF file name",
-   "compression": "quantisation of the file",
+   "rented": "yes when the card was rented by the hour (RunPod)",
+   "llama_cpp_build": "llama.cpp build or release",
+   "compression": "quantisation of the GGUF file",
    "file_size_gb": "file size in GB (1 GB = 1,000,000,000 bytes)",
    "file_sha256_first12": "first 12 characters of the file SHA-256",
    "thinking": "thinking setting (the maker default)",
    "reply_length_limit_tokens": "length limit per reply",
-   "tested": "date or date range of the runs (UTC)",
-   "score_7_jobs": "THE SCORE: average of the seven counted job scores, 0 to 100",
-   "score_all_9_jobs": "average including the two jobs shown but not counted",
-   "lucy_group": "tie group on the Lucy AI Studio board; empty on other machines",
+   "tested": "date range of the runs (UTC)",
+   "score": "THE SCORE: average of the nine job scores, 0 to 100",
+   "lucy_group": "tie group on the Lucy AI Studio board; empty on rented cards",
    "job_<id>": "job score: share of hidden checks passed, averaged over three runs (job ids are in jobs.csv)",
    "writing_time_hours": "total model writing time for all 27 runs",
    "tokens_per_second": "all tokens written divided by total writing time, from llama.cpp timing",
    "replies": "model replies in the 27 runs",
-   "replies_cut_off": "replies that hit the length limit",
-   "chip_energy_kwh": "chip sensor energy for the whole run, Lucy AI Studio only; not power at the wall",
-   "speed_note": "caveat for the speed figures, when there is one",
+   "replies_cut_off": "replies that hit the length limit before finishing",
+   "card_memory_peak_gib / card_memory_total_gib": "rented RTX 5080 and RTX 4070 Ti only: peak graphics memory used (nvidia-smi) and the card's total",
    "source_url": "the page to cite"
   },
   "runs.csv": {
-   "model / model_id / machine / machine_id": "as in scores.csv",
-   "job / job_id": "as in jobs.csv",
-   "counted_in_score": "yes for the seven counted jobs",
+   "job_set / model / model_id / machine / machine_id": "as in scores.csv",
+   "job / job_id / job_version": "as in jobs.csv",
    "run": "1 to 3",
    "checks_passed": "hidden checks passed in that run",
-   "checks_total": "hidden checks in the job",
-   "run_score": "checks_passed / checks_total x 100",
-   "note": "what happened, for the six runs with a checker or server problem"
-  },
-  "blender.csv": {
-   "model / model_id": "as in scores.csv",
-   "run": "1 to 3",
-   "checks_passed / checks_total / run_score": "as in runs.csv",
-   "model_average": "average of the three runs",
-   "counted_in_score": "always no"
+   "checks_total": "hidden checks in that job version",
+   "run_score": "checks_passed / checks_total x 100"
   },
   "jobs.csv": {
-   "job_id / job / group": "job id, name and kind (Build, Think, Create)",
+   "job_set / job_id / job / group": "job id, name and kind (Build, Think, Create)",
+   "job_version": "version of the job and its checks",
    "what_the_model_does": "the brief, in short",
    "hidden_checks": "number of automatic checks",
-   "counted_in_score": "yes for the seven counted jobs",
-   "tells_all_8_models_apart / tells_top_6_apart": "whether the best-to-worst gap is at least 10 points and at least twice the normal swing between a model's own runs",
-   "best_to_worst_gap / normal_swing_between_runs": "the two figures behind that test, across the eight models on the Lucy AI Studio",
-   "machines": "where the job ran"
+   "counted_in_score": "all nine count on job set 0.3",
+   "best_to_worst_gap / normal_swing_between_runs / tells_the_lucy_files_apart": "whether the gap across the Lucy files is at least 10 points and at least twice the normal swing between a model's own runs"
+  },
+  "blender.csv": {
+   "(unchanged)": "the separate Blender job, job set 0.2, eight models x 3 runs; never in the score. Fields as in job-set-0.2/README.md"
   }
  }
 }
