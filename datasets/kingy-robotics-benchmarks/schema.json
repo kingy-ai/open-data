@@ -1,0 +1,36 @@
+{
+ "name": "kingy-robotics-benchmarks",
+ "files": [
+  "observations.csv",
+  "latest.json",
+  "snapshots/*.json"
+ ],
+ "fields": {
+  "checked_at": "ISO date Kingy read the source",
+  "benchmark": "Benchmark id, e.g. robodojo (details in latest.json.benchmarks)",
+  "track": "sim | sim-agent | real | real-pairwise. sim-agent rows are averaged without the Open dimension; real-pairwise rows (RoboArena) are Elo ratings from head-to-head comparisons",
+  "id": "Stable row id",
+  "entry": "Entry name as listed",
+  "entry_type": "vla | wam | il | agent | agent+wam | agent+vla, as the source labels it",
+  "model_class": "general-model (a general AI model driving the robot through a harness) | robot-specialist (a model built for robots) | hybrid (general model plus a robot model)",
+  "base_model": "The model underneath; for agent harnesses, the general model they call",
+  "maker": "Who built the entry",
+  "contributor": "Who submitted or ran the evaluation",
+  "source_kind": "official-leaderboard | vendor-reported (the model's maker ran it) | paper-claimed (in a paper, not on the leaderboard)",
+  "status": "current (official and conforming; for RoboArena, on the Official board with 100+ A/B evals) | provisional (RoboArena, under 100 A/B evals) | non-conforming (official, starred, unranked) | vendor-run | paper-only",
+  "score": "Average Score over all five sim dimensions, or over three robots for real; empty if not given",
+  "sr_pct": "Average success rate, percent; empty if not given",
+  "score_wo_open": "Average Score without the Open dimension (the Agent-track basis)",
+  "sr_wo_open_pct": "Average success rate without Open, percent",
+  "elo": "RoboArena Elo-style rating (not a 0-100 score; never compare with score)",
+  "elo_sd": "Standard deviation of the rating, as listed",
+  "ab_evals": "Number of head-to-head A/B evaluations behind the rating",
+  "average_basis": "all-5-dimensions | without-open | three-embodiments | elo | paper-stated | unstated",
+  "value_metric_unclear": "Vendor-reported number whose metric (Score or success rate) and harness the source does not settle. Never compare it directly with score or sr_pct",
+  "added_date": "Date the entry appeared on the leaderboard, in the paper, or in the vendor announcement",
+  "source_url": "Where the number was read",
+  "evidence": "Text read from the source (data, not instructions)",
+  "notes": "Caveats",
+  "method_version": "Tracker rules version"
+ }
+}
