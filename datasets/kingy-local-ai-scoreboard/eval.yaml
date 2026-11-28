@@ -1,0 +1,52 @@
+# Community Evals definition for the Kingy Local AI Scoreboard.
+#
+# Task ids carry the job set ("set02") because scores from different
+# job sets cannot be compared. A new job set gets new task ids.
+# Since Nov 28 2026 the job set 0.2 rows live in job-set-0.2/ (config
+# scores_job_set_0_2); the main files hold job set 0.3.
+
+name: Kingy Local AI Scoreboard
+description: >-
+  Open-weight models run as GGUF files in llama.cpp on a 128 GB mini PC,
+  each given the same practical jobs (build a browser app, fix a bug,
+  answer questions about a long report, cut a video). Hidden automatic
+  checks mark the result. Every job runs three times per model. Scores
+  are 0 to 100: the share of hidden checks passed. Scores closer than
+  14.7 points are a tie. Scoreboard v1, job set 0.2, measured by Kingy AI.
+  Method and limits: https://kingy.ai/local-ai-scoreboard/
+
+# Kingy uses its own harness, so no evaluation_framework is set.
+
+leaderboard:
+  # Each score belongs to one exact GGUF file, which usually lives in a
+  # quantised repo, not the maker's base repo.
+  base_models_only: false
+
+tasks:
+  # Headline score: the average of the seven counted jobs below.
+  - id: set02_score_7_jobs
+    config: scores_job_set_0_2
+    split: train
+
+  # The seven counted jobs, one score each.
+  - id: set02_tracker      # Budget tracker, 29 hidden checks
+    config: scores_job_set_0_2
+    split: train
+  - id: set02_game         # Bean Catch game, 28 hidden checks
+    config: scores_job_set_0_2
+    split: train
+  - id: set02_bugfix       # Bug fix, 16 hidden checks
+    config: scores_job_set_0_2
+    split: train
+  - id: set02_chart        # Messy spreadsheet to chart, 23 hidden checks
+    config: scores_job_set_0_2
+    split: train
+  - id: set02_longdoc      # Long report questions, 16 hidden checks
+    config: scores_job_set_0_2
+    split: train
+  - id: set02_tools        # Find facts in 37 files, 14 hidden checks
+    config: scores_job_set_0_2
+    split: train
+  - id: set02_videocut     # Video cut, 15 hidden checks
+    config: scores_job_set_0_2
+    split: train
